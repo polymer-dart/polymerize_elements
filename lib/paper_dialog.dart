@@ -8,7 +8,7 @@ import 'package:polymer_element/polymer_element.dart';
 //@JS('PaperDialog')
 
 
-@PolymerRegister('paper-dialog',template:'src/paper-dialog/paper-dialog.html',native:true)
+@PolymerRegister('paper-dialog',native:true)
 @BowerImport(ref:'PolymerElements/paper-dialog#2.0-preview',import:"paper-dialog/paper-dialog.html",name:'paper-dialog')
 abstract class PaperDialog extends PolymerElement {
   bool get opened;
