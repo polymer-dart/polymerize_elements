@@ -38,7 +38,7 @@ import 'package:polymer_elements/iron_resizable_behavior.dart' as imp1;
  * 
  */
 
-@BowerImport(ref:'PolymerElements/iron-overlay-behavior#2.0-preview',import:"iron-overlay-behavior/iron-overlay-behavior.html",name:'Polymer.IronOverlayBehavior')
+@BowerImport(ref:'PolymerElements/iron-overlay-behavior#2.0-preview',import:"iron-overlay-behavior/iron-overlay-behavior.html",name:'iron-overlay-behavior')
 abstract class IronOverlayBehavior implements imp0.IronFitBehavior,imp1.IronResizableBehavior {
   /**
    * True if the overlay is currently displayed.

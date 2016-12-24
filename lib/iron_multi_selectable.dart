@@ -9,7 +9,7 @@ import 'package:polymer_elements/iron_selectable.dart' as imp0;
  * 
  */
 
-@BowerImport(ref:'PolymerElements/iron-selector#2.0-preview',import:"iron-selector/iron-multi-selectable.html",name:'Polymer.IronMultiSelectableBehavior')
+@BowerImport(ref:'PolymerElements/iron-selector#2.0-preview',import:"iron-selector/iron-multi-selectable.html",name:'iron-selector')
 abstract class IronMultiSelectableBehavior implements imp0.IronSelectableBehavior {
   /**
    * If true, multiple selections are allowed.

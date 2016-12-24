@@ -10,7 +10,7 @@ import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp0;
  * 
  */
 
-@BowerImport(ref:'PolymerElements/iron-behaviors#2.0-preview',import:"iron-behaviors/iron-button-state.html",name:'Polymer.IronButtonState')
+@BowerImport(ref:'PolymerElements/iron-behaviors#2.0-preview',import:"iron-behaviors/iron-button-state.html",name:'iron-behaviors')
 abstract class IronButtonState implements imp0.IronA11yKeysBehavior {
   /**
    * If true, the user is currently holding down the button.

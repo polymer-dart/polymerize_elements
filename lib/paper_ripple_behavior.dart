@@ -14,7 +14,7 @@ import 'package:polymer_element/polymer_element.dart';
  * 
  */
 
-@BowerImport(ref:'PolymerElements/paper-behaviors#2.0-preview',import:"paper-behaviors/paper-ripple-behavior.html",name:'Polymer.PaperRippleBehavior')
+@BowerImport(ref:'PolymerElements/paper-behaviors#2.0-preview',import:"paper-behaviors/paper-ripple-behavior.html",name:'paper-behaviors')
 abstract class PaperRippleBehavior  {
   /**
    * If true, the element will not produce a ripple effect when interacted

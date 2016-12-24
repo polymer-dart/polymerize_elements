@@ -12,7 +12,7 @@ import 'package:polymer_element/polymer_element.dart';
  * 
  */
 
-@BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animatable-behavior.html",name:'Polymer.NeonAnimatableBehavior')
+@BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animatable-behavior.html",name:'neon-animation')
 abstract class NeonAnimatableBehavior  {
   /**
    * Animation configuration. See README for more info.

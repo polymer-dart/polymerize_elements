@@ -25,7 +25,7 @@ import 'package:polymer_element/polymer_element.dart';
  * 
  */
 
-@BowerImport(ref:'PolymerElements/iron-validatable-behavior#2.0-preview',import:"iron-validatable-behavior/iron-validatable-behavior.html",name:'Polymer.IronValidatableBehavior')
+@BowerImport(ref:'PolymerElements/iron-validatable-behavior#2.0-preview',import:"iron-validatable-behavior/iron-validatable-behavior.html",name:'iron-validatable-behavior')
 abstract class IronValidatableBehavior  {
   /**
    * Name of the validator to use.

@@ -11,7 +11,7 @@ import 'package:polymer_elements/neon_animatable_behavior.dart' as imp0;
  * 
  */
 
-@BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animation-runner-behavior.html",name:'Polymer.NeonAnimationRunnerBehavior')
+@BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animation-runner-behavior.html",name:'neon-animation')
 abstract class NeonAnimationRunnerBehavior implements imp0.NeonAnimatableBehavior {
 
 }

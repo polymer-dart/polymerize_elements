@@ -13,7 +13,7 @@ import 'package:polymer_elements/paper_ripple_behavior.dart' as imp2;
  * 
  */
 
-@BowerImport(ref:'PolymerElements/paper-behaviors#2.0-preview',import:"paper-behaviors/paper-inky-focus-behavior.html",name:'Polymer.PaperInkyFocusBehavior')
+@BowerImport(ref:'PolymerElements/paper-behaviors#2.0-preview',import:"paper-behaviors/paper-inky-focus-behavior.html",name:'paper-behaviors')
 abstract class PaperInkyFocusBehavior implements imp0.IronButtonState,imp1.IronControlState,imp2.PaperRippleBehavior {
 
 }

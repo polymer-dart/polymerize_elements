@@ -19,7 +19,7 @@ import 'package:polymer_elements/neon_animation_runner_behavior.dart' as imp2;
 
 //@JS('PaperButton')
 @PolymerRegister('neon-animated-pages',native:true)
-@BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animated-pages.html",name:'neon-animated-pages')
+@BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animated-pages.html",name:'neon-animation')
 abstract class NeonAnimatedPages extends PolymerElement with imp0.IronResizableBehavior,imp1.IronSelectableBehavior,imp2.NeonAnimationRunnerBehavior {
   /**
    * 

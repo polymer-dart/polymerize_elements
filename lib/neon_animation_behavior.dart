@@ -11,7 +11,7 @@ import 'package:polymer_element/polymer_element.dart';
  * 
  */
 
-@BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animation-behavior.html",name:'Polymer.NeonAnimationBehavior')
+@BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animation-behavior.html",name:'neon-animation')
 abstract class NeonAnimationBehavior  {
   /**
    * Defines the animation timing.

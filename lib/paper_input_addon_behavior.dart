@@ -13,7 +13,7 @@ import 'package:polymer_element/polymer_element.dart';
  * 
  */
 
-@BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input-addon-behavior.html",name:'Polymer.PaperInputAddonBehavior')
+@BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input-addon-behavior.html",name:'paper-input')
 abstract class PaperInputAddonBehavior  {
 
 }

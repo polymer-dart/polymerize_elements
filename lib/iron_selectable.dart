@@ -9,7 +9,7 @@ import 'package:polymer_element/polymer_element.dart';
  * 
  */
 
-@BowerImport(ref:'PolymerElements/iron-selector#2.0-preview',import:"iron-selector/iron-selectable.html",name:'Polymer.IronSelectableBehavior')
+@BowerImport(ref:'PolymerElements/iron-selector#2.0-preview',import:"iron-selector/iron-selectable.html",name:'iron-selector')
 abstract class IronSelectableBehavior  {
   /**
    * If you want to use an attribute value or property of an element for

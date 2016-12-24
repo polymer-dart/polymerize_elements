@@ -18,7 +18,7 @@ import 'package:polymer_elements/paper_input_behavior.dart' as imp0;
 
 //@JS('PaperButton')
 @PolymerRegister('paper-textarea',native:true)
-@BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-textarea.html",name:'paper-textarea')
+@BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-textarea.html",name:'paper-input')
 abstract class PaperTextarea extends PolymerElement with imp0.PaperInputBehavior {
   /**
    * The initial number of rows.

@@ -14,7 +14,7 @@ import 'package:polymer_elements/iron_checked_element_behavior.dart' as imp1;
  * 
  */
 
-@BowerImport(ref:'PolymerElements/paper-behaviors#2.0-preview',import:"paper-behaviors/paper-checked-element-behavior.html",name:'Polymer.PaperCheckedElementBehavior')
+@BowerImport(ref:'PolymerElements/paper-behaviors#2.0-preview',import:"paper-behaviors/paper-checked-element-behavior.html",name:'paper-behaviors')
 abstract class PaperCheckedElementBehavior implements imp0.PaperInkyFocusBehavior,imp1.IronCheckedElementBehavior {
 
 }

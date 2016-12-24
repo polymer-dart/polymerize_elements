@@ -42,7 +42,7 @@ import 'package:polymer_element/polymer_element.dart';
  * 
  */
 
-@BowerImport(ref:'PolymerElements/iron-fit-behavior#2.0-preview',import:"iron-fit-behavior/iron-fit-behavior.html",name:'Polymer.IronFitBehavior')
+@BowerImport(ref:'PolymerElements/iron-fit-behavior#2.0-preview',import:"iron-fit-behavior/iron-fit-behavior.html",name:'iron-fit-behavior')
 abstract class IronFitBehavior  {
   /**
    * The element that will receive a `max-height`/`width`. By default it is the same as `this`,

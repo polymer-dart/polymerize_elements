@@ -17,7 +17,7 @@ import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp1;
  * 
  */
 
-@BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input-behavior.html",name:'Polymer.PaperInputBehavior')
+@BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input-behavior.html",name:'paper-input')
 abstract class PaperInputBehavior implements imp0.IronControlState,imp1.IronA11yKeysBehavior {
   /**
    * The label for this input. If you're using PaperInputBehavior to

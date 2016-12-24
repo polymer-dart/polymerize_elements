@@ -35,7 +35,7 @@ import 'package:polymer_element/polymer_element.dart';
  * 
  */
 
-@BowerImport(ref:'PolymerElements/iron-a11y-keys-behavior#2.0-preview',import:"iron-a11y-keys-behavior/iron-a11y-keys-behavior.html",name:'Polymer.IronA11yKeysBehavior')
+@BowerImport(ref:'PolymerElements/iron-a11y-keys-behavior#2.0-preview',import:"iron-a11y-keys-behavior/iron-a11y-keys-behavior.html",name:'iron-a11y-keys-behavior')
 abstract class IronA11yKeysBehavior  {
   /**
    * The EventTarget that will be firing relevant KeyboardEvents. Set it to

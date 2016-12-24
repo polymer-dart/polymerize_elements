@@ -12,7 +12,7 @@ import 'package:polymer_elements/neon_animatable_behavior.dart' as imp0;
  * 
  */
 
-@BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-shared-element-animatable-behavior.html",name:'Polymer.NeonSharedElementAnimatableBehavior')
+@BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-shared-element-animatable-behavior.html",name:'neon-animation')
 abstract class NeonSharedElementAnimatableBehavior implements imp0.NeonAnimatableBehavior {
   /**
    * A map of shared element id to node.
