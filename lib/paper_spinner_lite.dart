@@ -3,7 +3,8 @@ library PaperSpinnerLite;
 import 'dart:html';
 import 'package:js/js.dart';
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/paper_spinner_behavior.dart' as imp0;
+import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
+import 'package:polymer_elements/paper_spinner_behavior.dart' as imp1;
 
 /**
  * Material design: [Progress & activity](https://www.google.com/design/spec/components/progress-activity.html)
@@ -31,6 +32,6 @@ import 'package:polymer_elements/paper_spinner_behavior.dart' as imp0;
 //@JS('PaperButton')
 @PolymerRegister('paper-spinner-lite',native:true)
 @BowerImport(ref:'PolymerElements/paper-spinner#2.0-preview',import:"paper-spinner/paper-spinner-lite.html",name:'paper-spinner')
-abstract class PaperSpinnerLite extends PolymerElement with imp0.PaperSpinnerBehavior {
+abstract class PaperSpinnerLite extends PolymerElement with imp1.PaperSpinnerBehavior {
 
 }

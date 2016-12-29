@@ -3,7 +3,7 @@ library Polymer.IronCheckedElementBehavior;
 import 'dart:html';
 import 'package:js/js.dart';
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/iron_form_element_behavior.dart' as imp0;
+import 'package:polymer_elements/iron_meta.dart' as imp0;
 import 'package:polymer_elements/iron_validatable_behavior.dart' as imp1;
 
 /**
@@ -16,7 +16,7 @@ import 'package:polymer_elements/iron_validatable_behavior.dart' as imp1;
  */
 
 @BowerImport(ref:'PolymerElements/iron-checked-element-behavior#2.0-preview',import:"iron-checked-element-behavior/iron-checked-element-behavior.html",name:'iron-checked-element-behavior')
-abstract class IronCheckedElementBehavior implements imp0.IronFormElementBehavior,imp1.IronValidatableBehavior {
+abstract class IronCheckedElementBehavior implements null.IronFormElementBehavior,imp1.IronValidatableBehavior {
   /**
    * Gets or sets the state, `true` is checked and `false` is unchecked.
    */

@@ -3,7 +3,17 @@ library PaperRadioButton;
 import 'dart:html';
 import 'package:js/js.dart';
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/paper_checked_element_behavior.dart' as imp0;
+import 'package:polymer_elements/iron_meta.dart' as imp0;
+import 'package:polymer_elements/paper_ripple.dart' as imp1;
+import 'package:polymer_elements/iron_flex_layout.dart' as imp2;
+import 'package:polymer_elements/iron_validatable_behavior.dart' as imp3;
+import 'package:polymer_elements/iron_checked_element_behavior.dart' as imp4;
+import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp5;
+import 'package:polymer_elements/iron_control_state.dart' as imp6;
+import 'package:polymer_elements/iron_button_state.dart' as imp7;
+import 'package:polymer_elements/paper_ripple_behavior.dart' as imp8;
+import 'package:polymer_elements/paper_inky_focus_behavior.dart' as imp9;
+import 'package:polymer_elements/paper_checked_element_behavior.dart' as imp10;
 
 /**
  * Material design: [Radio button](https://www.google.com/design/spec/components/selection-controls.html#selection-controls-radio-button)
@@ -39,7 +49,7 @@ import 'package:polymer_elements/paper_checked_element_behavior.dart' as imp0;
 //@JS('PaperButton')
 @PolymerRegister('paper-radio-button',native:true)
 @BowerImport(ref:'PolymerElements/paper-radio-button#2.0-preview',import:"paper-radio-button/paper-radio-button.html",name:'paper-radio-button')
-abstract class PaperRadioButton extends PolymerElement with imp0.PaperCheckedElementBehavior {
+abstract class PaperRadioButton extends PolymerElement with imp10.PaperCheckedElementBehavior {
   /**
    * Fired when the checked state changes.
    * @event iron-change

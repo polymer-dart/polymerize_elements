@@ -3,7 +3,9 @@ library IronInput;
 import 'dart:html';
 import 'package:js/js.dart';
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/iron_validatable_behavior.dart' as imp0;
+import 'package:polymer_elements/iron_a11y_announcer.dart' as imp0;
+import 'package:polymer_elements/iron_meta.dart' as imp1;
+import 'package:polymer_elements/iron_validatable_behavior.dart' as imp2;
 
 /**
  * `<iron-input>` is a wrapper to a native `<input>` element, that adds two-way binding
@@ -66,7 +68,7 @@ import 'package:polymer_elements/iron_validatable_behavior.dart' as imp0;
 //@JS('PaperButton')
 @PolymerRegister('iron-input',native:true)
 @BowerImport(ref:'PolymerElements/iron-input#2.0-preview',import:"iron-input/iron-input.html",name:'iron-input')
-abstract class IronInput extends PolymerElement with imp0.IronValidatableBehavior {
+abstract class IronInput extends PolymerElement with imp2.IronValidatableBehavior {
   /**
    * Use this property instead of `value` for two-way data binding, or to
    * set a default value for the input. **Do not** use the distributed

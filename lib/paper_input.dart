@@ -3,7 +3,18 @@ library PaperInput;
 import 'dart:html';
 import 'package:js/js.dart';
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/paper_input_behavior.dart' as imp0;
+import 'package:polymer_elements/iron_a11y_announcer.dart' as imp0;
+import 'package:polymer_elements/iron_meta.dart' as imp1;
+import 'package:polymer_elements/iron_input.dart' as imp2;
+import 'package:polymer_elements/paper_input_char_counter.dart' as imp3;
+import 'package:polymer_elements/iron_flex_layout.dart' as imp4;
+import 'package:polymer_elements/paper_input_container.dart' as imp5;
+import 'package:polymer_elements/paper_input_error.dart' as imp6;
+import 'package:polymer_elements/iron_validatable_behavior.dart' as imp7;
+import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp8;
+import 'package:polymer_elements/iron_control_state.dart' as imp9;
+import 'package:polymer_elements/paper_input_behavior.dart' as imp10;
+import 'package:polymer_elements/paper_input_addon_behavior.dart' as imp11;
 
 /**
  * Material design: [Text fields](https://www.google.com/design/spec/components/text-fields.html)
@@ -44,6 +55,6 @@ import 'package:polymer_elements/paper_input_behavior.dart' as imp0;
 //@JS('PaperButton')
 @PolymerRegister('paper-input',native:true)
 @BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input.html",name:'paper-input')
-abstract class PaperInput extends PolymerElement with imp0.PaperInputBehavior {
+abstract class PaperInput extends PolymerElement with imp10.PaperInputBehavior {
 
 }

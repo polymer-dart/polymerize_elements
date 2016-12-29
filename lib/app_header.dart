@@ -3,8 +3,11 @@ library AppHeader;
 import 'dart:html';
 import 'package:js/js.dart';
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/app_scroll_effects_behavior.dart' as imp0;
-import 'package:polymer_elements/app_layout_behavior.dart' as imp1;
+import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
+import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp1;
+import 'package:polymer_elements/app_scroll_effects_behavior.dart' as imp2;
+import 'package:polymer_elements/iron_resizable_behavior.dart' as imp3;
+import 'package:polymer_elements/app_layout_behavior.dart' as imp4;
 
 /**
  * app-header is container element for app-toolbars at the top of the screen that can have scroll
@@ -178,7 +181,7 @@ import 'package:polymer_elements/app_layout_behavior.dart' as imp1;
 //@JS('PaperButton')
 @PolymerRegister('app-header',native:true)
 @BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-header/app-header.html",name:'app-layout')
-abstract class AppHeader extends PolymerElement with imp0.AppScrollEffectsBehavior,imp1.AppLayoutBehavior {
+abstract class AppHeader extends PolymerElement with imp2.AppScrollEffectsBehavior,imp4.AppLayoutBehavior {
   /**
    * If true, the header will automatically collapse when scrolling down.
    * That is, the `sticky` element remains visible when the header is fully condensed

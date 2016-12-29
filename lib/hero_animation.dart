@@ -3,7 +3,9 @@ library HeroAnimation;
 import 'dart:html';
 import 'package:js/js.dart';
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/neon_shared_element_animation_behavior.dart' as imp0;
+import 'package:polymer_elements/iron_meta.dart' as imp0;
+import 'package:polymer_elements/neon_animation_behavior.dart' as imp1;
+import 'package:polymer_elements/neon_shared_element_animation_behavior.dart' as imp2;
 
 /**
  * `<hero-animation>` is a shared element animation that scales and transform an element such that it
@@ -28,6 +30,6 @@ import 'package:polymer_elements/neon_shared_element_animation_behavior.dart' as
 //@JS('PaperButton')
 @PolymerRegister('hero-animation',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/hero-animation.html",name:'neon-animation')
-abstract class HeroAnimation extends PolymerElement with imp0.NeonSharedElementAnimationBehavior {
+abstract class HeroAnimation extends PolymerElement with imp2.NeonSharedElementAnimationBehavior {
 
 }

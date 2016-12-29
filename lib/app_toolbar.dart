@@ -3,7 +3,7 @@ library AppToolbar;
 import 'dart:html';
 import 'package:js/js.dart';
 import 'package:polymer_element/polymer_element.dart';
-
+import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
 
 /**
  * app-toolbar is a horizontal toolbar containing items that can be used for

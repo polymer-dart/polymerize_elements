@@ -3,7 +3,7 @@ library AppDrawer;
 import 'dart:html';
 import 'package:js/js.dart';
 import 'package:polymer_element/polymer_element.dart';
-
+import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
 
 /**
  * app-drawer is a navigation drawer that can slide in from the left or right.
