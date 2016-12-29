@@ -2,6 +2,8 @@
 library Polymer.IronButtonState;
 import 'dart:html';
 import 'package:js/js.dart';
+import 'package:js/js_util.dart';
+
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp0;
 import 'package:polymer_elements/iron_control_state.dart' as imp1;

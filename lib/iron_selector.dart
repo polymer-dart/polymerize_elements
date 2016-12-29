@@ -2,6 +2,8 @@
 library IronSelector;
 import 'dart:html';
 import 'package:js/js.dart';
+import 'package:js/js_util.dart';
+
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_selectable.dart' as imp0;
 import 'package:polymer_elements/iron_multi_selectable.dart' as imp1;

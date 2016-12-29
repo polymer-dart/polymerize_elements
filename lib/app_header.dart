@@ -2,6 +2,8 @@
 library AppHeader;
 import 'dart:html';
 import 'package:js/js.dart';
+import 'package:js/js_util.dart';
+
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
 import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp1;

@@ -2,6 +2,8 @@
 library IronMediaQuery;
 import 'dart:html';
 import 'package:js/js.dart';
+import 'package:js/js_util.dart';
+
 import 'package:polymer_element/polymer_element.dart';
 
 
@@ -30,9 +32,8 @@ abstract class IronMediaQuery extends PolymerElement  {
   /**
    * The CSS media query to evaluate.
    */
-  String get query;
-  set query(String value);
-
+get mediaQuery => getProperty(this,'query');
+set mediaQuery(v) => setProperty(this,'query',v);
   /**
    * If true, the query attribute is assumed to be a complete media query
    * string rather than a single media feature.
