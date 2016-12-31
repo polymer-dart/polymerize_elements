@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library Polymer.IronScrollTargetBehavior;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -17,6 +17,7 @@ import 'package:polymer_element/polymer_element.dart';
  */
 
 @BowerImport(ref:'PolymerElements/iron-scroll-target-behavior#2.0-preview',import:"iron-scroll-target-behavior/iron-scroll-target-behavior.html",name:'iron-scroll-target-behavior')
+@JS('IronScrollTargetBehavior')
 abstract class IronScrollTargetBehavior  {
   /**
    * Specifies the element that will handle the scroll event
@@ -44,8 +45,8 @@ abstract class IronScrollTargetBehavior  {
    * ```
    * @type {HTMLElement}
    */
-  HtmlElement get scrollTarget;
-  set scrollTarget(HtmlElement value);
+  external HtmlElement get scrollTarget;
+  external set scrollTarget(HtmlElement value);
 
 }
 

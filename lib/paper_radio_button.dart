@@ -48,7 +48,7 @@ import 'package:polymer_elements/paper_checked_element_behavior.dart' as imp10;
  * @demo demo/index.html
  */
 
-//@JS('PaperButton')
+@JS('PaperRadioButton')
 @PolymerRegister('paper-radio-button',native:true)
 @BowerImport(ref:'PolymerElements/paper-radio-button#2.0-preview',import:"paper-radio-button/paper-radio-button.html",name:'paper-radio-button')
 abstract class PaperRadioButton extends PolymerElement with imp10.PaperCheckedElementBehavior {
@@ -56,7 +56,7 @@ abstract class PaperRadioButton extends PolymerElement with imp10.PaperCheckedEl
    * Fired when the checked state changes.
    * @event iron-change
    */
-  String get ariaActiveAttribute;
-  set ariaActiveAttribute(String value);
+  external String get ariaActiveAttribute;
+  external set ariaActiveAttribute(String value);
 
 }

@@ -20,7 +20,7 @@ import 'package:polymer_elements/neon_animatable_behavior.dart' as imp1;
  * ```
  */
 
-//@JS('PaperButton')
+@JS('NeonAnimatable')
 @PolymerRegister('neon-animatable',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animatable.html",name:'neon-animation')
 abstract class NeonAnimatable extends PolymerElement with imp1.NeonAnimatableBehavior,imp0.IronResizableBehavior {

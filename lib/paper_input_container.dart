@@ -80,7 +80,7 @@ import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
  * `display:inline-block`.
  */
 
-//@JS('PaperButton')
+@JS('PaperInputContainer')
 @PolymerRegister('paper-input-container',native:true)
 @BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input-container.html",name:'paper-input')
 abstract class PaperInputContainer extends PolymerElement  {
@@ -88,38 +88,38 @@ abstract class PaperInputContainer extends PolymerElement  {
    * Set to true to disable the floating label. The label disappears when the input value is
    * not null.
    */
-  bool get noLabelFloat;
-  set noLabelFloat(bool value);
+  external bool get noLabelFloat;
+  external set noLabelFloat(bool value);
 
   /**
    * Set to true to always float the floating label.
    */
-  bool get alwaysFloatLabel;
-  set alwaysFloatLabel(bool value);
+  external bool get alwaysFloatLabel;
+  external set alwaysFloatLabel(bool value);
 
   /**
    * The attribute to listen for value changes on.
    */
-  String get attrForValue;
-  set attrForValue(String value);
+  external String get attrForValue;
+  external set attrForValue(String value);
 
   /**
    * Set to true to auto-validate the input value when it changes.
    */
-  bool get autoValidate;
-  set autoValidate(bool value);
+  external bool get autoValidate;
+  external set autoValidate(bool value);
 
   /**
    * True if the input is invalid. This property is set automatically when the input value
    * changes if auto-validating, or when the `iron-input-validate` event is heard from a child.
    */
-  bool get invalid;
-  set invalid(bool value);
+  external bool get invalid;
+  external set invalid(bool value);
 
   /**
    * True if the input has focus.
    */
-  bool get focused;
-  set focused(bool value);
+  external bool get focused;
+  external set focused(bool value);
 
 }

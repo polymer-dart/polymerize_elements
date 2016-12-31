@@ -64,14 +64,14 @@ import 'package:polymer_elements/paper_button_behavior.dart' as imp6;
  * @demo demo/index.html
  */
 
-//@JS('PaperButton')
+@JS('PaperButton')
 @PolymerRegister('paper-button',native:true)
 @BowerImport(ref:'PolymerElements/paper-button#2.0-preview',import:"paper-button/paper-button.html",name:'paper-button')
 abstract class PaperButton extends PolymerElement with imp6.PaperButtonBehavior {
   /**
    * If true, the button should be styled with a shadow.
    */
-  bool get raised;
-  set raised(bool value);
+  external bool get raised;
+  external set raised(bool value);
 
 }

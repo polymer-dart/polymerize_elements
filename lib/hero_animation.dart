@@ -29,7 +29,7 @@ import 'package:polymer_elements/neon_shared_element_animation_behavior.dart' as
  * ```
  */
 
-//@JS('PaperButton')
+@JS('HeroAnimation')
 @PolymerRegister('hero-animation',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/hero-animation.html",name:'neon-animation')
 abstract class HeroAnimation extends PolymerElement with imp2.NeonSharedElementAnimationBehavior {

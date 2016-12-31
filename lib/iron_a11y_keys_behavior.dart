@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library Polymer.IronA11yKeysBehavior;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -38,21 +38,22 @@ import 'package:polymer_element/polymer_element.dart';
  */
 
 @BowerImport(ref:'PolymerElements/iron-a11y-keys-behavior#2.0-preview',import:"iron-a11y-keys-behavior/iron-a11y-keys-behavior.html",name:'iron-a11y-keys-behavior')
+@JS('IronA11yKeysBehavior')
 abstract class IronA11yKeysBehavior  {
   /**
    * The EventTarget that will be firing relevant KeyboardEvents. Set it to
    * `null` to disable the listeners.
    * @type {?EventTarget}
    */
-   get keyEventTarget;
-  set keyEventTarget( value);
+  external  get keyEventTarget;
+  external set keyEventTarget( value);
 
   /**
    * If true, this property will cause the implementing element to
    * automatically stop propagation on any handled KeyboardEvents.
    */
-  bool get stopKeyboardEventPropagation;
-  set stopKeyboardEventPropagation(bool value);
+  external bool get stopKeyboardEventPropagation;
+  external set stopKeyboardEventPropagation(bool value);
 
 }
 

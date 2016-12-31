@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library Polymer.IronOverlayBehavior;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -43,64 +43,65 @@ import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp3;
  */
 
 @BowerImport(ref:'PolymerElements/iron-overlay-behavior#2.0-preview',import:"iron-overlay-behavior/iron-overlay-behavior.html",name:'iron-overlay-behavior')
+@JS('IronOverlayBehavior')
 abstract class IronOverlayBehavior implements imp1.IronFitBehavior,imp2.IronResizableBehavior {
   /**
    * True if the overlay is currently displayed.
    */
-  bool get opened;
-  set opened(bool value);
+  external bool get opened;
+  external set opened(bool value);
 
   /**
    * True if the overlay was canceled when it was last closed.
    */
-  bool get canceled;
-  set canceled(bool value);
+  external bool get canceled;
+  external set canceled(bool value);
 
   /**
    * Set to true to display a backdrop behind the overlay. It traps the focus
    * within the light DOM of the overlay.
    */
-  bool get withBackdrop;
-  set withBackdrop(bool value);
+  external bool get withBackdrop;
+  external set withBackdrop(bool value);
 
   /**
    * Set to true to disable auto-focusing the overlay or child nodes with
    * the `autofocus` attribute` when the overlay is opened.
    */
-  bool get noAutoFocus;
-  set noAutoFocus(bool value);
+  external bool get noAutoFocus;
+  external set noAutoFocus(bool value);
 
   /**
    * Set to true to disable canceling the overlay with the ESC key.
    */
-  bool get noCancelOnEscKey;
-  set noCancelOnEscKey(bool value);
+  external bool get noCancelOnEscKey;
+  external set noCancelOnEscKey(bool value);
 
   /**
    * Set to true to disable canceling the overlay by clicking outside it.
    */
-  bool get noCancelOnOutsideClick;
-  set noCancelOnOutsideClick(bool value);
+  external bool get noCancelOnOutsideClick;
+  external set noCancelOnOutsideClick(bool value);
 
   /**
    * Contains the reason(s) this overlay was last closed (see `iron-overlay-closed`).
    * `IronOverlayBehavior` provides the `canceled` reason; implementers of the
    * behavior can provide other reasons in addition to `canceled`.
    */
-   get closingReason;
-  set closingReason( value);
+  external  get closingReason;
+  external set closingReason( value);
 
   /**
    * Set to true to enable restoring of focus when overlay is closed.
    */
-  bool get restoreFocusOnClose;
-  set restoreFocusOnClose(bool value);
+  external bool get restoreFocusOnClose;
+  external set restoreFocusOnClose(bool value);
 
   /**
    * Set to true to keep overlay always on top.
    */
-  bool get alwaysOnTop;
-  set alwaysOnTop(bool value);
+  external bool get alwaysOnTop;
+  external set alwaysOnTop(bool value);
 
 }
 

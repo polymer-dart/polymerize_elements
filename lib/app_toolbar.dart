@@ -44,7 +44,7 @@ import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
  * @demo app-toolbar/demo/index.html
  */
 
-//@JS('PaperButton')
+@JS('AppToolbar')
 @PolymerRegister('app-toolbar',native:true)
 @BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-toolbar/app-toolbar.html",name:'app-layout')
 abstract class AppToolbar extends PolymerElement  {

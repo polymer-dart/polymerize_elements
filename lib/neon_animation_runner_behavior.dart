@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library Polymer.NeonAnimationRunnerBehavior;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -15,6 +15,7 @@ import 'package:polymer_elements/neon_animatable_behavior.dart' as imp1;
  */
 
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animation-runner-behavior.html",name:'neon-animation')
+@JS('NeonAnimationRunnerBehavior')
 abstract class NeonAnimationRunnerBehavior implements imp1.NeonAnimatableBehavior {
 
 }

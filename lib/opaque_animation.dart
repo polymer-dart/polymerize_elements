@@ -13,7 +13,7 @@ import 'package:polymer_elements/neon_animation_behavior.dart' as imp1;
  * webkit/safari from drawing a frame before an animation for elements that animate from display:none.
  */
 
-//@JS('PaperButton')
+@JS('OpaqueAnimation')
 @PolymerRegister('opaque-animation',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/opaque-animation.html",name:'neon-animation')
 abstract class OpaqueAnimation extends PolymerElement with imp1.NeonAnimationBehavior {

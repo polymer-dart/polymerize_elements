@@ -59,7 +59,7 @@ import 'package:polymer_elements/paper_dialog_behavior.dart' as imp9;
  * @demo demo/index.html
  */
 
-//@JS('PaperButton')
+@JS('PaperDialog')
 @PolymerRegister('paper-dialog',native:true)
 @BowerImport(ref:'PolymerElements/paper-dialog#2.0-preview',import:"paper-dialog/paper-dialog.html",name:'paper-dialog')
 abstract class PaperDialog extends PolymerElement with imp9.PaperDialogBehavior,imp4.NeonAnimationRunnerBehavior {

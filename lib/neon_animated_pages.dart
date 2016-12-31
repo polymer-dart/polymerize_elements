@@ -21,20 +21,20 @@ import 'package:polymer_elements/neon_animation_runner_behavior.dart' as imp4;
  * @demo demo/index.html
  */
 
-//@JS('PaperButton')
+@JS('NeonAnimatedPages')
 @PolymerRegister('neon-animated-pages',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animated-pages.html",name:'neon-animation')
 abstract class NeonAnimatedPages extends PolymerElement with imp1.IronResizableBehavior,imp2.IronSelectableBehavior,imp4.NeonAnimationRunnerBehavior {
   /**
    * 
    */
-  String get activateEvent;
-  set activateEvent(String value);
+  external String get activateEvent;
+  external set activateEvent(String value);
 
   /**
    * if true, the initial page selection will also be animated according to its animation config.
    */
-  bool get animateInitialSelection;
-  set animateInitialSelection(bool value);
+  external bool get animateInitialSelection;
+  external set animateInitialSelection(bool value);
 
 }

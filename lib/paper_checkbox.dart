@@ -51,7 +51,7 @@ import 'package:polymer_elements/paper_checked_element_behavior.dart' as imp9;
  * @demo demo/index.html
  */
 
-//@JS('PaperButton')
+@JS('PaperCheckbox')
 @PolymerRegister('paper-checkbox',native:true)
 @BowerImport(ref:'PolymerElements/paper-checkbox#2.0-preview',import:"paper-checkbox/paper-checkbox.html",name:'paper-checkbox')
 abstract class PaperCheckbox extends PolymerElement with imp9.PaperCheckedElementBehavior {
@@ -59,7 +59,7 @@ abstract class PaperCheckbox extends PolymerElement with imp9.PaperCheckedElemen
    * Fired when the checked state changes.
    * @event iron-change
    */
-  String get ariaActiveAttribute;
-  set ariaActiveAttribute(String value);
+  external String get ariaActiveAttribute;
+  external set ariaActiveAttribute(String value);
 
 }

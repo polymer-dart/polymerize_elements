@@ -54,7 +54,7 @@ import 'package:polymer_elements/paper_inky_focus_behavior.dart' as imp8;
  * @demo demo/index.html
  */
 
-//@JS('PaperButton')
+@JS('PaperIconButton')
 @PolymerRegister('paper-icon-button',native:true)
 @BowerImport(ref:'PolymerElements/paper-icon-button#2.0-preview',import:"paper-icon-button/paper-icon-button.html",name:'paper-icon-button')
 abstract class PaperIconButton extends PolymerElement with imp8.PaperInkyFocusBehavior {
@@ -62,21 +62,21 @@ abstract class PaperIconButton extends PolymerElement with imp8.PaperInkyFocusBe
    * The URL of an image for the icon. If the src property is specified,
    * the icon property should not be.
    */
-  String get src;
-  set src(String value);
+  external String get src;
+  external set src(String value);
 
   /**
    * Specifies the icon name or index in the set of icons available in
    * the icon's icon set. If the icon property is specified,
    * the src property should not be.
    */
-  String get icon;
-  set icon(String value);
+  external String get icon;
+  external set icon(String value);
 
   /**
    * Specifies the alternate text for the button, for accessibility.
    */
-  String get alt;
-  set alt(String value);
+  external String get alt;
+  external set alt(String value);
 
 }

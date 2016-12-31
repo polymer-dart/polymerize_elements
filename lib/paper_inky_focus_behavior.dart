@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library Polymer.PaperInkyFocusBehavior;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -18,6 +18,7 @@ import 'package:polymer_elements/paper_ripple_behavior.dart' as imp4;
  */
 
 @BowerImport(ref:'PolymerElements/paper-behaviors#2.0-preview',import:"paper-behaviors/paper-inky-focus-behavior.html",name:'paper-behaviors')
+@JS('PaperInkyFocusBehavior')
 abstract class PaperInkyFocusBehavior implements imp3.IronButtonState,imp2.IronControlState,imp4.PaperRippleBehavior {
 
 }

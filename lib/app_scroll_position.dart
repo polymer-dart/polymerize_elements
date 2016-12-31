@@ -40,20 +40,20 @@ import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp0;
  * @demo app-scroll-position/demo/index.html
  */
 
-//@JS('PaperButton')
+@JS('AppScrollPosition')
 @PolymerRegister('app-scroll-position',native:true)
 @BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-scroll-position/app-scroll-position.html",name:'app-layout')
 abstract class AppScrollPosition extends PolymerElement with imp0.IronScrollTargetBehavior {
   /**
    * The selected page.
    */
-  String get selected;
-  set selected(String value);
+  external String get selected;
+  external set selected(String value);
 
   /**
    * Reset the scroll position to 0.
    */
-  bool get reset;
-  set reset(bool value);
+  external bool get reset;
+  external set reset(bool value);
 
 }

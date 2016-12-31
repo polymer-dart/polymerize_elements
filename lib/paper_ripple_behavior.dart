@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library Polymer.PaperRippleBehavior;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -18,13 +18,14 @@ import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp1;
  */
 
 @BowerImport(ref:'PolymerElements/paper-behaviors#2.0-preview',import:"paper-behaviors/paper-ripple-behavior.html",name:'paper-behaviors')
+@JS('PaperRippleBehavior')
 abstract class PaperRippleBehavior  {
   /**
    * If true, the element will not produce a ripple effect when interacted
    * with via the pointer.
    */
-  bool get noink;
-  set noink(bool value);
+  external bool get noink;
+  external set noink(bool value);
 
 }
 

@@ -47,29 +47,29 @@ import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
  * @demo demo/index.html
  */
 
-//@JS('PaperButton')
+@JS('IronImage')
 @PolymerRegister('iron-image',native:true)
 @BowerImport(ref:'PolymerElements/iron-image#2.0-preview',import:"iron-image/iron-image.html",name:'iron-image')
 abstract class IronImage extends PolymerElement  {
   /**
    * The URL of an image.
    */
-  String get src;
-  set src(String value);
+  external String get src;
+  external set src(String value);
 
   /**
    * A short text alternative for the image.
    */
-  String get alt;
-  set alt(String value);
+  external String get alt;
+  external set alt(String value);
 
   /**
    * When true, the image is prevented from loading and any placeholder is
    * shown.  This may be useful when a binding to the src property is known to
    * be invalid, to prevent 404 requests.
    */
-  bool get preventLoad;
-  set preventLoad(bool value);
+  external bool get preventLoad;
+  external set preventLoad(bool value);
 
   /**
    * Sets a sizing option for the image.  Valid values are `contain` (full
@@ -77,62 +77,62 @@ abstract class IronImage extends PolymerElement  {
    * letterboxed) or `cover` (image is cropped in order to fully cover the
    * bounds of the element), or `null` (default: image takes natural size).
    */
-  String get sizing;
-  set sizing(String value);
+  external String get sizing;
+  external set sizing(String value);
 
   /**
    * When a sizing option is used (`cover` or `contain`), this determines
    * how the image is aligned within the element bounds.
    */
-  String get position;
-  set position(String value);
+  external String get position;
+  external set position(String value);
 
   /**
    * When `true`, any change to the `src` property will cause the `placeholder`
    * image to be shown until the new image has loaded.
    */
-  bool get preload;
-  set preload(bool value);
+  external bool get preload;
+  external set preload(bool value);
 
   /**
    * This image will be used as a background/placeholder until the src image has
    * loaded.  Use of a data-URI for placeholder is encouraged for instant rendering.
    */
-  String get placeholder;
-  set placeholder(String value);
+  external String get placeholder;
+  external set placeholder(String value);
 
   /**
    * When `preload` is true, setting `fade` to true will cause the image to
    * fade into place.
    */
-  bool get fade;
-  set fade(bool value);
+  external bool get fade;
+  external set fade(bool value);
 
   /**
    * Read-only value that is true when the image is loaded.
    */
-  bool get loaded;
-  set loaded(bool value);
+  external bool get loaded;
+  external set loaded(bool value);
 
   /**
    * Read-only value that tracks the loading state of the image when the `preload`
    * option is used.
    */
-  bool get loading;
-  set loading(bool value);
+  external bool get loading;
+  external set loading(bool value);
 
   /**
    * Read-only value that indicates that the last set `src` failed to load.
    */
-  bool get error;
-  set error(bool value);
+  external bool get error;
+  external set error(bool value);
 
   /**
    * Can be used to set the width of image (e.g. via binding); size may also be
    * set via CSS.
    */
-  num get width;
-  set width(num value);
+  external num get width;
+  external set width(num value);
 
   /**
    * Can be used to set the height of image (e.g. via binding); size may also be
@@ -141,7 +141,7 @@ abstract class IronImage extends PolymerElement  {
    * @type number
    * @default null
    */
-  num get height;
-  set height(num value);
+  external num get height;
+  external set height(num value);
 
 }

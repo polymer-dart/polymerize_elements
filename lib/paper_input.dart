@@ -54,7 +54,7 @@ import 'package:polymer_elements/paper_input_addon_behavior.dart' as imp11;
  * @demo demo/index.html
  */
 
-//@JS('PaperButton')
+@JS('PaperInput')
 @PolymerRegister('paper-input',native:true)
 @BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input.html",name:'paper-input')
 abstract class PaperInput extends PolymerElement with imp10.PaperInputBehavior {

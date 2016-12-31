@@ -20,14 +20,14 @@ import 'package:polymer_element/polymer_element.dart';
  * `--iron-overlay-backdrop-opened`           | Mixin applied to `iron-overlay-backdrop` when it is displayed | {}
  */
 
-//@JS('PaperButton')
+@JS('IronOverlayBackdrop')
 @PolymerRegister('iron-overlay-backdrop',native:true)
 @BowerImport(ref:'PolymerElements/iron-overlay-behavior#2.0-preview',import:"iron-overlay-behavior/iron-overlay-backdrop.html",name:'iron-overlay-behavior')
 abstract class IronOverlayBackdrop extends PolymerElement  {
   /**
    * Returns true if the backdrop is opened.
    */
-  bool get opened;
-  set opened(bool value);
+  external bool get opened;
+  external set opened(bool value);
 
 }

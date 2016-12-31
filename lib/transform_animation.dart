@@ -24,7 +24,7 @@ import 'package:polymer_elements/neon_animation_behavior.dart' as imp1;
  * ```
  */
 
-//@JS('PaperButton')
+@JS('TransformAnimation')
 @PolymerRegister('transform-animation',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/transform-animation.html",name:'neon-animation')
 abstract class TransformAnimation extends PolymerElement with imp1.NeonAnimationBehavior {

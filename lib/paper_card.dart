@@ -42,67 +42,67 @@ import 'package:polymer_elements/iron_image.dart' as imp1;
  * @demo demo/index.html
  */
 
-//@JS('PaperButton')
+@JS('PaperCard')
 @PolymerRegister('paper-card',native:true)
 @BowerImport(ref:'PolymerElements/paper-card#2.0-preview',import:"paper-card/paper-card.html",name:'paper-card')
 abstract class PaperCard extends PolymerElement  {
   /**
    * The title of the card.
    */
-  String get heading;
-  set heading(String value);
+  external String get heading;
+  external set heading(String value);
 
   /**
    * The url of the title image of the card.
    */
-  String get image;
-  set image(String value);
+  external String get image;
+  external set image(String value);
 
   /**
    * The text alternative of the card's title image.
    */
-  String get alt;
-  set alt(String value);
+  external String get alt;
+  external set alt(String value);
 
   /**
    * When `true`, any change to the image url property will cause the
    * `placeholder` image to be shown until the image is fully rendered.
    */
-  bool get preloadImage;
-  set preloadImage(bool value);
+  external bool get preloadImage;
+  external set preloadImage(bool value);
 
   /**
    * When `preloadImage` is true, setting `fadeImage` to true will cause the
    * image to fade into place.
    */
-  bool get fadeImage;
-  set fadeImage(bool value);
+  external bool get fadeImage;
+  external set fadeImage(bool value);
 
   /**
    * This image will be used as a background/placeholder until the src image has
    * loaded. Use of a data-URI for placeholder is encouraged for instant rendering.
    */
-  String get placeholderImage;
-  set placeholderImage(String value);
+  external String get placeholderImage;
+  external set placeholderImage(String value);
 
   /**
    * The z-depth of the card, from 0-5.
    */
-  num get elevation;
-  set elevation(num value);
+  external num get elevation;
+  external set elevation(num value);
 
   /**
    * Set this to true to animate the card shadow when setting a new
    * `z` value.
    */
-  bool get animatedShadow;
-  set animatedShadow(bool value);
+  external bool get animatedShadow;
+  external set animatedShadow(bool value);
 
   /**
    * Read-only property used to pass down the `animatedShadow` value to
    * the underlying paper-material style (since they have different names).
    */
-  bool get animated;
-  set animated(bool value);
+  external bool get animated;
+  external set animated(bool value);
 
 }

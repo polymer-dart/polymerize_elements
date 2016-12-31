@@ -34,7 +34,7 @@ import 'package:polymer_element/polymer_element.dart';
  * 
  */
 
-//@JS('PaperButton')
+@JS('IronFlexLayout')
 @PolymerRegister('iron-flex-layout',native:true)
 @BowerImport(ref:'PolymerElements/iron-flex-layout#2.0-preview',import:"iron-flex-layout/iron-flex-layout.html",name:'iron-flex-layout')
 abstract class IronFlexLayout extends PolymerElement  {

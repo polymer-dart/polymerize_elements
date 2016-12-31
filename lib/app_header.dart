@@ -180,7 +180,7 @@ import 'package:polymer_elements/app_layout_behavior.dart' as imp4;
  * @demo app-header/demo/custom-sticky-element-2.html Custom Sticky Element Demo 2
  */
 
-//@JS('PaperButton')
+@JS('AppHeader')
 @PolymerRegister('app-header',native:true)
 @BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-header/app-header.html",name:'app-layout')
 abstract class AppHeader extends PolymerElement with imp2.AppScrollEffectsBehavior,imp4.AppLayoutBehavior {
@@ -208,25 +208,25 @@ abstract class AppHeader extends PolymerElement with imp2.AppScrollEffectsBehavi
    * ```
    * Note the `sticky` element must be a direct child of `app-header`.
    */
-  bool get condenses;
-  set condenses(bool value);
+  external bool get condenses;
+  external set condenses(bool value);
 
   /**
    * Mantains the header fixed at the top so it never moves away.
    */
-  bool get fixed;
-  set fixed(bool value);
+  external bool get fixed;
+  external set fixed(bool value);
 
   /**
    * Slides back the header when scrolling back up.
    */
-  bool get reveals;
-  set reveals(bool value);
+  external bool get reveals;
+  external set reveals(bool value);
 
   /**
    * Displays a shadow below the header.
    */
-  bool get shadow;
-  set shadow(bool value);
+  external bool get shadow;
+  external set shadow(bool value);
 
 }

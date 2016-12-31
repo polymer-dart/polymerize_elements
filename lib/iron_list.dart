@@ -186,7 +186,7 @@ import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp2;
  * @demo demo/index.html
  */
 
-//@JS('PaperButton')
+@JS('IronList')
 @PolymerRegister('iron-list',native:true)
 @BowerImport(ref:'PolymerElements/iron-list#2.0-preview',import:"iron-list/iron-list.html",name:'iron-list')
 abstract class IronList extends PolymerElement with imp0.IronResizableBehavior,imp2.IronScrollTargetBehavior {
@@ -194,35 +194,35 @@ abstract class IronList extends PolymerElement with imp0.IronResizableBehavior,i
    * An array containing items determining how many instances of the template
    * to stamp and that that each template instance should bind to.
    */
-  List get items;
-  set items(List value);
+  external List get items;
+  external set items(List value);
 
   /**
    * The max count of physical items the pool can extend to.
    */
-  num get maxPhysicalCount;
-  set maxPhysicalCount(num value);
+  external num get maxPhysicalCount;
+  external set maxPhysicalCount(num value);
 
   /**
    * The name of the variable to add to the binding scope for the array
    * element associated with a given template instance.
    */
-  String get as;
-  set as(String value);
+  external String get as;
+  external set as(String value);
 
   /**
    * The name of the variable to add to the binding scope with the index
    * for the row.
    */
-  String get indexAs;
-  set indexAs(String value);
+  external String get indexAs;
+  external set indexAs(String value);
 
   /**
    * The name of the variable to add to the binding scope to indicate
    * if the row is selected.
    */
-  String get selectedAs;
-  set selectedAs(String value);
+  external String get selectedAs;
+  external set selectedAs(String value);
 
   /**
    * When true, the list is rendered as a grid. Grid items must have
@@ -235,8 +235,8 @@ abstract class IronList extends PolymerElement with imp0.IronResizableBehavior,i
    * </iron-list>
    * ```
    */
-  bool get grid;
-  set grid(bool value);
+  external bool get grid;
+  external set grid(bool value);
 
   /**
    * When true, tapping a row will select the item, placing its data model
@@ -244,28 +244,28 @@ abstract class IronList extends PolymerElement with imp0.IronResizableBehavior,i
    * Note that tapping focusable elements within the list item will not
    * result in selection, since they are presumed to have their * own action.
    */
-  bool get selectionEnabled;
-  set selectionEnabled(bool value);
+  external bool get selectionEnabled;
+  external set selectionEnabled(bool value);
 
   /**
    * When `multiSelection` is false, this is the currently selected item, or `null`
    * if no item is selected.
    */
-   get selectedItem;
-  set selectedItem( value);
+  external  get selectedItem;
+  external set selectedItem( value);
 
   /**
    * When `multiSelection` is true, this is an array that contains the selected items.
    */
-   get selectedItems;
-  set selectedItems( value);
+  external  get selectedItems;
+  external set selectedItems( value);
 
   /**
    * When `true`, multiple items may be selected at once (in this case,
    * `selected` is an array of currently selected items).  When `false`,
    * only one item may be selected at a time.
    */
-  bool get multiSelection;
-  set multiSelection(bool value);
+  external bool get multiSelection;
+  external set multiSelection(bool value);
 
 }

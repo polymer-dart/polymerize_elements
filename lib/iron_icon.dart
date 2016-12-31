@@ -56,7 +56,7 @@ import 'package:polymer_elements/iron_flex_layout.dart' as imp1;
  * @homepage polymer.github.io
  */
 
-//@JS('PaperButton')
+@JS('IronIcon')
 @PolymerRegister('iron-icon',native:true)
 @BowerImport(ref:'PolymerElements/iron-icon#2.0-preview',import:"iron-icon/iron-icon.html",name:'iron-icon')
 abstract class IronIcon extends PolymerElement  {
@@ -64,22 +64,22 @@ abstract class IronIcon extends PolymerElement  {
    * The name of the icon to use. The name should be of the form:
    * `iconset_name:icon_name`.
    */
-  String get icon;
-  set icon(String value);
+  external String get icon;
+  external set icon(String value);
 
   /**
    * The name of the theme to used, if one is specified by the
    * iconset.
    */
-  String get theme;
-  set theme(String value);
+  external String get theme;
+  external set theme(String value);
 
   /**
    * If using iron-icon without an iconset, you can set the src to be
    * the URL of an individual icon image file. Note that this will take
    * precedence over a given icon attribute.
    */
-  String get src;
-  set src(String value);
+  external String get src;
+  external set src(String value);
 
 }

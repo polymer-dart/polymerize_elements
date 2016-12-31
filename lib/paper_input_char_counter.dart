@@ -21,7 +21,7 @@ import 'package:polymer_elements/paper_input_addon_behavior.dart' as imp0;
  * `--paper-input-char-counter` | Mixin applied to the element | `{}`
  */
 
-//@JS('PaperButton')
+@JS('PaperInputCharCounter')
 @PolymerRegister('paper-input-char-counter',native:true)
 @BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input-char-counter.html",name:'paper-input')
 abstract class PaperInputCharCounter extends PolymerElement with imp0.PaperInputAddonBehavior {

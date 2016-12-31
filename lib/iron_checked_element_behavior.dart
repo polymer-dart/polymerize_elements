@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library Polymer.IronCheckedElementBehavior;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -19,25 +19,26 @@ import 'package:polymer_elements/iron_form_element_behavior.dart' as imp2;
  */
 
 @BowerImport(ref:'PolymerElements/iron-checked-element-behavior#2.0-preview',import:"iron-checked-element-behavior/iron-checked-element-behavior.html",name:'iron-checked-element-behavior')
+@JS('IronCheckedElementBehavior')
 abstract class IronCheckedElementBehavior implements imp2.IronFormElementBehavior,imp1.IronValidatableBehavior {
   /**
    * Gets or sets the state, `true` is checked and `false` is unchecked.
    */
-  bool get checked;
-  set checked(bool value);
+  external bool get checked;
+  external set checked(bool value);
 
   /**
    * If true, the button toggles the active state with each tap or press
    * of the spacebar.
    */
-  bool get toggles;
-  set toggles(bool value);
+  external bool get toggles;
+  external set toggles(bool value);
 
   /**
    * Overriden from Polymer.IronFormElementBehavior
    */
-  String get value;
-  set value(String value);
+  external String get value;
+  external set value(String value);
 
 }
 

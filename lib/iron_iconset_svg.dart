@@ -34,21 +34,21 @@ import 'package:polymer_elements/iron_meta.dart' as imp0;
  *     iconset.applyIcon(iconNode, 'car');
  */
 
-//@JS('PaperButton')
+@JS('IronIconsetSvg')
 @PolymerRegister('iron-iconset-svg',native:true)
 @BowerImport(ref:'PolymerElements/iron-iconset-svg#2.0-preview',import:"iron-iconset-svg/iron-iconset-svg.html",name:'iron-iconset-svg')
 abstract class IronIconsetSvg extends PolymerElement  {
   /**
    * The name of the iconset.
    */
-  String get name;
-  set name(String value);
+  external String get name;
+  external set name(String value);
 
   /**
    * The size of an individual icon. Note that icons must be square.
    */
-  num get size;
-  set size(num value);
+  external num get size;
+  external set size(num value);
 
   /**
    * Set to true to enable mirroring of icons where specified when they are
@@ -58,7 +58,7 @@ abstract class IronIconsetSvg extends PolymerElement  {
    * document per iconset, so moving icons in and out of RTL subtrees will
    * not cause their mirrored state to change.
    */
-  bool get rtlMirroring;
-  set rtlMirroring(bool value);
+  external bool get rtlMirroring;
+  external set rtlMirroring(bool value);
 
 }

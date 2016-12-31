@@ -19,7 +19,7 @@ import 'package:polymer_element/polymer_element.dart';
  * @demo demo/index.html
  */
 
-//@JS('PaperButton')
+@JS('PaperMaterial')
 @PolymerRegister('paper-material',native:true)
 @BowerImport(ref:'PolymerElements/paper-material#2.0-preview',import:"paper-material/paper-material.html",name:'paper-material')
 abstract class PaperMaterial extends PolymerElement  {
@@ -31,8 +31,8 @@ abstract class PaperMaterial extends PolymerElement  {
    * @type number
    * @default 1
    */
-  num get elevation;
-  set elevation(num value);
+  external num get elevation;
+  external set elevation(num value);
 
   /**
    * Set this to true to animate the shadow when setting a new
@@ -41,7 +41,7 @@ abstract class PaperMaterial extends PolymerElement  {
    * @type boolean
    * @default false
    */
-  bool get animated;
-  set animated(bool value);
+  external bool get animated;
+  external set animated(bool value);
 
 }

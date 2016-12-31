@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library Polymer.NeonAnimationBehavior;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -14,12 +14,13 @@ import 'package:polymer_elements/iron_meta.dart' as imp0;
  */
 
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animation-behavior.html",name:'neon-animation')
+@JS('NeonAnimationBehavior')
 abstract class NeonAnimationBehavior  {
   /**
    * Defines the animation timing.
    */
-   get animationTiming;
-  set animationTiming( value);
+  external  get animationTiming;
+  external set animationTiming( value);
 
 }
 

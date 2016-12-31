@@ -37,52 +37,52 @@ import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
  * @demo app-drawer/demo/right-drawer.html Right Drawer with Icons
  */
 
-//@JS('PaperButton')
+@JS('AppDrawer')
 @PolymerRegister('app-drawer',native:true)
 @BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-drawer/app-drawer.html",name:'app-layout')
 abstract class AppDrawer extends PolymerElement  {
   /**
    * The opened state of the drawer.
    */
-  bool get opened;
-  set opened(bool value);
+  external bool get opened;
+  external set opened(bool value);
 
   /**
    * The drawer does not have a scrim and cannot be swiped close.
    */
-  bool get persistent;
-  set persistent(bool value);
+  external bool get persistent;
+  external set persistent(bool value);
 
   /**
    * The transition duration of the drawer in milliseconds.
    */
-  num get transitionDuration;
-  set transitionDuration(num value);
+  external num get transitionDuration;
+  external set transitionDuration(num value);
 
   /**
    * The alignment of the drawer on the screen ('left', 'right', 'start' or 'end').
    * 'start' computes to left and 'end' to right in LTR layout and vice versa in RTL
    * layout.
    */
-  String get align;
-  set align(String value);
+  external String get align;
+  external set align(String value);
 
   /**
    * The computed, read-only position of the drawer on the screen ('left' or 'right').
    */
-  String get position;
-  set position(String value);
+  external String get position;
+  external set position(String value);
 
   /**
    * Create an area at the edge of the screen to swipe open the drawer.
    */
-  bool get swipeOpen;
-  set swipeOpen(bool value);
+  external bool get swipeOpen;
+  external set swipeOpen(bool value);
 
   /**
    * Trap keyboard focus when the drawer is opened and not persistent.
    */
-  bool get noFocusTrap;
-  set noFocusTrap(bool value);
+  external bool get noFocusTrap;
+  external set noFocusTrap(bool value);
 
 }

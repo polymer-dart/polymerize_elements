@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library Polymer.PaperDialogBehavior;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -39,12 +39,13 @@ import 'package:polymer_elements/iron_overlay_behavior.dart' as imp4;
  */
 
 @BowerImport(ref:'PolymerElements/paper-dialog-behavior#2.0-preview',import:"paper-dialog-behavior/paper-dialog-behavior.html",name:'paper-dialog-behavior')
+@JS('PaperDialogBehavior')
 abstract class PaperDialogBehavior implements imp4.IronOverlayBehavior {
   /**
    * If `modal` is true, this implies `no-cancel-on-outside-click`, `no-cancel-on-esc-key` and `with-backdrop`.
    */
-  bool get modal;
-  set modal(bool value);
+  external bool get modal;
+  external set modal(bool value);
 
 }
 

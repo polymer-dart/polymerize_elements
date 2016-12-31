@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library Polymer.PaperButtonBehavior;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -16,6 +16,7 @@ import 'package:polymer_elements/paper_ripple_behavior.dart' as imp4;
  */
 
 @BowerImport(ref:'PolymerElements/paper-behaviors#2.0-preview',import:"paper-behaviors/paper-button-behavior.html",name:'paper-behaviors')
+@JS('PaperButtonBehavior')
 abstract class PaperButtonBehavior implements imp3.IronButtonState,imp2.IronControlState,imp4.PaperRippleBehavior {
   /**
    * The z-depth of this element, from 0-5. Setting to 0 will remove the
@@ -25,8 +26,8 @@ abstract class PaperButtonBehavior implements imp3.IronButtonState,imp2.IronCont
    * @type number
    * @default 1
    */
-  num get elevation;
-  set elevation(num value);
+  external num get elevation;
+  external set elevation(num value);
 
 }
 

@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library Polymer.PaperCheckedElementBehavior;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -24,6 +24,7 @@ import 'package:polymer_elements/paper_inky_focus_behavior.dart' as imp8;
  */
 
 @BowerImport(ref:'PolymerElements/paper-behaviors#2.0-preview',import:"paper-behaviors/paper-checked-element-behavior.html",name:'paper-behaviors')
+@JS('PaperCheckedElementBehavior')
 abstract class PaperCheckedElementBehavior implements imp8.PaperInkyFocusBehavior,imp3.IronCheckedElementBehavior {
 
 }

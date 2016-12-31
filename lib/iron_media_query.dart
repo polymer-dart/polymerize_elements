@@ -19,15 +19,15 @@ import 'package:polymer_element/polymer_element.dart';
  * @element iron-media-query
  */
 
-//@JS('PaperButton')
+@JS('IronMediaQuery')
 @PolymerRegister('iron-media-query',native:true)
 @BowerImport(ref:'PolymerElements/iron-media-query#2.0-preview',import:"iron-media-query/iron-media-query.html",name:'iron-media-query')
 abstract class IronMediaQuery extends PolymerElement  {
   /**
    * The Boolean return value of the media query.
    */
-  bool get queryMatches;
-  set queryMatches(bool value);
+  external bool get queryMatches;
+  external set queryMatches(bool value);
 
   /**
    * The CSS media query to evaluate.
@@ -38,7 +38,7 @@ set mediaQuery(v) => setProperty(this,'query',v);
    * If true, the query attribute is assumed to be a complete media query
    * string rather than a single media feature.
    */
-  bool get full;
-  set full(bool value);
+  external bool get full;
+  external set full(bool value);
 
 }

@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library Polymer.IronFitBehavior;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -45,6 +45,7 @@ import 'package:polymer_element/polymer_element.dart';
  */
 
 @BowerImport(ref:'PolymerElements/iron-fit-behavior#2.0-preview',import:"iron-fit-behavior/iron-fit-behavior.html",name:'iron-fit-behavior')
+@JS('IronFitBehavior')
 abstract class IronFitBehavior  {
   /**
    * The element that will receive a `max-height`/`width`. By default it is the same as `this`,
@@ -52,49 +53,49 @@ abstract class IronFitBehavior  {
    * scrolling region inside the element.
    * @type {!Element}
    */
-   get sizingTarget;
-  set sizingTarget( value);
+  external  get sizingTarget;
+  external set sizingTarget( value);
 
   /**
    * The element to fit `this` into.
    */
-   get fitInto;
-  set fitInto( value);
+  external  get fitInto;
+  external set fitInto( value);
 
   /**
    * Will position the element around the positionTarget without overlapping it.
    */
-  bool get noOverlap;
-  set noOverlap(bool value);
+  external bool get noOverlap;
+  external set noOverlap(bool value);
 
   /**
    * The element that should be used to position the element. If not set, it will
    * default to the parent node.
    * @type {!Element}
    */
-  Element get positionTarget;
-  set positionTarget(Element value);
+  external Element get positionTarget;
+  external set positionTarget(Element value);
 
   /**
    * The orientation against which to align the element horizontally
    * relative to the `positionTarget`. Possible values are "left", "right", "auto".
    */
-  String get horizontalAlign;
-  set horizontalAlign(String value);
+  external String get horizontalAlign;
+  external set horizontalAlign(String value);
 
   /**
    * The orientation against which to align the element vertically
    * relative to the `positionTarget`. Possible values are "top", "bottom", "auto".
    */
-  String get verticalAlign;
-  set verticalAlign(String value);
+  external String get verticalAlign;
+  external set verticalAlign(String value);
 
   /**
    * If true, it will use `horizontalAlign` and `verticalAlign` values as preferred alignment
    * and if there's not enough space, it will pick the values which minimize the cropping.
    */
-  bool get dynamicAlign;
-  set dynamicAlign(bool value);
+  external bool get dynamicAlign;
+  external set dynamicAlign(bool value);
 
   /**
    * A pixel value that will be added to the position calculated for the
@@ -108,8 +109,8 @@ abstract class IronFitBehavior  {
    * or decrease the distance to the right side of the screen: a negative
    * offset will move the dropdown to the right; a positive one, to the left.
    */
-  num get horizontalOffset;
-  set horizontalOffset(num value);
+  external num get horizontalOffset;
+  external set horizontalOffset(num value);
 
   /**
    * A pixel value that will be added to the position calculated for the
@@ -123,14 +124,14 @@ abstract class IronFitBehavior  {
    * or decrease the distance to the bottom side of the screen: a negative
    * offset will move the dropdown downwards; a positive one, upwards.
    */
-  num get verticalOffset;
-  set verticalOffset(num value);
+  external num get verticalOffset;
+  external set verticalOffset(num value);
 
   /**
    * Set to true to auto-fit on attach.
    */
-  bool get autoFitOnAttach;
-  set autoFitOnAttach(bool value);
+  external bool get autoFitOnAttach;
+  external set autoFitOnAttach(bool value);
 
 }
 

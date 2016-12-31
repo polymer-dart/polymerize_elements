@@ -90,34 +90,34 @@ import 'package:polymer_elements/app_layout_behavior.dart' as imp2;
  * @demo app-drawer-layout/demo/two-drawers.html Two drawers
  */
 
-//@JS('PaperButton')
+@JS('AppDrawerLayout')
 @PolymerRegister('app-drawer-layout',native:true)
 @BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-drawer-layout/app-drawer-layout.html",name:'app-layout')
 abstract class AppDrawerLayout extends PolymerElement with imp2.AppLayoutBehavior {
   /**
    * If true, ignore `responsiveWidth` setting and force the narrow layout.
    */
-  bool get forceNarrow;
-  set forceNarrow(bool value);
+  external bool get forceNarrow;
+  external set forceNarrow(bool value);
 
   /**
    * If the viewport's width is smaller than this value, the panel will change to narrow
    * layout. In the mode the drawer will be closed.
    */
-  String get responsiveWidth;
-  set responsiveWidth(String value);
+  external String get responsiveWidth;
+  external set responsiveWidth(String value);
 
   /**
    * Returns true if it is in narrow layout. This is useful if you need to show/hide
    * elements based on the layout.
    */
-  bool get narrow;
-  set narrow(bool value);
+  external bool get narrow;
+  external set narrow(bool value);
 
   /**
    * If true, the drawer will initially be opened when in narrow layout mode.
    */
-  bool get openedWhenNarrow;
-  set openedWhenNarrow(bool value);
+  external bool get openedWhenNarrow;
+  external set openedWhenNarrow(bool value);
 
 }

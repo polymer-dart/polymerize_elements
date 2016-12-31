@@ -67,7 +67,7 @@ import 'package:polymer_elements/iron_validatable_behavior.dart' as imp2;
  * @demo demo/index.html
  */
 
-//@JS('PaperButton')
+@JS('IronInput')
 @PolymerRegister('iron-input',native:true)
 @BowerImport(ref:'PolymerElements/iron-input#2.0-preview',import:"iron-input/iron-input.html",name:'iron-input')
 abstract class IronInput extends PolymerElement with imp2.IronValidatableBehavior {
@@ -76,14 +76,14 @@ abstract class IronInput extends PolymerElement with imp2.IronValidatableBehavio
    * set a default value for the input. **Do not** use the distributed
    * input's `value` property to set a default value.
    */
-  String get bindValue;
-  set bindValue(String value);
+  external String get bindValue;
+  external set bindValue(String value);
 
   /**
    * 
    */
-   get value;
-  set value( value);
+  external  get value;
+  external set value( value);
 
   /**
    * Regex-like list of characters allowed as input; all characters not in the list
@@ -98,13 +98,13 @@ abstract class IronInput extends PolymerElement with imp2.IronValidatableBehavio
    * set `prevent-invalid-input`. This is no longer needed as of Polymer 2.0,
    * and will be set automatically for you if an `allowedPattern` is provided.
    */
-  String get allowedPattern;
-  set allowedPattern(String value);
+  external String get allowedPattern;
+  external set allowedPattern(String value);
 
   /**
    * Set to true to auto-validate the input value as you type.
    */
-  bool get autoValidate;
-  set autoValidate(bool value);
+  external bool get autoValidate;
+  external set autoValidate(bool value);
 
 }

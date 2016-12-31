@@ -32,7 +32,7 @@ import 'package:polymer_element/polymer_element.dart';
  * @demo demo/index.html
  */
 
-//@JS('PaperButton')
+@JS('IronA11yAnnouncer')
 @PolymerRegister('iron-a11y-announcer',native:true)
 @BowerImport(ref:'PolymerElements/iron-a11y-announcer#2.0-preview',import:"iron-a11y-announcer/iron-a11y-announcer.html",name:'iron-a11y-announcer')
 abstract class IronA11yAnnouncer extends PolymerElement  {
@@ -41,7 +41,7 @@ abstract class IronA11yAnnouncer extends PolymerElement  {
    * for the element that will be announced. Valid values are: `off`,
    * `polite` and `assertive`.
    */
-  String get mode;
-  set mode(String value);
+  external String get mode;
+  external set mode(String value);
 
 }

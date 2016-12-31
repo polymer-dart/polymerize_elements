@@ -52,7 +52,7 @@ import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp0;
  * @demo demo/index.html
  */
 
-//@JS('PaperButton')
+@JS('PaperRipple')
 @PolymerRegister('paper-ripple',native:true)
 @BowerImport(ref:'PolymerElements/paper-ripple#2.0-preview',import:"paper-ripple/paper-ripple.html",name:'paper-ripple')
 abstract class PaperRipple extends PolymerElement with imp0.IronA11yKeysBehavior {
@@ -62,8 +62,8 @@ abstract class PaperRipple extends PolymerElement with imp0.IronA11yKeysBehavior
    * @type number
    * @default 0.25
    */
-  num get initialOpacity;
-  set initialOpacity(num value);
+  external num get initialOpacity;
+  external set initialOpacity(num value);
 
   /**
    * How fast (opacity per second) the wave fades out.
@@ -71,8 +71,8 @@ abstract class PaperRipple extends PolymerElement with imp0.IronA11yKeysBehavior
    * @type number
    * @default 0.8
    */
-  num get opacityDecayVelocity;
-  set opacityDecayVelocity(num value);
+  external num get opacityDecayVelocity;
+  external set opacityDecayVelocity(num value);
 
   /**
    * If true, ripples will exhibit a gravitational pull towards
@@ -81,8 +81,8 @@ abstract class PaperRipple extends PolymerElement with imp0.IronA11yKeysBehavior
    * @type boolean
    * @default false
    */
-  bool get recenters;
-  set recenters(bool value);
+  external bool get recenters;
+  external set recenters(bool value);
 
   /**
    * If true, ripples will center inside its container
@@ -90,8 +90,8 @@ abstract class PaperRipple extends PolymerElement with imp0.IronA11yKeysBehavior
    * @type boolean
    * @default false
    */
-  bool get center;
-  set center(bool value);
+  external bool get center;
+  external set center(bool value);
 
   /**
    * A list of the visual ripples.
@@ -99,22 +99,22 @@ abstract class PaperRipple extends PolymerElement with imp0.IronA11yKeysBehavior
    * @type Array
    * @default []
    */
-  List get ripples;
-  set ripples(List value);
+  external List get ripples;
+  external set ripples(List value);
 
   /**
    * True when there are visible ripples animating within the
    * element.
    */
-  bool get animating;
-  set animating(bool value);
+  external bool get animating;
+  external set animating(bool value);
 
   /**
    * If true, the ripple will remain in the "down" state until `holdDown`
    * is set to false again.
    */
-  bool get holdDown;
-  set holdDown(bool value);
+  external bool get holdDown;
+  external set holdDown(bool value);
 
   /**
    * If true, the ripple will not generate a ripple effect
@@ -122,7 +122,7 @@ abstract class PaperRipple extends PolymerElement with imp0.IronA11yKeysBehavior
    * Calling ripple's imperative api like `simulatedRipple` will
    * still generate the ripple effect.
    */
-  bool get noink;
-  set noink(bool value);
+  external bool get noink;
+  external set noink(bool value);
 
 }

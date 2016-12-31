@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library Polymer.AppScrollEffectsBehavior;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -74,13 +74,14 @@ import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp0;
  */
 
 @BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-scroll-effects/app-scroll-effects-behavior.html",name:'app-layout')
+@JS('AppScrollEffectsBehavior')
 abstract class AppScrollEffectsBehavior implements imp0.IronScrollTargetBehavior {
   /**
    * A space-separated list of the effects names that will be triggered when the user scrolls.
    * e.g. `waterfall parallax-background` installs the `waterfall` and `parallax-background`.
    */
-  String get effects;
-  set effects(String value);
+  external String get effects;
+  external set effects(String value);
 
   /**
    * An object that configurates the effects installed via the `effects` property. e.g.
@@ -98,14 +99,14 @@ abstract class AppScrollEffectsBehavior implements imp0.IronScrollTargetBehavior
    * of its progress. In this context, the progress is a value in the range of `[0, 1]`
    * that indicates where this element is on the screen relative to the viewport.
    */
-   get effectsConfig;
-  set effectsConfig( value);
+  external  get effectsConfig;
+  external set effectsConfig( value);
 
   /**
    * Disables CSS transitions and scroll effects on the element.
    */
-  bool get disabled;
-  set disabled(bool value);
+  external bool get disabled;
+  external set disabled(bool value);
 
   /**
    * Allows to set a `scrollTop` threshold. When greater than 0, `thresholdTriggered`
@@ -113,15 +114,15 @@ abstract class AppScrollEffectsBehavior implements imp0.IronScrollTargetBehavior
    * For example, if `threshold = 100`, `thresholdTriggered` is true when the `scrollTop`
    * is at least `100`.
    */
-  num get threshold;
-  set threshold(num value);
+  external num get threshold;
+  external set threshold(num value);
 
   /**
    * True if the `scrollTop` threshold (set in `scrollTopThreshold`) has
    * been reached.
    */
-  bool get thresholdTriggered;
-  set thresholdTriggered(bool value);
+  external bool get thresholdTriggered;
+  external set thresholdTriggered(bool value);
 
 }
 

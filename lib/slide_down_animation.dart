@@ -22,7 +22,7 @@ import 'package:polymer_elements/neon_animation_behavior.dart' as imp1;
  * ```
  */
 
-//@JS('PaperButton')
+@JS('SlideDownAnimation')
 @PolymerRegister('slide-down-animation',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/slide-down-animation.html",name:'neon-animation')
 abstract class SlideDownAnimation extends PolymerElement with imp1.NeonAnimationBehavior {

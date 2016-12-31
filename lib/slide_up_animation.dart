@@ -22,7 +22,7 @@ import 'package:polymer_elements/neon_animation_behavior.dart' as imp1;
  * ```
  */
 
-//@JS('PaperButton')
+@JS('SlideUpAnimation')
 @PolymerRegister('slide-up-animation',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/slide-up-animation.html",name:'neon-animation')
 abstract class SlideUpAnimation extends PolymerElement with imp1.NeonAnimationBehavior {

@@ -28,7 +28,7 @@ import 'package:polymer_elements/paper_input_addon_behavior.dart' as imp10;
  * style this element.
  */
 
-//@JS('PaperButton')
+@JS('PaperTextarea')
 @PolymerRegister('paper-textarea',native:true)
 @BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-textarea.html",name:'paper-input')
 abstract class PaperTextarea extends PolymerElement with imp9.PaperInputBehavior {
@@ -38,8 +38,8 @@ abstract class PaperTextarea extends PolymerElement with imp9.PaperInputBehavior
    * @type number
    * @default 1
    */
-  num get rows;
-  set rows(num value);
+  external num get rows;
+  external set rows(num value);
 
   /**
    * The maximum number of rows this element can grow to until it
@@ -48,7 +48,7 @@ abstract class PaperTextarea extends PolymerElement with imp9.PaperInputBehavior
    * @type number
    * @default 0
    */
-  num get maxRows;
-  set maxRows(num value);
+  external num get maxRows;
+  external set maxRows(num value);
 
 }

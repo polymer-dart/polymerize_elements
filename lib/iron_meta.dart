@@ -36,7 +36,7 @@ import 'package:polymer_element/polymer_element.dart';
  * @element iron-meta
  */
 
-//@JS('PaperButton')
+@JS('IronMeta')
 @PolymerRegister('iron-meta',native:true)
 @BowerImport(ref:'PolymerElements/iron-meta#2.0-preview',import:"iron-meta/iron-meta.html",name:'iron-meta')
 abstract class IronMeta extends PolymerElement  {
@@ -44,25 +44,25 @@ abstract class IronMeta extends PolymerElement  {
    * The type of meta-data.  All meta-data of the same type is stored
    * together.
    */
-  String get type;
-  set type(String value);
+  external String get type;
+  external set type(String value);
 
   /**
    * The key used to store `value` under the `type` namespace.
    */
-  String get key;
-  set key(String value);
+  external String get key;
+  external set key(String value);
 
   /**
    * The meta-data to store or retrieve.
    */
-   get value;
-  set value( value);
+  external  get value;
+  external set value( value);
 
   /**
    * If true, `value` is set to the iron-meta instance itself.
    */
-  bool get self;
-  set self(bool value);
+  external bool get self;
+  external set self(bool value);
 
 }

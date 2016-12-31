@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library Polymer.IronResizableBehavior;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -24,6 +24,7 @@ import 'package:polymer_element/polymer_element.dart';
  */
 
 @BowerImport(ref:'PolymerElements/iron-resizable-behavior#2.0-preview',import:"iron-resizable-behavior/iron-resizable-behavior.html",name:'iron-resizable-behavior')
+@JS('IronResizableBehavior')
 abstract class IronResizableBehavior  {
 
 }

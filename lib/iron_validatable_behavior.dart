@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library Polymer.IronValidatableBehavior;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -28,18 +28,19 @@ import 'package:polymer_elements/iron_meta.dart' as imp0;
  */
 
 @BowerImport(ref:'PolymerElements/iron-validatable-behavior#2.0-preview',import:"iron-validatable-behavior/iron-validatable-behavior.html",name:'iron-validatable-behavior')
+@JS('IronValidatableBehavior')
 abstract class IronValidatableBehavior  {
   /**
    * Name of the validator to use.
    */
-  String get validator;
-  set validator(String value);
+  external String get validator;
+  external set validator(String value);
 
   /**
    * True if the last call to `validate` is invalid.
    */
-  bool get invalid;
-  set invalid(bool value);
+  external bool get invalid;
+  external set invalid(bool value);
 
 }
 

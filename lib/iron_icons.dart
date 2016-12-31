@@ -28,7 +28,7 @@ import 'package:polymer_elements/iron_iconset_svg.dart' as imp3;
  * 
  */
 
-//@JS('PaperButton')
+@JS('IronIcons')
 @PolymerRegister('iron-icons',native:true)
 @BowerImport(ref:'PolymerElements/iron-icons#2.0-preview',import:"iron-icons/iron-icons.html",name:'iron-icons')
 abstract class IronIcons extends PolymerElement  {
