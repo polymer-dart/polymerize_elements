@@ -1,6 +1,6 @@
 import 'package:polymer_element/polymer_element.dart' show BowerImport;
 
-import 'package:polymer_elements/iron_meta.dart' as imp1;
+import 'package:polymer_elements/iron_meta.dart' as imp2;
 import 'package:polymer_elements/cascaded_animation.dart' as imp2;
 import 'package:polymer_elements/fade_in_animation.dart' as imp3;
 import 'package:polymer_elements/fade_out_animation.dart' as imp4;
