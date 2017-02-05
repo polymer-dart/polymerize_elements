@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library IronLocation;
 import 'dart:html';
 import 'package:js/js.dart';

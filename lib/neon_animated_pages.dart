@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library NeonAnimatedPages;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -24,7 +24,7 @@ import 'package:polymer_elements/neon_animation_runner_behavior.dart' as imp4;
 @JS('NeonAnimatedPages')
 @PolymerRegister('neon-animated-pages',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animated-pages.html",name:'neon-animation')
-abstract class NeonAnimatedPages extends PolymerElement with imp1.IronResizableBehavior,imp2.IronSelectableBehavior,imp4.NeonAnimationRunnerBehavior {
+abstract class NeonAnimatedPages extends PolymerElement implements imp1.IronResizableBehavior,imp2.IronSelectableBehavior,imp4.NeonAnimationRunnerBehavior {
   /**
    * 
    */

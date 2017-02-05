@@ -1,13 +1,13 @@
-@JS('Polymer')
-library Polymer.IronValidatableBehavior;
-import 'dart:html';
-import 'package:js/js.dart';
-import 'package:js/js_util.dart';
+  @JS('Polymer')
+  library Polymer.IronValidatableBehavior;
+  import 'dart:html';
+  import 'package:js/js.dart';
+  import 'package:js/js_util.dart';
 
-import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/iron_meta.dart' as imp0;
+  import 'package:polymer_element/polymer_element.dart';
+  import 'package:polymer_elements/iron_meta.dart' as imp0;
 
-/**
+  /**
  * 
  * `Use Polymer.IronValidatableBehavior` to implement an element that validates user input.
  * Use the related `Polymer.IronValidatorBehavior` to add custom validation logic to an iron-input.

@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library ReverseRippleAnimation;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -33,6 +33,6 @@ import 'package:polymer_elements/neon_shared_element_animation_behavior.dart' as
 @JS('ReverseRippleAnimation')
 @PolymerRegister('reverse-ripple-animation',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/reverse-ripple-animation.html",name:'neon-animation')
-abstract class ReverseRippleAnimation extends PolymerElement with imp2.NeonSharedElementAnimationBehavior {
+abstract class ReverseRippleAnimation extends PolymerElement implements imp2.NeonSharedElementAnimationBehavior {
 
 }

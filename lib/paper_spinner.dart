@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library PaperSpinner;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -39,6 +39,6 @@ import 'package:polymer_elements/paper_spinner_behavior.dart' as imp1;
 @JS('PaperSpinner')
 @PolymerRegister('paper-spinner',native:true)
 @BowerImport(ref:'PolymerElements/paper-spinner#2.0-preview',import:"paper-spinner/paper-spinner.html",name:'paper-spinner')
-abstract class PaperSpinner extends PolymerElement with imp1.PaperSpinnerBehavior {
+abstract class PaperSpinner extends PolymerElement implements imp1.PaperSpinnerBehavior {
 
 }

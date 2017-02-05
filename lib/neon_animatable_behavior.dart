@@ -1,13 +1,13 @@
-@JS('Polymer')
-library Polymer.NeonAnimatableBehavior;
-import 'dart:html';
-import 'package:js/js.dart';
-import 'package:js/js_util.dart';
+  @JS('Polymer')
+  library Polymer.NeonAnimatableBehavior;
+  import 'dart:html';
+  import 'package:js/js.dart';
+  import 'package:js/js_util.dart';
 
-import 'package:polymer_element/polymer_element.dart';
+  import 'package:polymer_element/polymer_element.dart';
+  
 
-
-/**
+  /**
  * 
  * `Polymer.NeonAnimatableBehavior` is implemented by elements containing animations for use with
  * elements implementing `Polymer.NeonAnimationRunnerBehavior`.

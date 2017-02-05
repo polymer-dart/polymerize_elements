@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library IronAutogrowTextarea;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -30,7 +30,7 @@ import 'package:polymer_elements/iron_validatable_behavior.dart' as imp3;
 @JS('IronAutogrowTextarea')
 @PolymerRegister('iron-autogrow-textarea',native:true)
 @BowerImport(ref:'PolymerElements/iron-autogrow-textarea#2.0-preview',import:"iron-autogrow-textarea/iron-autogrow-textarea.html",name:'iron-autogrow-textarea')
-abstract class IronAutogrowTextarea extends PolymerElement with imp3.IronValidatableBehavior,imp2.IronControlState {
+abstract class IronAutogrowTextarea extends PolymerElement implements imp3.IronValidatableBehavior,imp2.IronControlState {
   /**
    * Use this property instead of `value` for two-way data binding.
    * @type {string|number}

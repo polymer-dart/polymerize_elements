@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library PaperIconButton;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -57,7 +57,7 @@ import 'package:polymer_elements/paper_inky_focus_behavior.dart' as imp8;
 @JS('PaperIconButton')
 @PolymerRegister('paper-icon-button',native:true)
 @BowerImport(ref:'PolymerElements/paper-icon-button#2.0-preview',import:"paper-icon-button/paper-icon-button.html",name:'paper-icon-button')
-abstract class PaperIconButton extends PolymerElement with imp8.PaperInkyFocusBehavior {
+abstract class PaperIconButton extends PolymerElement implements imp8.PaperInkyFocusBehavior {
   /**
    * The URL of an image for the icon. If the src property is specified,
    * the icon property should not be.

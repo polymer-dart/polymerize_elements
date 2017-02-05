@@ -1,13 +1,13 @@
-@JS('Polymer')
-library Polymer.IronA11yKeysBehavior;
-import 'dart:html';
-import 'package:js/js.dart';
-import 'package:js/js_util.dart';
+  @JS('Polymer')
+  library Polymer.IronA11yKeysBehavior;
+  import 'dart:html';
+  import 'package:js/js.dart';
+  import 'package:js/js_util.dart';
 
-import 'package:polymer_element/polymer_element.dart';
+  import 'package:polymer_element/polymer_element.dart';
+  
 
-
-/**
+  /**
  * 
  * `Polymer.IronA11yKeysBehavior` provides a normalized interface for processing
  * keyboard commands that pertain to [WAI-ARIA best practices](http://www.w3.org/TR/wai-aria-practices/#kbd_general_binding).

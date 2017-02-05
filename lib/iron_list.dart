@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library IronList;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -8,6 +8,7 @@ import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_resizable_behavior.dart' as imp0;
 import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp1;
 import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp2;
+import 'package:polymer_element/polymer_element.dart' as imp3;
 
 /**
  * `iron-list` displays a virtual, 'infinite' list. The template inside
@@ -189,7 +190,7 @@ import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp2;
 @JS('IronList')
 @PolymerRegister('iron-list',native:true)
 @BowerImport(ref:'PolymerElements/iron-list#2.0-preview',import:"iron-list/iron-list.html",name:'iron-list')
-abstract class IronList extends PolymerElement with imp0.IronResizableBehavior,imp2.IronScrollTargetBehavior {
+abstract class IronList extends PolymerElement implements imp3.Templatizer,imp0.IronResizableBehavior,imp2.IronScrollTargetBehavior {
   /**
    * An array containing items determining how many instances of the template
    * to stamp and that that each template instance should bind to.

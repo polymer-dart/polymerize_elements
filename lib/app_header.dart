@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library AppHeader;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -183,7 +183,7 @@ import 'package:polymer_elements/app_layout_behavior.dart' as imp4;
 @JS('AppHeader')
 @PolymerRegister('app-header',native:true)
 @BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-header/app-header.html",name:'app-layout')
-abstract class AppHeader extends PolymerElement with imp2.AppScrollEffectsBehavior,imp4.AppLayoutBehavior {
+abstract class AppHeader extends PolymerElement implements imp2.AppScrollEffectsBehavior,imp4.AppLayoutBehavior {
   /**
    * If true, the header will automatically collapse when scrolling down.
    * That is, the `sticky` element remains visible when the header is fully condensed

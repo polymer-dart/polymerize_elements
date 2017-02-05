@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library AppBox;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -73,6 +73,6 @@ import 'package:polymer_elements/app_scroll_effects_behavior.dart' as imp3;
 @JS('AppBox')
 @PolymerRegister('app-box',native:true)
 @BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-box/app-box.html",name:'app-layout')
-abstract class AppBox extends PolymerElement with imp3.AppScrollEffectsBehavior,imp1.IronResizableBehavior {
+abstract class AppBox extends PolymerElement implements imp3.AppScrollEffectsBehavior,imp1.IronResizableBehavior {
 
 }

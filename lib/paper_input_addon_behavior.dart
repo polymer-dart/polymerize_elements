@@ -1,13 +1,13 @@
-@JS('Polymer')
-library Polymer.PaperInputAddonBehavior;
-import 'dart:html';
-import 'package:js/js.dart';
-import 'package:js/js_util.dart';
+  @JS('Polymer')
+  library Polymer.PaperInputAddonBehavior;
+  import 'dart:html';
+  import 'package:js/js.dart';
+  import 'package:js/js_util.dart';
 
-import 'package:polymer_element/polymer_element.dart';
+  import 'package:polymer_element/polymer_element.dart';
+  
 
-
-/**
+  /**
  * 
  * Use `Polymer.PaperInputAddonBehavior` to implement an add-on for `<paper-input-container>`. A
  * add-on appears below the input, and may display information based on the input value and

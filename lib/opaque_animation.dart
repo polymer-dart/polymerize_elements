@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library OpaqueAnimation;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -16,6 +16,6 @@ import 'package:polymer_elements/neon_animation_behavior.dart' as imp1;
 @JS('OpaqueAnimation')
 @PolymerRegister('opaque-animation',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/opaque-animation.html",name:'neon-animation')
-abstract class OpaqueAnimation extends PolymerElement with imp1.NeonAnimationBehavior {
+abstract class OpaqueAnimation extends PolymerElement implements imp1.NeonAnimationBehavior {
 
 }

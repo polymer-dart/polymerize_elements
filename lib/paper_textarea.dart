@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library PaperTextarea;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -31,7 +31,7 @@ import 'package:polymer_elements/paper_input_addon_behavior.dart' as imp10;
 @JS('PaperTextarea')
 @PolymerRegister('paper-textarea',native:true)
 @BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-textarea.html",name:'paper-input')
-abstract class PaperTextarea extends PolymerElement with imp9.PaperInputBehavior {
+abstract class PaperTextarea extends PolymerElement implements imp9.PaperInputBehavior {
   /**
    * The initial number of rows.
    * @attribute rows

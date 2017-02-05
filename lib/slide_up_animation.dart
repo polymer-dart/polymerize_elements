@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library SlideUpAnimation;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -25,6 +25,6 @@ import 'package:polymer_elements/neon_animation_behavior.dart' as imp1;
 @JS('SlideUpAnimation')
 @PolymerRegister('slide-up-animation',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/slide-up-animation.html",name:'neon-animation')
-abstract class SlideUpAnimation extends PolymerElement with imp1.NeonAnimationBehavior {
+abstract class SlideUpAnimation extends PolymerElement implements imp1.NeonAnimationBehavior {
 
 }

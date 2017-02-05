@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library IronInput;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -70,7 +70,7 @@ import 'package:polymer_elements/iron_validatable_behavior.dart' as imp2;
 @JS('IronInput')
 @PolymerRegister('iron-input',native:true)
 @BowerImport(ref:'PolymerElements/iron-input#2.0-preview',import:"iron-input/iron-input.html",name:'iron-input')
-abstract class IronInput extends PolymerElement with imp2.IronValidatableBehavior {
+abstract class IronInput extends PolymerElement implements imp2.IronValidatableBehavior {
   /**
    * Use this property instead of `value` for two-way data binding, or to
    * set a default value for the input. **Do not** use the distributed

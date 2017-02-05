@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library RippleAnimation;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -33,6 +33,6 @@ import 'package:polymer_elements/neon_shared_element_animation_behavior.dart' as
 @JS('RippleAnimation')
 @PolymerRegister('ripple-animation',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/ripple-animation.html",name:'neon-animation')
-abstract class RippleAnimation extends PolymerElement with imp2.NeonSharedElementAnimationBehavior {
+abstract class RippleAnimation extends PolymerElement implements imp2.NeonSharedElementAnimationBehavior {
 
 }

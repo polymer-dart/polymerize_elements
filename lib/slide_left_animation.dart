@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library SlideLeftAnimation;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -25,6 +25,6 @@ import 'package:polymer_elements/neon_animation_behavior.dart' as imp1;
 @JS('SlideLeftAnimation')
 @PolymerRegister('slide-left-animation',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/slide-left-animation.html",name:'neon-animation')
-abstract class SlideLeftAnimation extends PolymerElement with imp1.NeonAnimationBehavior {
+abstract class SlideLeftAnimation extends PolymerElement implements imp1.NeonAnimationBehavior {
 
 }

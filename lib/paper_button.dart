@@ -1,4 +1,4 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library PaperButton;
 import 'dart:html';
 import 'package:js/js.dart';
@@ -67,7 +67,7 @@ import 'package:polymer_elements/paper_button_behavior.dart' as imp6;
 @JS('PaperButton')
 @PolymerRegister('paper-button',native:true)
 @BowerImport(ref:'PolymerElements/paper-button#2.0-preview',import:"paper-button/paper-button.html",name:'paper-button')
-abstract class PaperButton extends PolymerElement with imp6.PaperButtonBehavior {
+abstract class PaperButton extends PolymerElement implements imp6.PaperButtonBehavior {
   /**
    * If true, the button should be styled with a shadow.
    */
