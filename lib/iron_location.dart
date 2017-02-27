@@ -1,6 +1,6 @@
 @JS('Polymer')
 library IronLocation;
-import 'dart:html';
+import 'package:html5/html.dart';
 import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
@@ -46,8 +46,8 @@ abstract class IronLocation extends PolymerElement  {
   /**
    * The query string portion of the URL.
    */
-get queryPart => getProperty(this,'query');
-set queryPart(v) => setProperty(this,'query',v);
+get queryPart => getProperty(this as dynamic,'query');
+set queryPart(v) => setProperty(this as dynamic,'query',v);
   /**
    * The hash component of the URL.
    */

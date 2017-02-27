@@ -7,7 +7,7 @@ package(default_visibility=['//visibility:public'])
 
 polymer_library(
   name = 'polymer_elements',
-  deps = ['@js//:js','@polymer_element//:polymer_element'],
+  deps = ['@js//:js','@html5//:html5','@polymer_element//:polymer_element'],
   dart_sources = glob(['lib/**/*.dart']),
   base_path = "//:lib",
   external = 1,

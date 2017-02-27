@@ -1,7 +1,7 @@
 import 'package:polymer_element/polymer_element.dart' show BowerImport;
 
-import 'package:polymer_elements/iron_overlay_backdrop.dart' as imp2;
-import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp3;
+import 'package:polymer_elements/iron_overlay_backdrop.dart' as imp4;
+import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp5;
 
 /**
  **/

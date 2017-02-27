@@ -7,6 +7,7 @@ version: 2.0.0-preview.1
 dependencies:
   polymer_element: any
   js: any
+  html5: ^0.0.3
 dependency_overrides:
-  polymer_element: 0.2.0
-#   path: ../polymer_element
+  polymer_element:
+   path: ../polymer_element

@@ -1,6 +1,6 @@
   @JS('Polymer')
   library Polymer.IronScrollTargetBehavior;
-  import 'dart:html';
+  import 'package:html5/html.dart';
   import 'package:js/js.dart';
   import 'package:js/js_util.dart';
 
@@ -45,8 +45,8 @@ abstract class IronScrollTargetBehavior  {
    * ```
    * @type {HTMLElement}
    */
-  external HtmlElement get scrollTarget;
-  external set scrollTarget(HtmlElement value);
+  external HTMLElement get scrollTarget;
+  external set scrollTarget(HTMLElement value);
 
 }
 

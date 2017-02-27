@@ -1,6 +1,6 @@
 @JS('Polymer')
 library PaperMaterial;
-import 'dart:html';
+import 'package:html5/html.dart';
 import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
