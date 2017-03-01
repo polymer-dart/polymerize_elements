@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+import 'package:polymer_element/polymer_element.dart' as imp0;
 
 /**
  * `iron-meta` is a generic element you can use for sharing information across the DOM tree.

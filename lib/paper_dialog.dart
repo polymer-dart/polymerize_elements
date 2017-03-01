@@ -8,14 +8,15 @@ import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_meta.dart' as imp0;
 import 'package:polymer_elements/iron_overlay_backdrop.dart' as imp1;
 import 'package:polymer_elements/iron_flex_layout.dart' as imp2;
-import 'package:polymer_elements/neon_animatable_behavior.dart' as imp3;
-import 'package:polymer_elements/neon_animation_runner_behavior.dart' as imp4;
-import 'package:polymer_elements/iron_fit_behavior.dart' as imp5;
-import 'package:polymer_elements/iron_resizable_behavior.dart' as imp6;
-import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp7;
-import 'package:polymer_elements/iron_overlay_behavior.dart' as imp8;
+import 'package:polymer_element/polymer_element.dart' as imp3;
+import 'package:polymer_elements/neon_animatable_behavior.dart' as imp4;
+import 'package:polymer_elements/neon_animation_runner_behavior.dart' as imp5;
+import 'package:polymer_elements/iron_fit_behavior.dart' as imp6;
+import 'package:polymer_elements/iron_resizable_behavior.dart' as imp7;
+import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp8;
 import 'package:polymer_elements/iron_overlay_behavior.dart' as imp9;
-import 'package:polymer_elements/paper_dialog_behavior.dart' as imp10;
+import 'package:polymer_elements/iron_overlay_behavior.dart' as imp10;
+import 'package:polymer_elements/paper_dialog_behavior.dart' as imp11;
 
 /**
  * Material design: [Dialogs](https://www.google.com/design/spec/components/dialogs.html)
@@ -63,6 +64,6 @@ import 'package:polymer_elements/paper_dialog_behavior.dart' as imp10;
 @JS('PaperDialog')
 @PolymerRegister('paper-dialog',native:true)
 @BowerImport(ref:'PolymerElements/paper-dialog#2.0-preview',import:"paper-dialog/paper-dialog.html",name:'paper-dialog')
-abstract class PaperDialog extends PolymerElement implements imp10.PaperDialogBehavior,imp4.NeonAnimationRunnerBehavior {
+abstract class PaperDialog extends PolymerElement implements imp11.PaperDialogBehavior,imp5.NeonAnimationRunnerBehavior {
 
 }

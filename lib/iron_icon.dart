@@ -7,6 +7,7 @@ import 'package:js/js_util.dart';
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_meta.dart' as imp0;
 import 'package:polymer_elements/iron_flex_layout.dart' as imp1;
+import 'package:polymer_element/polymer_element.dart' as imp2;
 
 /**
  * The `iron-icon` element displays an icon. By default an icon renders as a 24px square.

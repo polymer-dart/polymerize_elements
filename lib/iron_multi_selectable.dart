@@ -5,7 +5,8 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_elements/iron_selectable.dart' as imp0;
+  import 'package:polymer_element/polymer_element.dart' as imp0;
+import 'package:polymer_elements/iron_selectable.dart' as imp1;
 
   /**
  * 
@@ -13,7 +14,7 @@
 
 @BowerImport(ref:'PolymerElements/iron-selector#2.0-preview',import:"iron-selector/iron-multi-selectable.html",name:'iron-selector')
 @JS('IronMultiSelectableBehavior')
-abstract class IronMultiSelectableBehavior implements imp0.IronSelectableBehavior {
+abstract class IronMultiSelectableBehavior implements imp1.IronSelectableBehavior {
   /**
    * If true, multiple selections are allowed.
    */

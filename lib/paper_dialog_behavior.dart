@@ -6,11 +6,12 @@
 
   import 'package:polymer_element/polymer_element.dart';
   import 'package:polymer_elements/iron_overlay_backdrop.dart' as imp0;
-import 'package:polymer_elements/iron_fit_behavior.dart' as imp1;
-import 'package:polymer_elements/iron_resizable_behavior.dart' as imp2;
-import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp3;
-import 'package:polymer_elements/iron_overlay_behavior.dart' as imp4;
+import 'package:polymer_element/polymer_element.dart' as imp1;
+import 'package:polymer_elements/iron_fit_behavior.dart' as imp2;
+import 'package:polymer_elements/iron_resizable_behavior.dart' as imp3;
+import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp4;
 import 'package:polymer_elements/iron_overlay_behavior.dart' as imp5;
+import 'package:polymer_elements/iron_overlay_behavior.dart' as imp6;
 
   /**
  * 
@@ -41,7 +42,7 @@ import 'package:polymer_elements/iron_overlay_behavior.dart' as imp5;
 
 @BowerImport(ref:'PolymerElements/paper-dialog-behavior#2.0-preview',import:"paper-dialog-behavior/paper-dialog-behavior.html",name:'paper-dialog-behavior')
 @JS('PaperDialogBehavior')
-abstract class PaperDialogBehavior implements imp5.IronOverlayBehavior {
+abstract class PaperDialogBehavior implements imp6.IronOverlayBehavior {
   /**
    * If `modal` is true, this implies `no-cancel-on-outside-click`, `no-cancel-on-esc-key` and `with-backdrop`.
    */

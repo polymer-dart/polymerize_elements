@@ -6,7 +6,8 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_meta.dart' as imp0;
-import 'package:polymer_elements/neon_animation_behavior.dart' as imp1;
+import 'package:polymer_element/polymer_element.dart' as imp1;
+import 'package:polymer_elements/neon_animation_behavior.dart' as imp2;
 
 /**
  * `<slide-from-right-animation>` animates the transform of an element from
@@ -26,6 +27,6 @@ import 'package:polymer_elements/neon_animation_behavior.dart' as imp1;
 @JS('SlideFromRightAnimation')
 @PolymerRegister('slide-from-right-animation',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/slide-from-right-animation.html",name:'neon-animation')
-abstract class SlideFromRightAnimation extends PolymerElement implements imp1.NeonAnimationBehavior {
+abstract class SlideFromRightAnimation extends PolymerElement implements imp2.NeonAnimationBehavior {
 
 }

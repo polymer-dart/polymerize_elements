@@ -5,8 +5,9 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp0;
-import 'package:polymer_elements/iron_control_state.dart' as imp1;
+  import 'package:polymer_element/polymer_element.dart' as imp0;
+import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp1;
+import 'package:polymer_elements/iron_control_state.dart' as imp2;
 
   /**
  * 
@@ -21,7 +22,7 @@ import 'package:polymer_elements/iron_control_state.dart' as imp1;
 
 @BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input-behavior.html",name:'paper-input')
 @JS('PaperInputBehavior')
-abstract class PaperInputBehavior implements imp1.IronControlState,imp0.IronA11yKeysBehavior {
+abstract class PaperInputBehavior implements imp2.IronControlState,imp1.IronA11yKeysBehavior {
   /**
    * The label for this input. If you're using PaperInputBehavior to
    * implement your own paper-input-like element, bind this to

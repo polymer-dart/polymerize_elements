@@ -6,8 +6,9 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_media_query.dart' as imp0;
-import 'package:polymer_elements/iron_resizable_behavior.dart' as imp1;
-import 'package:polymer_elements/app_layout_behavior.dart' as imp2;
+import 'package:polymer_element/polymer_element.dart' as imp1;
+import 'package:polymer_elements/iron_resizable_behavior.dart' as imp2;
+import 'package:polymer_elements/app_layout_behavior.dart' as imp3;
 
 /**
  * app-drawer-layout is a wrapper element that positions an app-drawer and other content. When
@@ -93,7 +94,7 @@ import 'package:polymer_elements/app_layout_behavior.dart' as imp2;
 @JS('AppDrawerLayout')
 @PolymerRegister('app-drawer-layout',native:true)
 @BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-drawer-layout/app-drawer-layout.html",name:'app-layout')
-abstract class AppDrawerLayout extends PolymerElement implements imp2.AppLayoutBehavior {
+abstract class AppDrawerLayout extends PolymerElement implements imp3.AppLayoutBehavior {
   /**
    * If true, ignore `responsiveWidth` setting and force the narrow layout.
    */

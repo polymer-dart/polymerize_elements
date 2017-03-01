@@ -9,6 +9,7 @@ import 'package:polymer_elements/iron_meta.dart' as imp0;
 import 'package:polymer_elements/iron_flex_layout.dart' as imp1;
 import 'package:polymer_elements/iron_icon.dart' as imp2;
 import 'package:polymer_elements/iron_iconset_svg.dart' as imp3;
+import 'package:polymer_element/polymer_element.dart' as imp4;
 
 /**
  * 

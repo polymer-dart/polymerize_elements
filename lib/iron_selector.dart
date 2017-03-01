@@ -5,8 +5,9 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/iron_selectable.dart' as imp0;
-import 'package:polymer_elements/iron_multi_selectable.dart' as imp1;
+import 'package:polymer_element/polymer_element.dart' as imp0;
+import 'package:polymer_elements/iron_selectable.dart' as imp1;
+import 'package:polymer_elements/iron_multi_selectable.dart' as imp2;
 
 /**
  * `iron-selector` is an element which can be used to manage a list of elements
@@ -56,6 +57,6 @@ import 'package:polymer_elements/iron_multi_selectable.dart' as imp1;
 @JS('IronSelector')
 @PolymerRegister('iron-selector',native:true)
 @BowerImport(ref:'PolymerElements/iron-selector#2.0-preview',import:"iron-selector/iron-selector.html",name:'iron-selector')
-abstract class IronSelector extends PolymerElement implements imp1.IronMultiSelectableBehavior {
+abstract class IronSelector extends PolymerElement implements imp2.IronMultiSelectableBehavior {
 
 }

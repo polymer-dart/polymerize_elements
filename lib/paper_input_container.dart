@@ -6,6 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
+import 'package:polymer_element/polymer_element.dart' as imp1;
 
 /**
  * `<paper-input-container>` is a container for a `<label>`, an `<iron-input>` or
@@ -17,11 +18,12 @@ import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
  *       <iron-input slot="input">
  *         <input>
  *       </iron-input>
+ *       // In Polymer 1.0, you would use `<input is="iron-input" slot="input">` instead ov the above.
  *     </paper-input-container>
- *     You can style the nested <input> however you want; if you want it to look like a
- *     Material Design input, you can style it with the --paper-input-container-shared-input-style mixin.
+ * You can style the nested <input> however you want; if you want it to look like a
+ * Material Design input, you can style it with the --paper-input-container-shared-input-style mixin.
  * Do not wrap `<paper-input-container>` around elements that already include it, such as `<paper-input>`.
- * Doing so may cause events to bounce infintely between the container and its contained element.
+ * Doing so may cause events to bounce infinitely between the container and its contained element.
  * ### Listening for input changes
  * By default, it listens for changes on the `bind-value` attribute on its children nodes and perform
  * tasks such as auto-validating and label styling when the `bind-value` changes. You can configure
@@ -55,6 +57,7 @@ import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
  *       <iron-input slot="input">
  *         <input>
  *       </iron-input>
+ *       // In Polymer 1.0, you would use `<input is="iron-input" slot="input">` instead of the above.
  *       <paper-icon-button slot="suffix" icon="clear"></paper-icon-button>
  *     </paper-input-container>
  * ### Styling
@@ -71,6 +74,7 @@ import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
  * `--paper-input-container-label-focus` | Mixin applied to the label when the input is focused | `{}`
  * `--paper-input-container-label-floating` | Mixin applied to the label when floating | `{}`
  * `--paper-input-container-input` | Mixin applied to the input | `{}`
+ * `--paper-input-container-input-webkit-spinner` | Mixin applied to the webkit spinner | `{}`
  * `--paper-input-container-underline` | Mixin applied to the underline | `{}`
  * `--paper-input-container-underline-focus` | Mixin applied to the underline when the input is focused | `{}`
  * `--paper-input-container-underline-disabled` | Mixin applied to the underline when the input is disabled | `{}`

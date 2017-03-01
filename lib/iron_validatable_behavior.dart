@@ -6,6 +6,7 @@
 
   import 'package:polymer_element/polymer_element.dart';
   import 'package:polymer_elements/iron_meta.dart' as imp0;
+import 'package:polymer_element/polymer_element.dart' as imp1;
 
   /**
  * 

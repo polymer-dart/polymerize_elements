@@ -5,14 +5,15 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/paper_input_addon_behavior.dart' as imp0;
+import 'package:polymer_element/polymer_element.dart' as imp0;
+import 'package:polymer_elements/paper_input_addon_behavior.dart' as imp1;
 
 /**
  * `<paper-input-error>` is an error message for use with `<paper-input-container>`. The error is
  * displayed when the `<paper-input-container>` is `invalid`.
  *     <paper-input-container>
- *       <input is="iron-input" pattern="[0-9]*">
- *       <paper-input-error>Only numbers are allowed!</paper-input-error>
+ *       <input pattern="[0-9]*">
+ *       <paper-input-error slot="add-on">Only numbers are allowed!</paper-input-error>
  *     </paper-input-container>
  * ### Styling
  * The following custom properties and mixins are available for styling:
@@ -25,7 +26,7 @@ import 'package:polymer_elements/paper_input_addon_behavior.dart' as imp0;
 @JS('PaperInputError')
 @PolymerRegister('paper-input-error',native:true)
 @BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input-error.html",name:'paper-input')
-abstract class PaperInputError extends PolymerElement implements imp0.PaperInputAddonBehavior {
+abstract class PaperInputError extends PolymerElement implements imp1.PaperInputAddonBehavior {
   /**
    * True if the error is showing.
    */

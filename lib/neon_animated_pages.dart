@@ -6,10 +6,11 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_meta.dart' as imp0;
-import 'package:polymer_elements/iron_resizable_behavior.dart' as imp1;
-import 'package:polymer_elements/iron_selectable.dart' as imp2;
-import 'package:polymer_elements/neon_animatable_behavior.dart' as imp3;
-import 'package:polymer_elements/neon_animation_runner_behavior.dart' as imp4;
+import 'package:polymer_element/polymer_element.dart' as imp1;
+import 'package:polymer_elements/iron_resizable_behavior.dart' as imp2;
+import 'package:polymer_elements/iron_selectable.dart' as imp3;
+import 'package:polymer_elements/neon_animatable_behavior.dart' as imp4;
+import 'package:polymer_elements/neon_animation_runner_behavior.dart' as imp5;
 
 /**
  * Material design: [Meaningful transitions](https://www.google.com/design/spec/animation/meaningful-transitions.html)
@@ -24,7 +25,7 @@ import 'package:polymer_elements/neon_animation_runner_behavior.dart' as imp4;
 @JS('NeonAnimatedPages')
 @PolymerRegister('neon-animated-pages',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animated-pages.html",name:'neon-animation')
-abstract class NeonAnimatedPages extends PolymerElement implements imp1.IronResizableBehavior,imp2.IronSelectableBehavior,imp4.NeonAnimationRunnerBehavior {
+abstract class NeonAnimatedPages extends PolymerElement implements imp2.IronResizableBehavior,imp3.IronSelectableBehavior,imp5.NeonAnimationRunnerBehavior {
   /**
    * 
    */

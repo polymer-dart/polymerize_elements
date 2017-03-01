@@ -6,7 +6,8 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
-import 'package:polymer_elements/iron_range_behavior.dart' as imp1;
+import 'package:polymer_element/polymer_element.dart' as imp1;
+import 'package:polymer_elements/iron_range_behavior.dart' as imp2;
 
 /**
  * Material design: [Progress & activity](https://www.google.com/design/spec/components/progress-activity.html)
@@ -66,7 +67,7 @@ import 'package:polymer_elements/iron_range_behavior.dart' as imp1;
 @JS('PaperProgress')
 @PolymerRegister('paper-progress',native:true)
 @BowerImport(ref:'PolymerElements/paper-progress#2.0-preview',import:"paper-progress/paper-progress.html",name:'paper-progress')
-abstract class PaperProgress extends PolymerElement implements imp1.IronRangeBehavior {
+abstract class PaperProgress extends PolymerElement implements imp2.IronRangeBehavior {
   /**
    * The number that represents the current secondary progress.
    */

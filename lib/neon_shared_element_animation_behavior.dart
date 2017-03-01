@@ -6,7 +6,8 @@
 
   import 'package:polymer_element/polymer_element.dart';
   import 'package:polymer_elements/iron_meta.dart' as imp0;
-import 'package:polymer_elements/neon_animation_behavior.dart' as imp1;
+import 'package:polymer_element/polymer_element.dart' as imp1;
+import 'package:polymer_elements/neon_animation_behavior.dart' as imp2;
 
   /**
  * 
@@ -16,7 +17,7 @@ import 'package:polymer_elements/neon_animation_behavior.dart' as imp1;
 
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-shared-element-animation-behavior.html",name:'neon-animation')
 @JS('NeonSharedElementAnimationBehavior')
-abstract class NeonSharedElementAnimationBehavior implements imp1.NeonAnimationBehavior {
+abstract class NeonSharedElementAnimationBehavior implements imp2.NeonAnimationBehavior {
   /**
    * Cached copy of shared elements.
    */

@@ -5,7 +5,8 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/app_route_converter_behavior.dart' as imp0;
+import 'package:polymer_element/polymer_element.dart' as imp0;
+import 'package:polymer_elements/app_route_converter_behavior.dart' as imp1;
 
 /**
  * `app-route-converter` provides a means to convert a path and query
@@ -57,6 +58,6 @@ import 'package:polymer_elements/app_route_converter_behavior.dart' as imp0;
 @JS('AppRouteConverter')
 @PolymerRegister('app-route-converter',native:true)
 @BowerImport(ref:'PolymerElements/app-route#2.0-preview',import:"app-route/app-route-converter.html",name:'app-route')
-abstract class AppRouteConverter extends PolymerElement implements imp0.AppRouteConverterBehavior {
+abstract class AppRouteConverter extends PolymerElement implements imp1.AppRouteConverterBehavior {
 
 }

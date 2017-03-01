@@ -6,7 +6,8 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_meta.dart' as imp0;
-import 'package:polymer_elements/neon_animation_behavior.dart' as imp1;
+import 'package:polymer_element/polymer_element.dart' as imp1;
+import 'package:polymer_elements/neon_animation_behavior.dart' as imp2;
 
 /**
  * `<slide-from-top-animation>` animates the transform of an element from `translateY(-100%)` to
@@ -25,6 +26,6 @@ import 'package:polymer_elements/neon_animation_behavior.dart' as imp1;
 @JS('SlideFromTopAnimation')
 @PolymerRegister('slide-from-top-animation',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/slide-from-top-animation.html",name:'neon-animation')
-abstract class SlideFromTopAnimation extends PolymerElement implements imp1.NeonAnimationBehavior {
+abstract class SlideFromTopAnimation extends PolymerElement implements imp2.NeonAnimationBehavior {
 
 }

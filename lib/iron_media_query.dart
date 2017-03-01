@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+import 'package:polymer_element/polymer_element.dart' as imp0;
 
 /**
  * `iron-media-query` can be used to data bind to a CSS media query.

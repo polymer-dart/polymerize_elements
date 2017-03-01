@@ -7,8 +7,9 @@ import 'package:js/js_util.dart';
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
 import 'package:polymer_elements/iron_meta.dart' as imp1;
-import 'package:polymer_elements/iron_control_state.dart' as imp2;
-import 'package:polymer_elements/iron_validatable_behavior.dart' as imp3;
+import 'package:polymer_element/polymer_element.dart' as imp2;
+import 'package:polymer_elements/iron_control_state.dart' as imp3;
+import 'package:polymer_elements/iron_validatable_behavior.dart' as imp4;
 
 /**
  * `iron-autogrow-textarea` is an element containing a textarea that grows in height as more
@@ -30,7 +31,7 @@ import 'package:polymer_elements/iron_validatable_behavior.dart' as imp3;
 @JS('IronAutogrowTextarea')
 @PolymerRegister('iron-autogrow-textarea',native:true)
 @BowerImport(ref:'PolymerElements/iron-autogrow-textarea#2.0-preview',import:"iron-autogrow-textarea/iron-autogrow-textarea.html",name:'iron-autogrow-textarea')
-abstract class IronAutogrowTextarea extends PolymerElement implements imp3.IronValidatableBehavior,imp2.IronControlState {
+abstract class IronAutogrowTextarea extends PolymerElement implements imp4.IronValidatableBehavior,imp3.IronControlState {
   /**
    * Use this property instead of `value` for two-way data binding.
    * @type {string|number}
@@ -99,6 +100,12 @@ abstract class IronAutogrowTextarea extends PolymerElement implements imp3.IronV
    */
   external bool get required;
   external set required(bool value);
+
+  /**
+   * The minimum length of the input value.
+   */
+  external num get minlength;
+  external set minlength(num value);
 
   /**
    * The maximum length of the input value.
