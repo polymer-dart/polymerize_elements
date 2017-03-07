@@ -5,14 +5,9 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/iron_meta.dart' as imp0;
-import 'package:polymer_elements/iron_flex_layout.dart' as imp1;
-import 'package:polymer_elements/iron_icon.dart' as imp2;
-import 'package:polymer_elements/iron_iconset_svg.dart' as imp3;
-import 'package:polymer_element/polymer_element.dart' as imp4;
+
 
 /**
- * 
  * `iron-icons` is a utility import that includes the definition for the `iron-icon` element, `iron-iconset-svg` element, as well as an import for the default icon set.
  * The `iron-icons` directory also includes imports for additional icon sets that can be loaded into your project.
  * Example loading icon set:
@@ -26,12 +21,12 @@ import 'package:polymer_element/polymer_element.dart' as imp4;
  *     use directly in your elements.
  * See [iron-icon](#iron-icon) for more information about working with icons.
  * See [iron-iconset](#iron-iconset) and [iron-iconset-svg](#iron-iconset-svg) for more information about how to create a custom iconset.
- * 
  */
 
 @JS('IronIcons')
 @PolymerRegister('iron-icons',native:true)
 @BowerImport(ref:'PolymerElements/iron-icons#2.0-preview',import:"iron-icons/iron-icons.html",name:'iron-icons')
 abstract class IronIcons extends PolymerElement  {
+
 
 }

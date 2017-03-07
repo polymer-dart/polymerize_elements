@@ -5,15 +5,13 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_element/polymer_element.dart' as imp0;
+  
 
   /**
- * 
  * `Polymer.IronScrollTargetBehavior` allows an element to respond to scroll events from a
  * designated scroll target.
  * Elements that consume this behavior can override the `_scrollHandler`
  * method to add logic on the scroll event.
- * 
  */
 
 @BowerImport(ref:'PolymerElements/iron-scroll-target-behavior#2.0-preview',import:"iron-scroll-target-behavior/iron-scroll-target-behavior.html",name:'iron-scroll-target-behavior')
@@ -47,6 +45,20 @@ abstract class IronScrollTargetBehavior  {
    */
   external HTMLElement get scrollTarget;
   external set scrollTarget(HTMLElement value);
+
+  /**
+   * Scrolls the content to a particular place.
+   * @method scroll
+   * @param {number} left The left position
+   * @param {number} top The top position
+   */
+  external void scroll();
+
+  /**
+   * Enables or disables the scroll event listener.
+   * @param {boolean} yes True to add the event, False to remove it.
+   */
+  external void toggleScrollListener();
 
 }
 

@@ -7,9 +7,7 @@ import 'package:js/js_util.dart';
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_element/polymer_element.dart' as imp0;
 import 'package:polymer_elements/iron_resizable_behavior.dart' as imp1;
-import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp2;
-import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp3;
-import 'package:polymer_element/polymer_element.dart' as imp4;
+import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp2;
 
 /**
  * `iron-list` displays a virtual, 'infinite' list. The template inside
@@ -90,14 +88,12 @@ import 'package:polymer_element/polymer_element.dart' as imp4;
  *   </style>
  * </head>
  * <body>
- *   <template is="dom-bind">
- *     <app-toolbar>App name</app-toolbar>
- *     <iron-list target="document" items="[[items]]">
- *       <template>
- *         ...
- *       </template>
- *     </iron-list>
- *   </template>
+ *   <app-toolbar>App name</app-toolbar>
+ *   <iron-list scroll-target="document">
+ *     <template>
+ *       ...
+ *     </template>
+ *   </iron-list>
  * </body>
  * ```
  * ### Template model
@@ -122,19 +118,17 @@ import 'package:polymer_element/polymer_element.dart' as imp4;
  *   {"name": "Mike"}
  * ]
  * ```
- * The following code would render the list (note the name and checked properties are
- * bound from the model object provided to the template scope):
+ * The following code would render the list (note the name property is bound from the model
+ * object provided to the template scope):
  * ```html
- * <template is="dom-bind">
- *   <iron-ajax url="data.json" last-response="{{data}}" auto></iron-ajax>
- *   <iron-list items="[[data]]" as="item">
- *     <template>
- *       <div>
- *         Name: [[item.name]]
- *       </div>
- *     </template>
- *   </iron-list>
- * </template>
+ * <iron-ajax url="data.json" last-response="{{data}}" auto></iron-ajax>
+ * <iron-list items="[[data]]" as="item">
+ *   <template>
+ *     <div>
+ *       Name: [[item.name]]
+ *     </div>
+ *   </template>
+ * </iron-list>
  * ```
  * ### Grid layout
  * `iron-list` supports a grid layout in addition to linear layout by setting
@@ -190,8 +184,8 @@ import 'package:polymer_element/polymer_element.dart' as imp4;
 
 @JS('IronList')
 @PolymerRegister('iron-list',native:true)
-@BowerImport(ref:'PolymerElements/iron-list#14150593d8b469b51552f78c15d55655d609eb2e',import:"iron-list/iron-list.html",name:'iron-list')
-abstract class IronList extends PolymerElement implements imp4.Templatizer,imp1.IronResizableBehavior,imp3.IronScrollTargetBehavior {
+@BowerImport(ref:'PolymerElements/iron-list#2.0-preview',import:"iron-list/iron-list.html",name:'iron-list')
+abstract class IronList extends PolymerElement implements imp0.Templatizer,imp1.IronResizableBehavior,imp2.IronScrollTargetBehavior {
   /**
    * An array containing items determining how many instances of the template
    * to stamp and that that each template instance should bind to.
@@ -269,5 +263,28 @@ abstract class IronList extends PolymerElement implements imp4.Templatizer,imp1.
    */
   external bool get multiSelection;
   external set multiSelection(bool value);
+
+  /**
+   * The offset top from the scrolling element to the iron-list element.
+   * This value can be computed using the position returned by `getBoundingClientRect()`
+   * although it's preferred to use a constant value when possible.
+   * This property is useful when an external scrolling element is used and there's
+   * some offset between the scrolling element and the list.
+   * For example: a header is placed above the list.
+   */
+  external num get scrollOffset;
+  external set scrollOffset(num value);
+
+  /**
+   * Gets the index of the first visible item in the viewport.
+   * @type {number}
+   */
+  external void firstVisibleIndex();
+
+  /**
+   * Gets the index of the last visible item in the viewport.
+   * @type {number}
+   */
+  external void lastVisibleIndex();
 
 }

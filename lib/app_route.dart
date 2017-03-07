@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_element/polymer_element.dart' as imp0;
+
 
 /**
  * `app-route` is an element that enables declarative, self-describing routing
@@ -109,5 +109,6 @@ abstract class AppRoute extends PolymerElement  {
    */
   external bool get active;
   external set active(bool value);
+
 
 }

@@ -5,10 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/iron_location.dart' as imp0;
-import 'package:polymer_elements/iron_query_params.dart' as imp1;
-import 'package:polymer_element/polymer_element.dart' as imp2;
-import 'package:polymer_elements/app_route_converter_behavior.dart' as imp3;
+import 'package:polymer_elements/app_route_converter_behavior.dart' as imp0;
 
 /**
  * `app-location` is an element that provides synchronization between the
@@ -53,7 +50,7 @@ import 'package:polymer_elements/app_route_converter_behavior.dart' as imp3;
 @JS('AppLocation')
 @PolymerRegister('app-location',native:true)
 @BowerImport(ref:'PolymerElements/app-route#2.0-preview',import:"app-route/app-location.html",name:'app-route')
-abstract class AppLocation extends PolymerElement implements imp3.AppRouteConverterBehavior {
+abstract class AppLocation extends PolymerElement implements imp0.AppRouteConverterBehavior {
   /**
    * A model representing the deserialized path through the route tree, as
    * well as the current queryParams.
@@ -92,5 +89,6 @@ abstract class AppLocation extends PolymerElement implements imp3.AppRouteConver
    */
   external String get path;
   external set path(String value);
+
 
 }

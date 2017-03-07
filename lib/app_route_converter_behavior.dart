@@ -8,11 +8,9 @@
   
 
   /**
- * 
  * Provides bidirectional mapping between `path` and `queryParams` and a
  * app-route compatible `route` object.
  * For more information, see the docs for `app-route-converter`.
- * 
  */
 
 @BowerImport(ref:'PolymerElements/app-route#2.0-preview',import:"app-route/app-route-converter-behavior.html",name:'app-route')
@@ -43,6 +41,11 @@ abstract class AppRouteConverterBehavior  {
    */
   external String get path;
   external set path(String value);
+
+  /**
+   * 
+   */
+  external void created();
 
 }
 

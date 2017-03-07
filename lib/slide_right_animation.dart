@@ -5,9 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/iron_meta.dart' as imp0;
-import 'package:polymer_element/polymer_element.dart' as imp1;
-import 'package:polymer_elements/neon_animation_behavior.dart' as imp2;
+import 'package:polymer_elements/neon_animation_behavior.dart' as imp0;
 
 /**
  * `<slide-right-animation>` animates the transform of an element from `none` to `translateX(100%)`.
@@ -26,6 +24,7 @@ import 'package:polymer_elements/neon_animation_behavior.dart' as imp2;
 @JS('SlideRightAnimation')
 @PolymerRegister('slide-right-animation',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/slide-right-animation.html",name:'neon-animation')
-abstract class SlideRightAnimation extends PolymerElement implements imp2.NeonAnimationBehavior {
+abstract class SlideRightAnimation extends PolymerElement implements imp0.NeonAnimationBehavior {
+
 
 }

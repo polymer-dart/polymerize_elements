@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_element/polymer_element.dart' as imp0;
+
 
 /**
  * 
@@ -26,5 +26,6 @@ abstract class IronQueryParams extends PolymerElement  {
    */
   external  get paramsObject;
   external set paramsObject( value);
+
 
 }

@@ -1,6 +1,6 @@
 import 'package:polymer_element/polymer_element.dart' show BowerImport;
 
-import 'package:polymer_element/polymer_element.dart' as imp13;
+
 
 /**
  **/

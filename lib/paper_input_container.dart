@@ -5,8 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
-import 'package:polymer_element/polymer_element.dart' as imp1;
+
 
 /**
  * `<paper-input-container>` is a container for a `<label>`, an `<iron-input>` or
@@ -125,5 +124,6 @@ abstract class PaperInputContainer extends PolymerElement  {
    */
   external bool get focused;
   external set focused(bool value);
+
 
 }

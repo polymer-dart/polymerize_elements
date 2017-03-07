@@ -5,18 +5,15 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_element/polymer_element.dart' as imp0;
-import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp1;
-import 'package:polymer_elements/iron_control_state.dart' as imp2;
+  import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp0;
 
   /**
- * 
  * 
  */
 
 @BowerImport(ref:'PolymerElements/iron-behaviors#2.0-preview',import:"iron-behaviors/iron-button-state.html",name:'iron-behaviors')
 @JS('IronButtonState')
-abstract class IronButtonState implements imp1.IronA11yKeysBehavior {
+abstract class IronButtonState implements imp0.IronA11yKeysBehavior {
   /**
    * If true, the user is currently holding down the button.
    */
@@ -57,6 +54,7 @@ abstract class IronButtonState implements imp1.IronA11yKeysBehavior {
    */
   external String get ariaActiveAttribute;
   external set ariaActiveAttribute(String value);
+
 
 }
 

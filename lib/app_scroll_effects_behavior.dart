@@ -5,11 +5,9 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_element/polymer_element.dart' as imp0;
-import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp1;
+  import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp0;
 
   /**
- * 
  * `Polymer.AppScrollEffectsBehavior` provides an interface that allows an element to use scrolls effects.
  * ### Importing the app-layout effects
  * app-layout provides a set of scroll effects that can be used by explicitly importing
@@ -71,12 +69,11 @@ import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp1;
  * ```
  * All effects have a `startsAt` and `endsAt` config property. They specify at what
  * point the effect should start and end. This value goes from 0 to 1 inclusive.
- * 
  */
 
 @BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-scroll-effects/app-scroll-effects-behavior.html",name:'app-layout')
 @JS('AppScrollEffectsBehavior')
-abstract class AppScrollEffectsBehavior implements imp1.IronScrollTargetBehavior {
+abstract class AppScrollEffectsBehavior implements imp0.IronScrollTargetBehavior {
   /**
    * A space-separated list of the effects names that will be triggered when the user scrolls.
    * e.g. `waterfall parallax-background` installs the `waterfall` and `parallax-background`.
@@ -124,6 +121,48 @@ abstract class AppScrollEffectsBehavior implements imp1.IronScrollTargetBehavior
    */
   external bool get thresholdTriggered;
   external set thresholdTriggered(bool value);
+
+  /**
+   * Returns true if the current element is on the screen.
+   * That is, visible in the current viewport. This method should be
+   * overridden by the consumer of this behavior.
+   * @method isOnScreen
+   * @return {boolean}
+   */
+  external void isOnScreen();
+
+  /**
+   * Returns true if there's content below the current element. This method
+   * should be overridden by the consumer of this behavior.
+   * @method isContentBelow
+   * @return {boolean}
+   */
+  external void isContentBelow();
+
+  /**
+   * 
+   */
+  external void detached();
+
+  /**
+   * Creates an effect object from an effect's name that can be used to run
+   * effects programmatically.
+   * @method createEffect
+   * @param {string} effectName The effect's name registered via `Polymer.AppLayout.registerEffect`.
+   * @param {Object=} effectConfig The effect config object. (Optional)
+   * @return {Object} An effect object with the following functions:
+   *  * `effect.setUp()`, Sets up the requirements for the effect.
+   *       This function is called automatically before the `effect` function returns.
+   *  * `effect.run(progress, y)`, Runs the effect given a `progress`.
+   *  * `effect.tearDown()`, Cleans up any DOM nodes or element references used by the effect.
+   * Example:
+   * ```js
+   * var parallax = element.createEffect('parallax-background');
+   * // runs the effect
+   * parallax.run(0.5, 0);
+   * ```
+   */
+  external void createEffect();
 
 }
 

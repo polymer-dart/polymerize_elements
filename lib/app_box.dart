@@ -5,11 +5,8 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
-import 'package:polymer_element/polymer_element.dart' as imp1;
-import 'package:polymer_elements/iron_resizable_behavior.dart' as imp2;
-import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp3;
-import 'package:polymer_elements/app_scroll_effects_behavior.dart' as imp4;
+import 'package:polymer_elements/app_scroll_effects_behavior.dart' as imp0;
+import 'package:polymer_elements/iron_resizable_behavior.dart' as imp1;
 
 /**
  * app-box is a container element that can have scroll effects - visual effects based on
@@ -74,6 +71,7 @@ import 'package:polymer_elements/app_scroll_effects_behavior.dart' as imp4;
 @JS('AppBox')
 @PolymerRegister('app-box',native:true)
 @BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-box/app-box.html",name:'app-layout')
-abstract class AppBox extends PolymerElement implements imp4.AppScrollEffectsBehavior,imp2.IronResizableBehavior {
+abstract class AppBox extends PolymerElement implements imp0.AppScrollEffectsBehavior,imp1.IronResizableBehavior {
+
 
 }

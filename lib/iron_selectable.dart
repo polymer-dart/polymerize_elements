@@ -5,10 +5,25 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_element/polymer_element.dart' as imp0;
+  
 
   /**
- * 
+ * ### Notable breaking changes between 1.x and 2.x (hybrid):
+ * - IronSelectableBehavior no longer updates its list of items synchronously
+ *   when it is connected to avoid triggering a situation introduced in the
+ *   Custom Elements v1 spec that might cause custom element reactions to be
+ *   called later than expected.
+ *   If you are using an element with IronSelectableBehavior and ...
+ *   1. are reading or writing properties of the element that depend on its
+ *      items (`items`, `selectedItems`, etc.)
+ *   1. are performing these accesses after the element is created or connected
+ *     (attached) either **synchronously** or **after a timeout**
+ *   ... you should wait for the element to dispatch an `iron-items-changed`
+ *   event instead.
+ * - `Polymer.dom.flush()` no longer triggers the observer used by
+ *   IronSelectableBehavior to watch for changes to its items. You can call
+ *   `forceSynchronousItemUpdate` instead or, preferably, listen for the
+ *   `iron-items-changed` event.
  */
 
 @BowerImport(ref:'PolymerElements/iron-selector#2.0-preview',import:"iron-selector/iron-selectable.html",name:'iron-selector')
@@ -73,6 +88,66 @@ abstract class IronSelectableBehavior  {
    */
   external List get items;
   external set items(List value);
+
+  /**
+   * 
+   */
+  external void created();
+
+  /**
+   * 
+   */
+  external void attached();
+
+  /**
+   * 
+   */
+  external void detached();
+
+  /**
+   * Returns the index of the given item.
+   * @method indexOf
+   * @param {Object} item
+   * @returns Returns the index of the item
+   */
+  external void indexOf();
+
+  /**
+   * Selects the given value.
+   * @method select
+   * @param {string|number} value the value to select.
+   */
+  external void select();
+
+  /**
+   * Selects the previous item.
+   * @method selectPrevious
+   */
+  external void selectPrevious();
+
+  /**
+   * Selects the next item.
+   * @method selectNext
+   */
+  external void selectNext();
+
+  /**
+   * Selects the item at the given index.
+   * @method selectIndex
+   */
+  external void selectIndex();
+
+  /**
+   * Force a synchronous update of the `items` property.
+   * NOTE: Consider listening for the `iron-items-changed` event to respond to
+   * updates to the set of selectable items after updates to the DOM list and
+   * selection state have been made.
+   * WARNING: If you are using this method, you should probably consider an
+   * alternate approach. Synchronously querying for items is potentially
+   * slow for many use cases. The `items` property will update asynchronously
+   * on its own to reflect selectable items in the DOM.
+   */
+  external void forceSynchronousItemUpdate();
 
 }
 

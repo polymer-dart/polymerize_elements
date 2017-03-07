@@ -5,10 +5,9 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_element/polymer_element.dart' as imp0;
+  
 
   /**
- * 
  * 
  */
 
@@ -26,6 +25,11 @@ abstract class IronControlState  {
    */
   external bool get disabled;
   external set disabled(bool value);
+
+  /**
+   * 
+   */
+  external void ready();
 
 }
 

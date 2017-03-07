@@ -1,4 +1,9 @@
 namespace: Polymer
+package-name:  polymer_elements 
+externals:
+ "Polymer.IronFormElementBehavior": "package:polymer_elements/iron_form_element_behavior.dart"
+ "Polymer.Templatizer": "package:polymer_element/polymer_element.dart"
+ "Templatizer": "package:polymer_element/polymer_element.dart" 
 components:
  - name: iron-image
    ref: "PolymerElements/iron-image#2.0-preview"
@@ -13,9 +18,10 @@ components:
  - name: iron-media-query
    ref: "PolymerElements/iron-media-query#2.0-preview"
    overrides:
-    query:
-      - "get mediaQuery => getProperty(this as dynamic,'query');"
-      - "set mediaQuery(v) => setProperty(this as dynamic,'query',v);"
+    IronMediaQuery:
+     query:
+      - "  get mediaQuery => getProperty(this as dynamic,'query');"
+      - "  set mediaQuery(v) => setProperty(this as dynamic,'query',v);"
 
  - name: iron-location
    ref: "PolymerElements/iron-location#2.0-preview"
@@ -25,9 +31,10 @@ components:
     - index.html
     - all-imports.html
    overrides:
-    query:
-      - "get queryPart => getProperty(this as dynamic,'query');"
-      - "set queryPart(v) => setProperty(this as dynamic,'query',v);"
+    IronLocation:
+     query:
+      - "  get queryPart => getProperty(this as dynamic,'query');"
+      - "  set queryPart(v) => setProperty(this as dynamic,'query',v);"
  - name: app-route
    ref: "PolymerElements/app-route#2.0-preview"
    includes:
@@ -47,8 +54,8 @@ components:
     - "**/app-grid-*.html"
 
  - name: iron-list
-#   ref : "PolymerElements/iron-list#2.0-preview"
-   ref : "PolymerElements/iron-list#14150593d8b469b51552f78c15d55655d609eb2e"
+   ref : "PolymerElements/iron-list#2.0-preview"
+#   ref : "PolymerElements/iron-list#14150593d8b469b51552f78c15d55655d609eb2e"
 
  - name: paper-spinner
    ref : "PolymerElements/paper-spinner#2.0-preview"
@@ -178,3 +185,6 @@ components:
 
  - name :    "iron-validatable-behavior"
    ref : "PolymerElements/iron-validatable-behavior#2.0-preview"
+
+resolutions:
+  "polymer": "2.0.0-rc.1"

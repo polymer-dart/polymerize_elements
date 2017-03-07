@@ -5,11 +5,7 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_elements/iron_overlay_backdrop.dart' as imp0;
-import 'package:polymer_element/polymer_element.dart' as imp1;
-import 'package:polymer_elements/iron_fit_behavior.dart' as imp2;
-import 'package:polymer_elements/iron_resizable_behavior.dart' as imp3;
-import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp4;
+  
 
   /**
  * 
@@ -76,10 +72,57 @@ abstract class IronOverlayBehaviorImpl  {
   external bool get alwaysOnTop;
   external set alwaysOnTop(bool value);
 
+  /**
+   * The backdrop element.
+   * @type {Element}
+   */
+  external void backdropElement();
+
+  /**
+   * 
+   */
+  external void ready();
+
+  /**
+   * 
+   */
+  external void attached();
+
+  /**
+   * 
+   */
+  external void detached();
+
+  /**
+   * Toggle the opened state of the overlay.
+   */
+  external void toggle();
+
+  /**
+   * Open the overlay.
+   */
+  external void open();
+
+  /**
+   * Close the overlay.
+   */
+  external void close();
+
+  /**
+   * Cancels the overlay.
+   * @param {Event=} event The original event
+   */
+  external void cancel();
+
+  /**
+   * Invalidates the cached tabbable nodes. To be called when any of the focusable
+   * content changes (e.g. a button is disabled).
+   */
+  external void invalidateTabbables();
+
 }
 
 /**
- * 
  *   Use `Polymer.IronOverlayBehavior` to implement an element that can be hidden or shown, and displays
  *   on top of other content. It includes an optional backdrop, and can be used to implement a variety
  *   of UI controls including dialogs and drop downs. Multiple overlays may be displayed at once.
@@ -112,7 +155,8 @@ abstract class IronOverlayBehaviorImpl  {
 
 @BowerImport(ref:'PolymerElements/iron-overlay-behavior#2.0-preview',import:"iron-overlay-behavior/iron-overlay-behavior.html",name:'iron-overlay-behavior')
 @JS('IronOverlayBehavior')
-abstract class IronOverlayBehavior implements imp2.IronFitBehavior,imp3.IronResizableBehavior,IronOverlayBehaviorImpl {
+abstract class IronOverlayBehavior implements IronFitBehavior,IronResizableBehavior,IronOverlayBehaviorImpl {
+
 
 }
 

@@ -5,10 +5,9 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_element/polymer_element.dart' as imp0;
+  
 
   /**
- * 
  * `Polymer.IronA11yKeysBehavior` provides a normalized interface for processing
  * keyboard commands that pertain to [WAI-ARIA best practices](http://www.w3.org/TR/wai-aria-practices/#kbd_general_binding).
  * The element takes care of browser differences with respect to Keyboard events
@@ -34,7 +33,6 @@
  * node.
  * See the [demo source code](https://github.com/PolymerElements/iron-a11y-keys-behavior/blob/master/demo/x-key-aware.html)
  * for an example.
- * 
  */
 
 @BowerImport(ref:'PolymerElements/iron-a11y-keys-behavior#2.0-preview',import:"iron-a11y-keys-behavior/iron-a11y-keys-behavior.html",name:'iron-a11y-keys-behavior')
@@ -54,6 +52,41 @@ abstract class IronA11yKeysBehavior  {
    */
   external bool get stopKeyboardEventPropagation;
   external set stopKeyboardEventPropagation(bool value);
+
+  /**
+   * 
+   */
+  external void registered();
+
+  /**
+   * 
+   */
+  external void attached();
+
+  /**
+   * 
+   */
+  external void detached();
+
+  /**
+   * Can be used to imperatively add a key binding to the implementing
+   * element. This is the imperative equivalent of declaring a keybinding
+   * in the `keyBindings` prototype property.
+   */
+  external void addOwnKeyBinding();
+
+  /**
+   * When called, will remove all imperatively-added key bindings.
+   */
+  external void removeOwnKeyBindings();
+
+  /**
+   * Returns true if a keyboard event matches `eventString`.
+   * @param {KeyboardEvent} event
+   * @param {string} eventString
+   * @return {boolean}
+   */
+  external void keyboardEventMatchesKeys();
 
 }
 

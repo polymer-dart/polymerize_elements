@@ -5,12 +5,10 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_element/polymer_element.dart' as imp0;
+  
 
   /**
- * 
  * `iron-range-behavior` provides the behavior for something with a minimum to maximum range.
- * 
  */
 
 @BowerImport(ref:'PolymerElements/iron-range-behavior#2.0-preview',import:"iron-range-behavior/iron-range-behavior.html",name:'iron-range-behavior')
@@ -45,6 +43,7 @@ abstract class IronRangeBehavior  {
    */
   external num get ratio;
   external set ratio(num value);
+
 
 }
 

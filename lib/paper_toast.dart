@@ -5,14 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/iron_a11y_announcer.dart' as imp0;
-import 'package:polymer_elements/iron_overlay_backdrop.dart' as imp1;
-import 'package:polymer_element/polymer_element.dart' as imp2;
-import 'package:polymer_elements/iron_fit_behavior.dart' as imp3;
-import 'package:polymer_elements/iron_resizable_behavior.dart' as imp4;
-import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp5;
-import 'package:polymer_elements/iron_overlay_behavior.dart' as imp6;
-import 'package:polymer_elements/iron_overlay_behavior.dart' as imp7;
+import 'package:polymer_elements/iron_overlay_behavior.dart' as imp0;
 
 /**
  * Material design: [Snackbars & toasts](https://www.google.com/design/spec/components/snackbars-toasts.html)
@@ -51,7 +44,7 @@ import 'package:polymer_elements/iron_overlay_behavior.dart' as imp7;
 @JS('PaperToast')
 @PolymerRegister('paper-toast',native:true)
 @BowerImport(ref:'PolymerElements/paper-toast#2.0-preview',import:"paper-toast/paper-toast.html",name:'paper-toast')
-abstract class PaperToast extends PolymerElement implements imp7.IronOverlayBehavior {
+abstract class PaperToast extends PolymerElement implements imp0.IronOverlayBehavior {
   /**
    * The element to fit `this` into.
    * Overridden from `Polymer.IronFitBehavior`.
@@ -103,5 +96,12 @@ abstract class PaperToast extends PolymerElement implements imp7.IronOverlayBeha
    */
   external bool get noAutoFocus;
   external set noAutoFocus(bool value);
+
+  /**
+   * Read-only. Deprecated. Use `opened` from `IronOverlayBehavior`.
+   * @property visible
+   * @deprecated
+   */
+  external void visible();
 
 }

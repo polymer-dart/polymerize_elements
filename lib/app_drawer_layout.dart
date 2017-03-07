@@ -5,10 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/iron_media_query.dart' as imp0;
-import 'package:polymer_element/polymer_element.dart' as imp1;
-import 'package:polymer_elements/iron_resizable_behavior.dart' as imp2;
-import 'package:polymer_elements/app_layout_behavior.dart' as imp3;
+import 'package:polymer_elements/app_layout_behavior.dart' as imp0;
 
 /**
  * app-drawer-layout is a wrapper element that positions an app-drawer and other content. When
@@ -70,6 +67,14 @@ import 'package:polymer_elements/app_layout_behavior.dart' as imp3;
  *   </app-header-layout>
  * </app-drawer-layout>
  * ```
+ * **NOTE:** With app-layout 2.0, the `drawer-toggle` element will not be automatically hidden
+ * when app-drawer-layout is not in narrow layout. To add this, add the following CSS rule where
+ * app-drawer-layout is used:
+ * ```css
+ * app-drawer-layout:not([narrow]) [drawer-toggle] {
+ *   display: none;
+ * }
+ * ```
  * Add the `fullbleed` attribute to app-drawer-layout to make it fit the size of its container:
  * ```html
  * <app-drawer-layout fullbleed>
@@ -94,7 +99,7 @@ import 'package:polymer_elements/app_layout_behavior.dart' as imp3;
 @JS('AppDrawerLayout')
 @PolymerRegister('app-drawer-layout',native:true)
 @BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-drawer-layout/app-drawer-layout.html",name:'app-layout')
-abstract class AppDrawerLayout extends PolymerElement implements imp3.AppLayoutBehavior {
+abstract class AppDrawerLayout extends PolymerElement implements imp0.AppLayoutBehavior {
   /**
    * If true, ignore `responsiveWidth` setting and force the narrow layout.
    */
@@ -120,5 +125,11 @@ abstract class AppDrawerLayout extends PolymerElement implements imp3.AppLayoutB
    */
   external bool get openedWhenNarrow;
   external set openedWhenNarrow(bool value);
+
+  /**
+   * A reference to the app-drawer element.
+   * @property drawer
+   */
+  external void drawer();
 
 }

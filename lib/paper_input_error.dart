@@ -5,8 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_element/polymer_element.dart' as imp0;
-import 'package:polymer_elements/paper_input_addon_behavior.dart' as imp1;
+import 'package:polymer_elements/paper_input_addon_behavior.dart' as imp0;
 
 /**
  * `<paper-input-error>` is an error message for use with `<paper-input-container>`. The error is
@@ -26,11 +25,12 @@ import 'package:polymer_elements/paper_input_addon_behavior.dart' as imp1;
 @JS('PaperInputError')
 @PolymerRegister('paper-input-error',native:true)
 @BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input-error.html",name:'paper-input')
-abstract class PaperInputError extends PolymerElement implements imp1.PaperInputAddonBehavior {
+abstract class PaperInputError extends PolymerElement implements imp0.PaperInputAddonBehavior {
   /**
    * True if the error is showing.
    */
   external bool get invalid;
   external set invalid(bool value);
+
 
 }

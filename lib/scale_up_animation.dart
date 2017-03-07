@@ -5,9 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/iron_meta.dart' as imp0;
-import 'package:polymer_element/polymer_element.dart' as imp1;
-import 'package:polymer_elements/neon_animation_behavior.dart' as imp2;
+import 'package:polymer_elements/neon_animation_behavior.dart' as imp0;
 
 /**
  * `<scale-up-animation>` animates the scale transform of an element from 0 to 1. By default it
@@ -27,6 +25,7 @@ import 'package:polymer_elements/neon_animation_behavior.dart' as imp2;
 @JS('ScaleUpAnimation')
 @PolymerRegister('scale-up-animation',native:true)
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/scale-up-animation.html",name:'neon-animation')
-abstract class ScaleUpAnimation extends PolymerElement implements imp2.NeonAnimationBehavior {
+abstract class ScaleUpAnimation extends PolymerElement implements imp0.NeonAnimationBehavior {
+
 
 }

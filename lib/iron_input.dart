@@ -5,10 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/iron_a11y_announcer.dart' as imp0;
-import 'package:polymer_elements/iron_meta.dart' as imp1;
-import 'package:polymer_element/polymer_element.dart' as imp2;
-import 'package:polymer_elements/iron_validatable_behavior.dart' as imp3;
+import 'package:polymer_elements/iron_validatable_behavior.dart' as imp0;
 
 /**
  * `<iron-input>` is a wrapper to a native `<input>` element, that adds two-way binding
@@ -71,7 +68,7 @@ import 'package:polymer_elements/iron_validatable_behavior.dart' as imp3;
 @JS('IronInput')
 @PolymerRegister('iron-input',native:true)
 @BowerImport(ref:'PolymerElements/iron-input#2.0-preview',import:"iron-input/iron-input.html",name:'iron-input')
-abstract class IronInput extends PolymerElement implements imp3.IronValidatableBehavior {
+abstract class IronInput extends PolymerElement implements imp0.IronValidatableBehavior {
   /**
    * Use this property instead of `value` for two-way data binding, or to
    * set a default value for the input. **Do not** use the distributed
@@ -107,5 +104,10 @@ abstract class IronInput extends PolymerElement implements imp3.IronValidatableB
    */
   external bool get autoValidate;
   external set autoValidate(bool value);
+
+  /**
+   * Returns the distributed <input> element.
+   */
+  external void inputElement();
 
 }

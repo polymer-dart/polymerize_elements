@@ -5,8 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_element/polymer_element.dart' as imp0;
-import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp1;
+import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp0;
 
 /**
  * Material design: [Surface reaction](https://www.google.com/design/spec/animation/responsive-interaction.html#responsive-interaction-surface-reaction)
@@ -56,7 +55,7 @@ import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp1;
 @JS('PaperRipple')
 @PolymerRegister('paper-ripple',native:true)
 @BowerImport(ref:'PolymerElements/paper-ripple#2.0-preview',import:"paper-ripple/paper-ripple.html",name:'paper-ripple')
-abstract class PaperRipple extends PolymerElement implements imp1.IronA11yKeysBehavior {
+abstract class PaperRipple extends PolymerElement implements imp0.IronA11yKeysBehavior {
   /**
    * The initial opacity set on the wave.
    * @attribute initialOpacity
@@ -125,5 +124,15 @@ abstract class PaperRipple extends PolymerElement implements imp1.IronA11yKeysBe
    */
   external bool get noink;
   external set noink(bool value);
+
+  /**
+   * 
+   */
+  external void target();
+
+  /**
+   * 
+   */
+  external void shouldKeepAnimating();
 
 }

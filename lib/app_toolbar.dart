@@ -5,8 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
-import 'package:polymer_element/polymer_element.dart' as imp1;
+
 
 /**
  * app-toolbar is a horizontal toolbar containing items that can be used for
@@ -49,5 +48,6 @@ import 'package:polymer_element/polymer_element.dart' as imp1;
 @PolymerRegister('app-toolbar',native:true)
 @BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-toolbar/app-toolbar.html",name:'app-layout')
 abstract class AppToolbar extends PolymerElement  {
+
 
 }

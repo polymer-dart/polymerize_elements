@@ -5,8 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_element/polymer_element.dart' as imp0;
-import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp1;
+import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp0;
 
 /**
  * app-scroll-position is a manager for saving and restoring the scroll position when multiple
@@ -44,7 +43,7 @@ import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp1;
 @JS('AppScrollPosition')
 @PolymerRegister('app-scroll-position',native:true)
 @BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-scroll-position/app-scroll-position.html",name:'app-layout')
-abstract class AppScrollPosition extends PolymerElement implements imp1.IronScrollTargetBehavior {
+abstract class AppScrollPosition extends PolymerElement implements imp0.IronScrollTargetBehavior {
   /**
    * The selected page.
    */
@@ -56,5 +55,6 @@ abstract class AppScrollPosition extends PolymerElement implements imp1.IronScro
    */
   external bool get reset;
   external set reset(bool value);
+
 
 }

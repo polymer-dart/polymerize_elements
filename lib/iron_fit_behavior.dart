@@ -5,10 +5,9 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_element/polymer_element.dart' as imp0;
+  
 
   /**
- * 
  * `Polymer.IronFitBehavior` fits an element in another element using `max-height` and `max-width`, and
  * optionally centers it in the window or another element.
  * The element will only be sized and/or positioned if it has not already been sized and/or positioned
@@ -41,7 +40,6 @@
  *           With vertical offset
  *         </iron-fit-impl>
  *       </div>
- * 
  */
 
 @BowerImport(ref:'PolymerElements/iron-fit-behavior#2.0-preview',import:"iron-fit-behavior/iron-fit-behavior.html",name:'iron-fit-behavior')
@@ -132,6 +130,47 @@ abstract class IronFitBehavior  {
    */
   external bool get autoFitOnAttach;
   external set autoFitOnAttach(bool value);
+
+  /**
+   * 
+   */
+  external void attached();
+
+  /**
+   * Positions and fits the element into the `fitInto` element.
+   */
+  external void fit();
+
+  /**
+   * Resets the target element's position and size constraints, and clear
+   * the memoized data.
+   */
+  external void resetFit();
+
+  /**
+   * Equivalent to calling `resetFit()` and `fit()`. Useful to call this after
+   * the element or the `fitInto` element has been resized, or if any of the
+   * positioning properties (e.g. `horizontalAlign, verticalAlign`) is updated.
+   * It preserves the scroll position of the sizingTarget.
+   */
+  external void refit();
+
+  /**
+   * Positions the element according to `horizontalAlign, verticalAlign`.
+   */
+  external void position();
+
+  /**
+   * Constrains the size of the element to `fitInto` by setting `max-height`
+   * and/or `max-width`.
+   */
+  external void constrain();
+
+  /**
+   * Centers horizontally and vertically if not already positioned. This also sets
+   * `position:fixed`.
+   */
+  external void center();
 
 }
 

@@ -5,10 +5,9 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_element/polymer_element.dart' as imp0;
+
 
 /**
- * 
  * The `<iron-flex-layout>` component provides simple ways to use
  * [CSS flexible box layout](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes),
  * also known as flexbox. This component provides two different ways to use flexbox:
@@ -31,12 +30,12 @@ import 'package:polymer_element/polymer_element.dart' as imp0;
  * Please note that the new version does not use `/deep/`, and therefore requires you
  * to import the `dom-modules` in every element that needs to use them.
  * A complete [guide](https://elements.polymer-project.org/guides/flex-layout) to `<iron-flex-layout>` is available.
- * 
  */
 
 @JS('IronFlexLayout')
 @PolymerRegister('iron-flex-layout',native:true)
 @BowerImport(ref:'PolymerElements/iron-flex-layout#2.0-preview',import:"iron-flex-layout/iron-flex-layout.html",name:'iron-flex-layout')
 abstract class IronFlexLayout extends PolymerElement  {
+
 
 }

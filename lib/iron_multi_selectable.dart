@@ -5,16 +5,18 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_element/polymer_element.dart' as imp0;
-import 'package:polymer_elements/iron_selectable.dart' as imp1;
+  import 'package:polymer_elements/iron_selectable.dart' as imp0;
 
   /**
- * 
+ * ### Notable breaking changes between 1.x and 2.x (hybrid):
+ * - `selectedValues` and `selectedItems` now have empty arrays as default
+ *   values. This may cause bindings or observers of these properties to
+ *   trigger at start up when they previously had not.
  */
 
 @BowerImport(ref:'PolymerElements/iron-selector#2.0-preview',import:"iron-selector/iron-multi-selectable.html",name:'iron-selector')
 @JS('IronMultiSelectableBehavior')
-abstract class IronMultiSelectableBehavior implements imp1.IronSelectableBehavior {
+abstract class IronMultiSelectableBehavior implements imp0.IronSelectableBehavior {
   /**
    * If true, multiple selections are allowed.
    */
@@ -33,6 +35,19 @@ abstract class IronMultiSelectableBehavior implements imp1.IronSelectableBehavio
    */
   external List get selectedItems;
   external set selectedItems(List value);
+
+  /**
+   * Selects the given value. If the `multi` property is true, then the selected state of the
+   * `value` will be toggled; otherwise the `value` will be selected.
+   * @method select
+   * @param {string|number} value the value to select.
+   */
+  external void select();
+
+  /**
+   * 
+   */
+  external void multiChanged();
 
 }
 

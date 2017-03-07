@@ -5,24 +5,21 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_element/polymer_element.dart' as imp0;
+  import 'package:polymer_elements/iron_control_state.dart' as imp0;
 import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp1;
-import 'package:polymer_elements/iron_control_state.dart' as imp2;
 
   /**
- * 
  * Use `Polymer.PaperInputBehavior` to implement inputs with `<paper-input-container>`. This
  * behavior is implemented by `<paper-input>`. It exposes a number of properties from
  * `<paper-input-container>` and `<input is="iron-input">` and they should be bound in your
  * template.
  * The input element can be accessed by the `inputElement` property if you need to access
  * properties or methods that are not exposed.
- * 
  */
 
 @BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input-behavior.html",name:'paper-input')
 @JS('PaperInputBehavior')
-abstract class PaperInputBehavior implements imp2.IronControlState,imp1.IronA11yKeysBehavior {
+abstract class PaperInputBehavior implements imp0.IronControlState,imp1.IronA11yKeysBehavior {
   /**
    * The label for this input. If you're using PaperInputBehavior to
    * implement your own paper-input-like element, bind this to
@@ -280,6 +277,33 @@ abstract class PaperInputBehavior implements imp2.IronControlState,imp1.IronA11y
    */
   external bool get multiple;
   external set multiple(bool value);
+
+  /**
+   * Returns a reference to the input element.
+   */
+  external void inputElement();
+
+  /**
+   * 
+   */
+  external void created();
+
+  /**
+   * 
+   */
+  external void attached();
+
+  /**
+   * Validates the input element and sets an error style if needed.
+   * @return {boolean}
+   */
+  external void validate();
+
+  /**
+   * Restores the cursor to its original position after updating the value.
+   * @param {string} newValue The value that should be saved.
+   */
+  external void updateValueAndPreserveCaret();
 
 }
 

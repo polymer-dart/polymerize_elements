@@ -5,8 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_elements/iron_flex_layout.dart' as imp0;
-import 'package:polymer_element/polymer_element.dart' as imp1;
+
 
 /**
  * app-drawer is a navigation drawer that can slide in from the left or right.
@@ -85,5 +84,12 @@ abstract class AppDrawer extends PolymerElement  {
    */
   external bool get noFocusTrap;
   external set noFocusTrap(bool value);
+
+  /**
+   * Disables swiping on the drawer.
+   */
+  external bool get disableSwipe;
+  external set disableSwipe(bool value);
+
 
 }

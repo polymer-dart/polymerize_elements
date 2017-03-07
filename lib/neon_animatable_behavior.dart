@@ -5,13 +5,11 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_element/polymer_element.dart' as imp0;
+  
 
   /**
- * 
  * `Polymer.NeonAnimatableBehavior` is implemented by elements containing animations for use with
  * elements implementing `Polymer.NeonAnimationRunnerBehavior`.
- * 
  */
 
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animatable-behavior.html",name:'neon-animation')
@@ -36,6 +34,14 @@ abstract class NeonAnimatableBehavior  {
    */
   external String get exitAnimation;
   external set exitAnimation(String value);
+
+  /**
+   * An element implementing `Polymer.NeonAnimationRunnerBehavior` calls this method to configure
+   * an animation with an optional type. Elements implementing `Polymer.NeonAnimatableBehavior`
+   * should define the property `animationConfig`, which is either a configuration object
+   * or a map of animation type to array of configuration objects.
+   */
+  external void getAnimationConfig();
 
 }
 

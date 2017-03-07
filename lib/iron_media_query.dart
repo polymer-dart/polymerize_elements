@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_element/polymer_element.dart' as imp0;
+
 
 /**
  * `iron-media-query` can be used to data bind to a CSS media query.
@@ -32,13 +32,14 @@ abstract class IronMediaQuery extends PolymerElement  {
   /**
    * The CSS media query to evaluate.
    */
-get mediaQuery => getProperty(this as dynamic,'query');
-set mediaQuery(v) => setProperty(this as dynamic,'query',v);
+  get mediaQuery => getProperty(this as dynamic,'query');
+  set mediaQuery(v) => setProperty(this as dynamic,'query',v);
   /**
    * If true, the query attribute is assumed to be a complete media query
    * string rather than a single media feature.
    */
   external bool get full;
   external set full(bool value);
+
 
 }

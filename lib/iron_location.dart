@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_element/polymer_element.dart' as imp0;
+
 
 /**
  * The `iron-location` element manages binding to and from the current URL.
@@ -46,8 +46,8 @@ abstract class IronLocation extends PolymerElement  {
   /**
    * The query string portion of the URL.
    */
-get queryPart => getProperty(this as dynamic,'query');
-set queryPart(v) => setProperty(this as dynamic,'query',v);
+  get queryPart => getProperty(this as dynamic,'query');
+  set queryPart(v) => setProperty(this as dynamic,'query',v);
   /**
    * The hash component of the URL.
    */
@@ -76,5 +76,6 @@ set queryPart(v) => setProperty(this as dynamic,'query',v);
    */
   external String get urlSpaceRegex;
   external set urlSpaceRegex(String value);
+
 
 }

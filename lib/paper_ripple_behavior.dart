@@ -5,17 +5,13 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_elements/paper_ripple.dart' as imp0;
-import 'package:polymer_element/polymer_element.dart' as imp1;
-import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp2;
+  
 
   /**
- * 
  * `Polymer.PaperRippleBehavior` dynamically implements a ripple
  * when the element has focus via pointer or keyboard.
  * NOTE: This behavior is intended to be used in conjunction with and after
  * `Polymer.IronButtonState` and `Polymer.IronControlState`.
- * 
  */
 
 @BowerImport(ref:'PolymerElements/paper-behaviors#2.0-preview',import:"paper-behaviors/paper-ripple-behavior.html",name:'paper-behaviors')
@@ -27,6 +23,28 @@ abstract class PaperRippleBehavior  {
    */
   external bool get noink;
   external set noink(bool value);
+
+  /**
+   * Ensures this element contains a ripple effect. For startup efficiency
+   * the ripple effect is dynamically on demand when needed.
+   * @param {!Event=} optTriggeringEvent (optional) event that triggered the
+   * ripple.
+   */
+  external void ensureRipple();
+
+  /**
+   * Returns the `<paper-ripple>` element used by this element to create
+   * ripple effects. The element's ripple is created on demand, when
+   * necessary, and calling this method will force the
+   * ripple to be created.
+   */
+  external void getRipple();
+
+  /**
+   * Returns true if this element currently contains a ripple effect.
+   * @return {boolean}
+   */
+  external void hasRipple();
 
 }
 

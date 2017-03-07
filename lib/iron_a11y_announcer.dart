@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-import 'package:polymer_element/polymer_element.dart' as imp0;
+
 
 /**
  * `iron-a11y-announcer` is a singleton element that is intended to add a11y
@@ -43,5 +43,6 @@ abstract class IronA11yAnnouncer extends PolymerElement  {
    */
   external String get mode;
   external set mode(String value);
+
 
 }

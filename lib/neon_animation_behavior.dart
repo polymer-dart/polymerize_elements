@@ -5,13 +5,10 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_elements/iron_meta.dart' as imp0;
-import 'package:polymer_element/polymer_element.dart' as imp1;
+  
 
   /**
- * 
  * Use `Polymer.NeonAnimationBehavior` to implement an animation.
- * 
  */
 
 @BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animation-behavior.html",name:'neon-animation')
@@ -22,6 +19,22 @@ abstract class NeonAnimationBehavior  {
    */
   external  get animationTiming;
   external set animationTiming( value);
+
+  /**
+   * Returns the animation timing by mixing in properties from `config` to the defaults defined
+   * by the animation.
+   */
+  external void timingFromConfig();
+
+  /**
+   * Sets `transform` and `transformOrigin` properties along with the prefixed versions.
+   */
+  external void setPrefixedProperty();
+
+  /**
+   * Called when the animation finishes.
+   */
+  external void complete();
 
 }
 

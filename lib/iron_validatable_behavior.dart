@@ -5,11 +5,9 @@
   import 'package:js/js_util.dart';
 
   import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_elements/iron_meta.dart' as imp0;
-import 'package:polymer_element/polymer_element.dart' as imp1;
+  
 
   /**
- * 
  * `Use Polymer.IronValidatableBehavior` to implement an element that validates user input.
  * Use the related `Polymer.IronValidatorBehavior` to add custom validation logic to an iron-input.
  * By default, an `<iron-form>` element validates its fields when the user presses the submit button.
@@ -25,7 +23,6 @@ import 'package:polymer_element/polymer_element.dart' as imp1;
  * ### Accessibility
  * Changing the `invalid` property, either manually or by calling `validate()` will update the
  * `aria-invalid` attribute.
- * 
  */
 
 @BowerImport(ref:'PolymerElements/iron-validatable-behavior#2.0-preview',import:"iron-validatable-behavior/iron-validatable-behavior.html",name:'iron-validatable-behavior')
@@ -42,6 +39,28 @@ abstract class IronValidatableBehavior  {
    */
   external bool get invalid;
   external set invalid(bool value);
+
+  /**
+   * 
+   */
+  external void registered();
+
+  /**
+   * @return {boolean} True if the validator `validator` exists.
+   */
+  external void hasValidator();
+
+  /**
+   * Returns true if the `value` is valid, and updates `invalid`. If you want
+   * your element to have custom validation logic, do not override this method;
+   * override `_getValidity(value)` instead.
+   * @param {Object} value Deprecated: The value to be validated. By default,
+   * it is passed to the validator's `validate()` function, if a validator is set.
+   * If this argument is not specified, then the element's `value` property
+   * is used, if it exists.
+   * @return {boolean} True if `value` is valid.
+   */
+  external void validate();
 
 }
 
