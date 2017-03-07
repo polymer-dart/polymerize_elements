@@ -1,13 +1,13 @@
-  @JS('Polymer')
-  library Polymer.AppScrollEffectsBehavior;
-  import 'package:html5/html.dart';
-  import 'package:js/js.dart';
-  import 'package:js/js_util.dart';
+@JS('Polymer')
+library Polymer.AppScrollEffectsBehavior;
+import 'package:html5/html.dart';
+import 'package:js/js.dart';
+import 'package:js/js_util.dart';
 
-  import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp0;
+import 'package:polymer_element/polymer_element.dart';
+import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp0;
 
-  /**
+/**
  * `Polymer.AppScrollEffectsBehavior` provides an interface that allows an element to use scrolls effects.
  * ### Importing the app-layout effects
  * app-layout provides a set of scroll effects that can be used by explicitly importing

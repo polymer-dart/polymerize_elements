@@ -1,13 +1,13 @@
-  @JS('Polymer')
-  library Polymer.IronMultiSelectableBehavior;
-  import 'package:html5/html.dart';
-  import 'package:js/js.dart';
-  import 'package:js/js_util.dart';
+@JS('Polymer')
+library Polymer.IronMultiSelectableBehavior;
+import 'package:html5/html.dart';
+import 'package:js/js.dart';
+import 'package:js/js_util.dart';
 
-  import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_elements/iron_selectable.dart' as imp0;
+import 'package:polymer_element/polymer_element.dart';
+import 'package:polymer_elements/iron_selectable.dart' as imp0;
 
-  /**
+/**
  * ### Notable breaking changes between 1.x and 2.x (hybrid):
  * - `selectedValues` and `selectedItems` now have empty arrays as default
  *   values. This may cause bindings or observers of these properties to

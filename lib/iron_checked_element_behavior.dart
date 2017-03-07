@@ -1,14 +1,14 @@
-  @JS('Polymer')
-  library Polymer.IronCheckedElementBehavior;
-  import 'package:html5/html.dart';
-  import 'package:js/js.dart';
-  import 'package:js/js_util.dart';
+@JS('Polymer')
+library Polymer.IronCheckedElementBehavior;
+import 'package:html5/html.dart';
+import 'package:js/js.dart';
+import 'package:js/js_util.dart';
 
-  import 'package:polymer_element/polymer_element.dart';
-  import 'package:polymer_elements/iron_form_element_behavior.dart' as imp0;
+import 'package:polymer_element/polymer_element.dart';
+import 'package:polymer_elements/iron_form_element_behavior.dart' as imp0;
 import 'package:polymer_elements/iron_validatable_behavior.dart' as imp1;
 
-  /**
+/**
  * Use `Polymer.IronCheckedElementBehavior` to implement a custom element
  * that has a `checked` property, which can be used for validation if the
  * element is also `required`. Element instances implementing this behavior

@@ -1,13 +1,13 @@
-  @JS('Polymer')
-  library Polymer.IronFitBehavior;
-  import 'package:html5/html.dart';
-  import 'package:js/js.dart';
-  import 'package:js/js_util.dart';
+@JS('Polymer')
+library Polymer.IronFitBehavior;
+import 'package:html5/html.dart';
+import 'package:js/js.dart';
+import 'package:js/js_util.dart';
 
-  import 'package:polymer_element/polymer_element.dart';
-  
+import 'package:polymer_element/polymer_element.dart';
 
-  /**
+
+/**
  * `Polymer.IronFitBehavior` fits an element in another element using `max-height` and `max-width`, and
  * optionally centers it in the window or another element.
  * The element will only be sized and/or positioned if it has not already been sized and/or positioned

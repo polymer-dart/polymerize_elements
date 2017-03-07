@@ -1,13 +1,14 @@
-  @JS('Polymer')
-  library Polymer.IronOverlayBehaviorImpl;
-  import 'package:html5/html.dart';
-  import 'package:js/js.dart';
-  import 'package:js/js_util.dart';
+@JS('Polymer')
+library Polymer.IronOverlayBehaviorImpl;
+import 'package:html5/html.dart';
+import 'package:js/js.dart';
+import 'package:js/js_util.dart';
 
-  import 'package:polymer_element/polymer_element.dart';
-  
+import 'package:polymer_element/polymer_element.dart';
+import 'package:polymer_elements/iron_fit_behavior.dart' as imp0;
+import 'package:polymer_elements/iron_resizable_behavior.dart' as imp1;
 
-  /**
+/**
  * 
  */
 
@@ -155,7 +156,7 @@ abstract class IronOverlayBehaviorImpl  {
 
 @BowerImport(ref:'PolymerElements/iron-overlay-behavior#2.0-preview',import:"iron-overlay-behavior/iron-overlay-behavior.html",name:'iron-overlay-behavior')
 @JS('IronOverlayBehavior')
-abstract class IronOverlayBehavior implements IronFitBehavior,IronResizableBehavior,IronOverlayBehaviorImpl {
+abstract class IronOverlayBehavior implements imp0.IronFitBehavior,imp1.IronResizableBehavior,IronOverlayBehaviorImpl {
 
 
 }

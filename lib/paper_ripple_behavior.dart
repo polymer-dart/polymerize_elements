@@ -1,13 +1,13 @@
-  @JS('Polymer')
-  library Polymer.PaperRippleBehavior;
-  import 'package:html5/html.dart';
-  import 'package:js/js.dart';
-  import 'package:js/js_util.dart';
+@JS('Polymer')
+library Polymer.PaperRippleBehavior;
+import 'package:html5/html.dart';
+import 'package:js/js.dart';
+import 'package:js/js_util.dart';
 
-  import 'package:polymer_element/polymer_element.dart';
-  
+import 'package:polymer_element/polymer_element.dart';
 
-  /**
+
+/**
  * `Polymer.PaperRippleBehavior` dynamically implements a ripple
  * when the element has focus via pointer or keyboard.
  * NOTE: This behavior is intended to be used in conjunction with and after

@@ -1,13 +1,13 @@
-  @JS('Polymer')
-  library Polymer.IronResizableBehavior;
-  import 'package:html5/html.dart';
-  import 'package:js/js.dart';
-  import 'package:js/js_util.dart';
+@JS('Polymer')
+library Polymer.IronResizableBehavior;
+import 'package:html5/html.dart';
+import 'package:js/js.dart';
+import 'package:js/js_util.dart';
 
-  import 'package:polymer_element/polymer_element.dart';
-  
+import 'package:polymer_element/polymer_element.dart';
 
-  /**
+
+/**
  * `IronResizableBehavior` is a behavior that can be used in Polymer elements to
  * coordinate the flow of resize events between "resizers" (elements that control the
  * size or hidden state of their children) and "resizables" (elements that need to be

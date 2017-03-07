@@ -1,13 +1,13 @@
-  @JS('Polymer')
-  library Polymer.IronSelectableBehavior;
-  import 'package:html5/html.dart';
-  import 'package:js/js.dart';
-  import 'package:js/js_util.dart';
+@JS('Polymer')
+library Polymer.IronSelectableBehavior;
+import 'package:html5/html.dart';
+import 'package:js/js.dart';
+import 'package:js/js_util.dart';
 
-  import 'package:polymer_element/polymer_element.dart';
-  
+import 'package:polymer_element/polymer_element.dart';
 
-  /**
+
+/**
  * ### Notable breaking changes between 1.x and 2.x (hybrid):
  * - IronSelectableBehavior no longer updates its list of items synchronously
  *   when it is connected to avoid triggering a situation introduced in the
