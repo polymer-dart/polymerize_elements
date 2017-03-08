@@ -8,6 +8,7 @@ import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_element/polymer_element.dart' as imp0;
 import 'package:polymer_elements/iron_resizable_behavior.dart' as imp1;
 import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp2;
+import 'package:polymer_element/polymer_element.dart' as imp3;
 
 /**
  * `iron-list` displays a virtual, 'infinite' list. The template inside
@@ -170,12 +171,12 @@ import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp2;
  * ```
  * ### When should `<iron-list>` be used?
  * `iron-list` should be used when a page has significantly more DOM nodes than the ones
- * visible on the screen. e.g. the page has 500 nodes, but only 20 are visible at the time.
+ * visible on the screen. e.g. the page has 500 nodes, but only 20 are visible at a time.
  * This is why we refer to it as a `virtual` list. In this case, a `dom-repeat` will still
  * create 500 nodes which could slow down the web app, but `iron-list` will only create 20.
  * However, having an `iron-list` does not mean that you can load all the data at once.
- * Say, you have a million records in the database, you want to split the data into pages
- * so you can bring a page at the time. The page could contain 500 items, and iron-list
+ * Say you have a million records in the database, you want to split the data into pages
+ * so you can bring in a page at the time. The page could contain 500 items, and iron-list
  * will only render 20.
  * @group Iron Element
  * @element iron-list
@@ -185,7 +186,7 @@ import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp2;
 @JS('IronList')
 @PolymerRegister('iron-list',native:true)
 @BowerImport(ref:'PolymerElements/iron-list#2.0-preview',import:"iron-list/iron-list.html",name:'iron-list')
-abstract class IronList extends PolymerElement implements imp0.Templatizer,imp1.IronResizableBehavior,imp2.IronScrollTargetBehavior {
+abstract class IronList extends PolymerElement implements imp0.Templatizer,imp1.IronResizableBehavior,imp2.IronScrollTargetBehavior,imp3.OptionalMutableDataBehavior {
   /**
    * An array containing items determining how many instances of the template
    * to stamp and that that each template instance should bind to.

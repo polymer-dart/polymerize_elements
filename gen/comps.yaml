@@ -4,6 +4,7 @@ externals:
  "Polymer.IronFormElementBehavior": "package:polymer_elements/iron_form_element_behavior.dart"
  "Polymer.Templatizer": "package:polymer_element/polymer_element.dart"
  "Templatizer": "package:polymer_element/polymer_element.dart" 
+ "Polymer.OptionalMutableDataBehavior": "package:polymer_element/polymer_element.dart"
 components:
  - name: iron-image
    ref: "PolymerElements/iron-image#2.0-preview"
