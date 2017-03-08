@@ -21,8 +21,8 @@ components:
    overrides:
     IronMediaQuery:
      query:
-      - "  get mediaQuery => getProperty(this as dynamic,'query');"
-      - "  set mediaQuery(v) => setProperty(this as dynamic,'query',v);"
+      - "  external get JS$query;"
+      - "  external set JS$query(v);"
 
  - name: iron-location
    ref: "PolymerElements/iron-location#2.0-preview"
@@ -34,8 +34,8 @@ components:
    overrides:
     IronLocation:
      query:
-      - "  get queryPart => getProperty(this as dynamic,'query');"
-      - "  set queryPart(v) => setProperty(this as dynamic,'query',v);"
+      - "  external get JS$query;"
+      - "  external set JS$queryPart(v);"
  - name: app-route
    ref: "PolymerElements/app-route#2.0-preview"
    includes:
@@ -188,4 +188,4 @@ components:
    ref : "PolymerElements/iron-validatable-behavior#2.0-preview"
 
 resolutions:
-  "polymer": "2.0.0-rc.1"
+  "polymer": "2.0.0-rc.2"

@@ -46,8 +46,8 @@ abstract class IronLocation extends PolymerElement  {
   /**
    * The query string portion of the URL.
    */
-  get queryPart => getProperty(this as dynamic,'query');
-  set queryPart(v) => setProperty(this as dynamic,'query',v);
+  external get JS$query;
+  external set JS$queryPart(v);
   /**
    * The hash component of the URL.
    */
