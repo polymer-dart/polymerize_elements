@@ -6,7 +6,7 @@ description: Polymer-2 support for Dart
 version: 2.0.0-preview.1
 dependencies:
   js: any
-  polymer_element: ^0.6.0
+  polymer_element: ^0.7.0
 #dependency_overrides:
 #  polymer_element:
 #   path: ../polymer_element
