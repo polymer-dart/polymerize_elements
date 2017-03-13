@@ -1,12 +1,13 @@
-@JS('PolymerElements')
+@JS('Polymer')
 library AppGrid;
-import 'dart:html';
+import 'package:html5/html.dart';
 import 'package:js/js.dart';
+import 'package:js/js_util.dart';
+
 import 'package:polymer_element/polymer_element.dart';
 
 
 /**
- * 
  * app-grid is a helper class useful for creating responsive, fluid grid layouts using custom properties.
  * Because custom properties can be defined inside a `@media` rule, you can customize the grid layout
  * for different responsive breakpoints.
@@ -92,12 +93,12 @@ import 'package:polymer_element/polymer_element.dart';
  * `--app-grid-gutter`                           | The space between two items.                               | 0px
  * `--app-grid-item-height`                      | The height of the items.                                   | auto
  * `--app-grid-expandible-item-columns`          | The number of columns an expandible item should expand to. | 1
- * 
  */
 
-//@JS('PaperButton')
+@JS('AppGrid')
 @PolymerRegister('app-grid',native:true)
 @BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-grid/app-grid-style.html",name:'app-layout')
 abstract class AppGrid extends PolymerElement  {
+
 
 }

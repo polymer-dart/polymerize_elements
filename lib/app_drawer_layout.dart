@@ -15,7 +15,7 @@ import 'package:polymer_elements/app_layout_behavior.dart' as imp0;
  * By default the drawer is aligned to the start, which is left in LTR layouts:
  * ```html
  * <app-drawer-layout>
- *   <app-drawer>
+ *   <app-drawer slot="drawer">
  *     drawer content
  *   </app-drawer>
  *   <div>
@@ -26,7 +26,7 @@ import 'package:polymer_elements/app_layout_behavior.dart' as imp0;
  * Align the drawer at the end:
  * ```html
  * <app-drawer-layout>
- *   <app-drawer align="end">
+ *   <app-drawer slot="drawer" align="end">
  *      drawer content
  *   </app-drawer>
  *   <div>
@@ -37,11 +37,11 @@ import 'package:polymer_elements/app_layout_behavior.dart' as imp0;
  * With an app-header-layout:
  * ```html
  * <app-drawer-layout>
- *   <app-drawer>
+ *   <app-drawer slot="drawer">
  *     drawer-content
  *   </app-drawer>
  *   <app-header-layout>
- *     <app-header>
+ *     <app-header slot="header">
  *       <app-toolbar>
  *         <div main-title>App name</div>
  *       </app-toolbar>
@@ -53,11 +53,11 @@ import 'package:polymer_elements/app_layout_behavior.dart' as imp0;
  * Add the `drawer-toggle` attribute to elements inside `app-drawer-layout` that toggle the drawer on click events:
  * ```html
  * <app-drawer-layout>
- *   <app-drawer>
+ *   <app-drawer slot="drawer">
  *     drawer-content
  *   </app-drawer>
  *   <app-header-layout>
- *     <app-header>
+ *     <app-header slot="header">
  *       <app-toolbar>
  *         <paper-icon-button icon="menu" drawer-toggle></paper-icon-button>
  *         <div main-title>App name</div>
@@ -78,7 +78,7 @@ import 'package:polymer_elements/app_layout_behavior.dart' as imp0;
  * Add the `fullbleed` attribute to app-drawer-layout to make it fit the size of its container:
  * ```html
  * <app-drawer-layout fullbleed>
- *   <app-drawer>
+ *   <app-drawer slot="drawer">
  *      drawer content
  *   </app-drawer>
  *   <div>

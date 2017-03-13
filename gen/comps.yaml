@@ -48,11 +48,12 @@ components:
    includes:
     - "**/app-*.html"
     - "app-scroll-effects/effects/*.html"
+    - "app-scroll-position/*.html"
    excludes:
     - "**/test/**/*"
     - "**/test/*"
     - "templates/**/*"
-    - "**/app-grid-*.html"
+    # - "**/app-grid-*.html"
 
  - name: iron-list
    ref : "PolymerElements/iron-list#2.0-preview"
@@ -106,8 +107,8 @@ components:
  - name :    "iron-icons"
    ref : "PolymerElements/iron-icons#2.0-preview"
 
-# - name : "iron-form-element-behavior"
-#   ref : "PolymerElements/iron-form-element-behavior#2.0-preview"
+ - name : "iron-form-element-behavior"
+   ref : "PolymerElements/iron-form-element-behavior#2.0-preview"
 
  - name :    "iron-behaviors"
    ref : "PolymerElements/iron-behaviors#2.0-preview"
@@ -171,6 +172,9 @@ components:
 
  - name :    "iron-meta"
    ref : "PolymerElements/iron-meta#2.0-preview"
+   overrides:
+    IronMeta:
+     '$name': 'IronMetaElement'
 
  - name :    "paper-icon-button"
    ref : "PolymerElements/paper-icon-button#2.0-preview"
