@@ -43,7 +43,9 @@ import 'package:polymer_element/polymer_element.dart' as imp3;
  *   <app-toolbar>App name</app-toolbar>
  *   <iron-list items="[[items]]">
  *     <template>
- *       ...
+ *       <div>
+ *         ...
+ *       </div>
  *     </template>
  *   </iron-list>
  * </template>
@@ -61,7 +63,9 @@ import 'package:polymer_element/polymer_element.dart' as imp3;
  *   </style>
  *   <iron-list items="[[items]]">
  *     <template>
- *       ...
+ *       <div>
+ *         ...
+ *       </div>
  *     </template>
  *   </iron-list>
  * </template>
@@ -92,11 +96,15 @@ import 'package:polymer_element/polymer_element.dart' as imp3;
  *   <app-toolbar>App name</app-toolbar>
  *   <iron-list scroll-target="document">
  *     <template>
- *       ...
+ *       <div>
+ *         ...
+ *       </div>
  *     </template>
  *   </iron-list>
  * </body>
  * ```
+ * `iron-list` must be given a `<template>` which contains exactly one element. In the examples
+ * above we used a `<div>`, but you can provide any element (including custom elements).
  * ### Template model
  * List item templates should bind to template models of the following structure:
  * ```js

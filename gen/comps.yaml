@@ -192,4 +192,4 @@ components:
    ref : "PolymerElements/iron-validatable-behavior#2.0-preview"
 
 resolutions:
-  "polymer": "2.0.0-rc.2"
+  "polymer": "2.0.0-rc.6"

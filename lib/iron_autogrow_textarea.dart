@@ -30,7 +30,7 @@ import 'package:polymer_elements/iron_control_state.dart' as imp1;
 @BowerImport(ref:'PolymerElements/iron-autogrow-textarea#2.0-preview',import:"iron-autogrow-textarea/iron-autogrow-textarea.html",name:'iron-autogrow-textarea')
 abstract class IronAutogrowTextarea extends PolymerElement implements imp0.IronValidatableBehavior,imp1.IronControlState {
   /**
-   * Use this property instead of `value` for two-way data binding.
+   * Use this property instead of `bind-value` for two-way data binding.
    * @type {string|number}
    */
   external String get value;

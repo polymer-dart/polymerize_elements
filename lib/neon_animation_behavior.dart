@@ -21,6 +21,11 @@ abstract class NeonAnimationBehavior  {
   external set animationTiming( value);
 
   /**
+   * },
+   */
+  external void created();
+
+  /**
    * Returns the animation timing by mixing in properties from `config` to the defaults defined
    * by the animation.
    */

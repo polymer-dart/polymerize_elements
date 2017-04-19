@@ -137,6 +137,11 @@ abstract class IronFitBehavior  {
   external void attached();
 
   /**
+   * 
+   */
+  external void detached();
+
+  /**
    * Positions and fits the element into the `fitInto` element.
    */
   external void fit();

@@ -77,7 +77,7 @@ abstract class AppRoute extends PolymerElement  {
   external set route( value);
 
   /**
-   * The pattern of slash-separated segments to match `path` against.
+   * The pattern of slash-separated segments to match `route.path` against.
    * For example the pattern "/foo" will match "/foo" or "/foo/bar"
    * but not "/foobar".
    * Path segments like `/:named` are mapped to properties on the `data` object.
@@ -99,13 +99,14 @@ abstract class AppRoute extends PolymerElement  {
   external set queryParams( value);
 
   /**
-   * The part of `path` NOT consumed by `pattern`.
+   * The part of `route.path` NOT consumed by `pattern`.
    */
   external  get tail;
   external set tail( value);
 
   /**
-   * 
+   * Whether the current route is active. True if `route.path` matches the
+   * `pattern`, false otherwise.
    */
   external bool get active;
   external set active(bool value);

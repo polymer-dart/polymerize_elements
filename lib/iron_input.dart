@@ -78,7 +78,9 @@ abstract class IronInput extends PolymerElement implements imp0.IronValidatableB
   external set bindValue(String value);
 
   /**
-   * 
+   * Computed property that echoes `bindValue` (mostly used for Polymer 1.0
+   * backcompatibility, if you were one-way binding to the Polymer 1.0
+   * `input is="iron-input"` value attribute).
    */
   external  get value;
   external set value( value);

@@ -30,6 +30,7 @@ import 'package:polymer_elements/paper_checked_element_behavior.dart' as imp0;
  * `--paper-radio-button-ink-size` | Size of the ripple | `48px`
  * `--paper-radio-button-label-color` | Label color | `--primary-text-color`
  * `--paper-radio-button-label-spacing` | Spacing between the label and the button | `10px`
+ * `--paper-radio-button-radio-container` | A mixin applied to the internal radio container | `{}`
  * This element applies the mixin `--paper-font-common-base` but does not import `paper-styles/typography.html`.
  * In order to apply the `Roboto` font to this element, make sure you've imported `paper-styles/typography.html`.
  * @group Paper Elements
