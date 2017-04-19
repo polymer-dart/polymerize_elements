@@ -56,8 +56,8 @@ abstract class IronMeta extends PolymerElement  {
   /**
    * The meta-data to store or retrieve.
    */
-  external  get value;
-  external set value( value);
+  external String get value;
+  external set value(String value);
 
   /**
    * If true, `value` is set to the iron-meta instance itself.

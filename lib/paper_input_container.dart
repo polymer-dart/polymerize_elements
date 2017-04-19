@@ -17,7 +17,7 @@ import 'package:polymer_element/polymer_element.dart';
  *       <iron-input slot="input">
  *         <input>
  *       </iron-input>
- *       // In Polymer 1.0, you would use `<input is="iron-input" slot="input">` instead ov the above.
+ *       // In Polymer 1.0, you would use `<input is="iron-input" slot="input">` instead of the above.
  *     </paper-input-container>
  * You can style the nested <input> however you want; if you want it to look like a
  * Material Design input, you can style it with the --paper-input-container-shared-input-style mixin.
@@ -73,7 +73,11 @@ import 'package:polymer_element/polymer_element.dart';
  * `--paper-input-container-label-focus` | Mixin applied to the label when the input is focused | `{}`
  * `--paper-input-container-label-floating` | Mixin applied to the label when floating | `{}`
  * `--paper-input-container-input` | Mixin applied to the input | `{}`
+ * `--paper-input-container-input-focus` | Mixin applied to the input when focused | `{}`
+ * `--paper-input-container-input-invalid` | Mixin applied to the input when invalid | `{}`
  * `--paper-input-container-input-webkit-spinner` | Mixin applied to the webkit spinner | `{}`
+ * `--paper-input-container-input-webkit-clear` | Mixin applied to the webkit clear button | `{}`
+ * `--paper-input-container-ms-clear` | Mixin applied to the Internet Explorer clear button | `{}`
  * `--paper-input-container-underline` | Mixin applied to the underline | `{}`
  * `--paper-input-container-underline-focus` | Mixin applied to the underline when the input is focused | `{}`
  * `--paper-input-container-underline-disabled` | Mixin applied to the underline when the input is disabled | `{}`

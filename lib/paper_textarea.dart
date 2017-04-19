@@ -6,6 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/paper_input_behavior.dart' as imp0;
+import 'package:polymer_elements/iron_form_element_behavior.dart' as imp1;
 
 /**
  * `<paper-textarea>` is a multi-line text field with Material Design styling.
@@ -21,7 +22,7 @@ import 'package:polymer_elements/paper_input_behavior.dart' as imp0;
 @JS('PaperTextarea')
 @PolymerRegister('paper-textarea',native:true)
 @BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-textarea.html",name:'paper-input')
-abstract class PaperTextarea extends PolymerElement implements imp0.PaperInputBehavior {
+abstract class PaperTextarea extends PolymerElement implements imp0.PaperInputBehavior,imp1.IronFormElementBehavior {
   /**
    * The initial number of rows.
    * @attribute rows

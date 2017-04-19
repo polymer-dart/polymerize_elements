@@ -13,4 +13,4 @@ polymer_library(
   external = 1,
   html_templates = glob(['lib/**'],exclude=['lib/**/*.dart']),
   package_name = 'polymer_elements',
-  version = '2.0.0-preview.1')
+  version = '2.0.0-preview.1+1')
