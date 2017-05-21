@@ -34,7 +34,7 @@ import 'package:polymer_element/polymer_element.dart';
 
 @JS('IronA11yAnnouncer')
 @PolymerRegister('iron-a11y-announcer',native:true)
-@BowerImport(ref:'PolymerElements/iron-a11y-announcer#2.0-preview',import:"iron-a11y-announcer/iron-a11y-announcer.html",name:'iron-a11y-announcer')
+@BowerImport(ref:'PolymerElements/iron-a11y-announcer#v2.0.0',import:"iron-a11y-announcer/iron-a11y-announcer.html",name:'iron-a11y-announcer')
 abstract class IronA11yAnnouncer extends PolymerElement  {
   /**
    * The value of mode is used to set the `aria-live` attribute

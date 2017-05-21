@@ -32,7 +32,7 @@ import 'package:polymer_elements/iron_overlay_behavior.dart' as imp0;
  * It will also ensure that focus remains in the dialog.
  */
 
-@BowerImport(ref:'PolymerElements/paper-dialog-behavior#2.0-preview',import:"paper-dialog-behavior/paper-dialog-behavior.html",name:'paper-dialog-behavior')
+@BowerImport(ref:'PolymerElements/paper-dialog-behavior#v2.0.0',import:"paper-dialog-behavior/paper-dialog-behavior.html",name:'paper-dialog-behavior')
 @JS('PaperDialogBehavior')
 abstract class PaperDialogBehavior implements imp0.IronOverlayBehavior {
   /**

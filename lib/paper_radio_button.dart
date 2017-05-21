@@ -31,6 +31,8 @@ import 'package:polymer_elements/paper_checked_element_behavior.dart' as imp0;
  * `--paper-radio-button-label-color` | Label color | `--primary-text-color`
  * `--paper-radio-button-label-spacing` | Spacing between the label and the button | `10px`
  * `--paper-radio-button-radio-container` | A mixin applied to the internal radio container | `{}`
+ * `--paper-radio-button-label` | A mixin applied to the internal label | `{}`
+ * `--paper-radio-button-label-checked` | A mixin applied to the internal label when the radio button is checked | `{}`
  * This element applies the mixin `--paper-font-common-base` but does not import `paper-styles/typography.html`.
  * In order to apply the `Roboto` font to this element, make sure you've imported `paper-styles/typography.html`.
  * @group Paper Elements
@@ -41,7 +43,7 @@ import 'package:polymer_elements/paper_checked_element_behavior.dart' as imp0;
 
 @JS('PaperRadioButton')
 @PolymerRegister('paper-radio-button',native:true)
-@BowerImport(ref:'PolymerElements/paper-radio-button#2.0-preview',import:"paper-radio-button/paper-radio-button.html",name:'paper-radio-button')
+@BowerImport(ref:'PolymerElements/paper-radio-button#v2.0.0',import:"paper-radio-button/paper-radio-button.html",name:'paper-radio-button')
 abstract class PaperRadioButton extends PolymerElement implements imp0.PaperCheckedElementBehavior {
   /**
    * Fired when the checked state changes.

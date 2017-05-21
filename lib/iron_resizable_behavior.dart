@@ -21,7 +21,7 @@ import 'package:polymer_element/polymer_element.dart';
  * Note, the `iron-resize` event is non-bubbling.
  */
 
-@BowerImport(ref:'PolymerElements/iron-resizable-behavior#2.0-preview',import:"iron-resizable-behavior/iron-resizable-behavior.html",name:'iron-resizable-behavior')
+@BowerImport(ref:'PolymerElements/iron-resizable-behavior#v2.0.0',import:"iron-resizable-behavior/iron-resizable-behavior.html",name:'iron-resizable-behavior')
 @JS('IronResizableBehavior')
 abstract class IronResizableBehavior  {
 

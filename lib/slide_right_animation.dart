@@ -23,7 +23,7 @@ import 'package:polymer_elements/neon_animation_behavior.dart' as imp0;
 
 @JS('SlideRightAnimation')
 @PolymerRegister('slide-right-animation',native:true)
-@BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/slide-right-animation.html",name:'neon-animation')
+@BowerImport(ref:'PolymerElements/neon-animation#v2.0.0',import:"neon-animation/animations/slide-right-animation.html",name:'neon-animation')
 abstract class SlideRightAnimation extends PolymerElement implements imp0.NeonAnimationBehavior {
 
 

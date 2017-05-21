@@ -11,7 +11,7 @@ import 'package:polymer_element/polymer_element.dart';
  * `iron-range-behavior` provides the behavior for something with a minimum to maximum range.
  */
 
-@BowerImport(ref:'PolymerElements/iron-range-behavior#2.0-preview',import:"iron-range-behavior/iron-range-behavior.html",name:'iron-range-behavior')
+@BowerImport(ref:'PolymerElements/iron-range-behavior#v2.0.0',import:"iron-range-behavior/iron-range-behavior.html",name:'iron-range-behavior')
 @JS('IronRangeBehavior')
 abstract class IronRangeBehavior  {
   /**

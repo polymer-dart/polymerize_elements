@@ -8,25 +8,10 @@ import 'package:polymer_element/polymer_element.dart';
 
 
 /**
- * ### Notable breaking changes between 1.x and 2.x (hybrid):
- * - IronSelectableBehavior no longer updates its list of items synchronously
- *   when it is connected to avoid triggering a situation introduced in the
- *   Custom Elements v1 spec that might cause custom element reactions to be
- *   called later than expected.
- *   If you are using an element with IronSelectableBehavior and ...
- *   1. are reading or writing properties of the element that depend on its
- *      items (`items`, `selectedItems`, etc.)
- *   1. are performing these accesses after the element is created or connected
- *     (attached) either **synchronously** or **after a timeout**
- *   ... you should wait for the element to dispatch an `iron-items-changed`
- *   event instead.
- * - `Polymer.dom.flush()` no longer triggers the observer used by
- *   IronSelectableBehavior to watch for changes to its items. You can call
- *   `forceSynchronousItemUpdate` instead or, preferably, listen for the
- *   `iron-items-changed` event.
+ * 
  */
 
-@BowerImport(ref:'PolymerElements/iron-selector#2.0-preview',import:"iron-selector/iron-selectable.html",name:'iron-selector')
+@BowerImport(ref:'PolymerElements/iron-selector#v2.0.0',import:"iron-selector/iron-selectable.html",name:'iron-selector')
 @JS('IronSelectableBehavior')
 abstract class IronSelectableBehavior  {
   /**

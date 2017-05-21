@@ -97,7 +97,7 @@ import 'package:polymer_element/polymer_element.dart';
 
 @JS('AppGrid')
 @PolymerRegister('app-grid',native:true)
-@BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-grid/app-grid-style.html",name:'app-layout')
+@BowerImport(ref:'PolymerElements/app-layout#v2.0.0',import:"app-layout/app-grid/app-grid-style.html",name:'app-layout')
 abstract class AppGrid extends PolymerElement  {
 
 

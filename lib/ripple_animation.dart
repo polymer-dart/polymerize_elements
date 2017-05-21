@@ -30,7 +30,7 @@ import 'package:polymer_elements/neon_shared_element_animation_behavior.dart' as
 
 @JS('RippleAnimation')
 @PolymerRegister('ripple-animation',native:true)
-@BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/animations/ripple-animation.html",name:'neon-animation')
+@BowerImport(ref:'PolymerElements/neon-animation#v2.0.0',import:"neon-animation/animations/ripple-animation.html",name:'neon-animation')
 abstract class RippleAnimation extends PolymerElement implements imp0.NeonSharedElementAnimationBehavior {
 
 

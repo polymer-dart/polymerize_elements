@@ -16,7 +16,7 @@ import 'package:polymer_elements/iron_form_element_behavior.dart' as imp1;
 
 @JS('PaperInput')
 @PolymerRegister('paper-input',native:true)
-@BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input.html",name:'paper-input')
+@BowerImport(ref:'PolymerElements/paper-input#v2.0.0',import:"paper-input/paper-input.html",name:'paper-input')
 abstract class PaperInput extends PolymerElement implements imp0.PaperInputBehavior,imp1.IronFormElementBehavior {
 
 

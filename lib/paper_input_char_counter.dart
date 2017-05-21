@@ -23,7 +23,7 @@ import 'package:polymer_elements/paper_input_addon_behavior.dart' as imp0;
 
 @JS('PaperInputCharCounter')
 @PolymerRegister('paper-input-char-counter',native:true)
-@BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input-char-counter.html",name:'paper-input')
+@BowerImport(ref:'PolymerElements/paper-input#v2.0.0',import:"paper-input/paper-input-char-counter.html",name:'paper-input')
 abstract class PaperInputCharCounter extends PolymerElement implements imp0.PaperInputAddonBehavior {
 
 

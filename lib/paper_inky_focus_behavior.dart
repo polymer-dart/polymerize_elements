@@ -13,7 +13,7 @@ import 'package:polymer_elements/paper_ripple_behavior.dart' as imp2;
  * `Polymer.PaperInkyFocusBehavior` implements a ripple when the element has keyboard focus.
  */
 
-@BowerImport(ref:'PolymerElements/paper-behaviors#2.0-preview',import:"paper-behaviors/paper-inky-focus-behavior.html",name:'paper-behaviors')
+@BowerImport(ref:'PolymerElements/paper-behaviors#v2.0.0',import:"paper-behaviors/paper-inky-focus-behavior.html",name:'paper-behaviors')
 @JS('PaperInkyFocusBehavior')
 abstract class PaperInkyFocusBehavior implements imp0.IronButtonState,imp1.IronControlState,imp2.PaperRippleBehavior {
 

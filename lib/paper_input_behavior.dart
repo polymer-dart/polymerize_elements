@@ -17,7 +17,7 @@ import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp1;
  * properties or methods that are not exposed.
  */
 
-@BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input-behavior.html",name:'paper-input')
+@BowerImport(ref:'PolymerElements/paper-input#v2.0.0',import:"paper-input/paper-input-behavior.html",name:'paper-input')
 @JS('PaperInputBehavior')
 abstract class PaperInputBehavior implements imp0.IronControlState,imp1.IronA11yKeysBehavior {
   /**

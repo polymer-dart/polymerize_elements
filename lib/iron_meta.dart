@@ -38,7 +38,7 @@ import 'package:polymer_element/polymer_element.dart';
 
 @JS('IronMetaElement')
 @PolymerRegister('iron-meta',native:true)
-@BowerImport(ref:'PolymerElements/iron-meta#2.0-preview',import:"iron-meta/iron-meta.html",name:'iron-meta')
+@BowerImport(ref:'PolymerElements/iron-meta#v2.0.0',import:"iron-meta/iron-meta.html",name:'iron-meta')
 abstract class IronMeta extends PolymerElement  {
   /**
    * The type of meta-data.  All meta-data of the same type is stored

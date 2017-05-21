@@ -4,7 +4,7 @@ import 'package:polymer_element/polymer_element.dart' show BowerImport;
 
 /**
  **/
-@BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-scroll-effects/effects/resize-snapped-title.html",name:'app-layout')
+@BowerImport(ref:'PolymerElements/app-layout#v2.0.0',import:"app-layout/app-scroll-effects/effects/resize-snapped-title.html",name:'app-layout')
 class _ {
 
 }

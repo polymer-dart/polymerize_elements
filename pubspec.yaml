@@ -10,3 +10,6 @@ dependencies:
 #dependency_overrides:
 #  polymer_element:
 #   path: ../polymer_element
+dev_dependencies:
+  polymerize:
+   path: ../polymerize

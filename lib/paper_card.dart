@@ -43,7 +43,7 @@ import 'package:polymer_element/polymer_element.dart';
 
 @JS('PaperCard')
 @PolymerRegister('paper-card',native:true)
-@BowerImport(ref:'PolymerElements/paper-card#2.0-preview',import:"paper-card/paper-card.html",name:'paper-card')
+@BowerImport(ref:'PolymerElements/paper-card#v2.0.0',import:"paper-card/paper-card.html",name:'paper-card')
 abstract class PaperCard extends PolymerElement  {
   /**
    * The title of the card.

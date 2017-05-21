@@ -22,7 +22,7 @@ import 'package:polymer_element/polymer_element.dart';
 
 @JS('IronOverlayBackdrop')
 @PolymerRegister('iron-overlay-backdrop',native:true)
-@BowerImport(ref:'PolymerElements/iron-overlay-behavior#2.0-preview',import:"iron-overlay-behavior/iron-overlay-backdrop.html",name:'iron-overlay-behavior')
+@BowerImport(ref:'PolymerElements/iron-overlay-behavior#v2.0.0',import:"iron-overlay-behavior/iron-overlay-backdrop.html",name:'iron-overlay-behavior')
 abstract class IronOverlayBackdrop extends PolymerElement  {
   /**
    * Returns true if the backdrop is opened.

@@ -4,7 +4,7 @@ import 'package:polymer_element/polymer_element.dart' show BowerImport;
 
 /**
  **/
-@BowerImport(ref:'PolymerElements/paper-spinner#2.0-preview',import:"paper-spinner/paper-spinner-styles.html",name:'paper-spinner')
+@BowerImport(ref:'PolymerElements/paper-spinner#v2.0.0',import:"paper-spinner/paper-spinner-styles.html",name:'paper-spinner')
 class _ {
 
 }

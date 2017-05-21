@@ -11,7 +11,7 @@ import 'package:polymer_elements/iron_resizable_behavior.dart' as imp0;
  * 
  */
 
-@BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-layout-behavior/app-layout-behavior.html",name:'app-layout')
+@BowerImport(ref:'PolymerElements/app-layout#v2.0.0',import:"app-layout/app-layout-behavior/app-layout-behavior.html",name:'app-layout')
 @JS('AppLayoutBehavior')
 abstract class AppLayoutBehavior implements imp0.IronResizableBehavior {
 

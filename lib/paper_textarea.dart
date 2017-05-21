@@ -21,7 +21,7 @@ import 'package:polymer_elements/iron_form_element_behavior.dart' as imp1;
 
 @JS('PaperTextarea')
 @PolymerRegister('paper-textarea',native:true)
-@BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-textarea.html",name:'paper-input')
+@BowerImport(ref:'PolymerElements/paper-input#v2.0.0',import:"paper-input/paper-textarea.html",name:'paper-input')
 abstract class PaperTextarea extends PolymerElement implements imp0.PaperInputBehavior,imp1.IronFormElementBehavior {
   /**
    * The initial number of rows.

@@ -42,7 +42,7 @@ import 'package:polymer_element/polymer_element.dart';
  *       </div>
  */
 
-@BowerImport(ref:'PolymerElements/iron-fit-behavior#2.0-preview',import:"iron-fit-behavior/iron-fit-behavior.html",name:'iron-fit-behavior')
+@BowerImport(ref:'PolymerElements/iron-fit-behavior#v2.0.0',import:"iron-fit-behavior/iron-fit-behavior.html",name:'iron-fit-behavior')
 @JS('IronFitBehavior')
 abstract class IronFitBehavior  {
   /**

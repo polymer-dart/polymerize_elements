@@ -52,7 +52,7 @@ import 'package:polymer_elements/app_layout_behavior.dart' as imp0;
 
 @JS('AppHeaderLayout')
 @PolymerRegister('app-header-layout',native:true)
-@BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-header-layout/app-header-layout.html",name:'app-layout')
+@BowerImport(ref:'PolymerElements/app-layout#v2.0.0',import:"app-layout/app-header-layout/app-header-layout.html",name:'app-layout')
 abstract class AppHeaderLayout extends PolymerElement implements imp0.AppLayoutBehavior {
   /**
    * If true, the current element will have its own scrolling region.

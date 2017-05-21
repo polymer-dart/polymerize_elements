@@ -35,7 +35,7 @@ import 'package:polymer_element/polymer_element.dart';
 
 @JS('IronLocation')
 @PolymerRegister('iron-location',native:true)
-@BowerImport(ref:'PolymerElements/iron-location#2.0-preview',import:"iron-location/iron-location.html",name:'iron-location')
+@BowerImport(ref:'PolymerElements/iron-location#v2.0.0',import:"iron-location/iron-location.html",name:'iron-location')
 abstract class IronLocation extends PolymerElement  {
   /**
    * The pathname component of the URL.

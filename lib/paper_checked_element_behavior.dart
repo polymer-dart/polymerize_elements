@@ -14,7 +14,7 @@ import 'package:polymer_elements/iron_checked_element_behavior.dart' as imp1;
  * and is compatible with having a ripple effect.
  */
 
-@BowerImport(ref:'PolymerElements/paper-behaviors#2.0-preview',import:"paper-behaviors/paper-checked-element-behavior.html",name:'paper-behaviors')
+@BowerImport(ref:'PolymerElements/paper-behaviors#v2.0.0',import:"paper-behaviors/paper-checked-element-behavior.html",name:'paper-behaviors')
 @JS('PaperCheckedElementBehavior')
 abstract class PaperCheckedElementBehavior implements imp0.PaperInkyFocusBehavior,imp1.IronCheckedElementBehavior {
 

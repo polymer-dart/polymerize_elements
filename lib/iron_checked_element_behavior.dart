@@ -15,7 +15,7 @@ import 'package:polymer_elements/iron_validatable_behavior.dart' as imp1;
  * will also be registered for use in an `iron-form` element.
  */
 
-@BowerImport(ref:'PolymerElements/iron-checked-element-behavior#2.0-preview',import:"iron-checked-element-behavior/iron-checked-element-behavior.html",name:'iron-checked-element-behavior')
+@BowerImport(ref:'PolymerElements/iron-checked-element-behavior#v2.0.0',import:"iron-checked-element-behavior/iron-checked-element-behavior.html",name:'iron-checked-element-behavior')
 @JS('IronCheckedElementBehavior')
 abstract class IronCheckedElementBehavior implements imp0.IronFormElementBehavior,imp1.IronValidatableBehavior {
   /**

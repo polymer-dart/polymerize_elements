@@ -36,7 +36,7 @@ import 'package:polymer_element/polymer_element.dart';
 
 @JS('IronIconsetSvg')
 @PolymerRegister('iron-iconset-svg',native:true)
-@BowerImport(ref:'PolymerElements/iron-iconset-svg#2.0-preview',import:"iron-iconset-svg/iron-iconset-svg.html",name:'iron-iconset-svg')
+@BowerImport(ref:'PolymerElements/iron-iconset-svg#v2.0.0',import:"iron-iconset-svg/iron-iconset-svg.html",name:'iron-iconset-svg')
 abstract class IronIconsetSvg extends PolymerElement  {
   /**
    * The name of the iconset.

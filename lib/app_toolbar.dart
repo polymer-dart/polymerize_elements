@@ -46,7 +46,7 @@ import 'package:polymer_element/polymer_element.dart';
 
 @JS('AppToolbar')
 @PolymerRegister('app-toolbar',native:true)
-@BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-toolbar/app-toolbar.html",name:'app-layout')
+@BowerImport(ref:'PolymerElements/app-layout#v2.0.0',import:"app-layout/app-toolbar/app-toolbar.html",name:'app-layout')
 abstract class AppToolbar extends PolymerElement  {
 
 

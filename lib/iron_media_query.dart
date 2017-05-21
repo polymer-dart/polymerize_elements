@@ -21,7 +21,7 @@ import 'package:polymer_element/polymer_element.dart';
 
 @JS('IronMediaQuery')
 @PolymerRegister('iron-media-query',native:true)
-@BowerImport(ref:'PolymerElements/iron-media-query#2.0-preview',import:"iron-media-query/iron-media-query.html",name:'iron-media-query')
+@BowerImport(ref:'PolymerElements/iron-media-query#v2.0.0',import:"iron-media-query/iron-media-query.html",name:'iron-media-query')
 abstract class IronMediaQuery extends PolymerElement  {
   /**
    * The Boolean return value of the media query.

@@ -13,7 +13,7 @@ import 'package:polymer_element/polymer_element.dart';
  * For more information, see the docs for `app-route-converter`.
  */
 
-@BowerImport(ref:'PolymerElements/app-route#2.0-preview',import:"app-route/app-route-converter-behavior.html",name:'app-route')
+@BowerImport(ref:'PolymerElements/app-route#v2.0.0',import:"app-route/app-route-converter-behavior.html",name:'app-route')
 @JS('AppRouteConverterBehavior')
 abstract class AppRouteConverterBehavior  {
   /**

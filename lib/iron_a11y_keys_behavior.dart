@@ -35,7 +35,7 @@ import 'package:polymer_element/polymer_element.dart';
  * for an example.
  */
 
-@BowerImport(ref:'PolymerElements/iron-a11y-keys-behavior#2.0-preview',import:"iron-a11y-keys-behavior/iron-a11y-keys-behavior.html",name:'iron-a11y-keys-behavior')
+@BowerImport(ref:'PolymerElements/iron-a11y-keys-behavior#v2.0.0',import:"iron-a11y-keys-behavior/iron-a11y-keys-behavior.html",name:'iron-a11y-keys-behavior')
 @JS('IronA11yKeysBehavior')
 abstract class IronA11yKeysBehavior  {
   /**

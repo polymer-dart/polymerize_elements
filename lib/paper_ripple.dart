@@ -54,7 +54,7 @@ import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp0;
 
 @JS('PaperRipple')
 @PolymerRegister('paper-ripple',native:true)
-@BowerImport(ref:'PolymerElements/paper-ripple#2.0-preview',import:"paper-ripple/paper-ripple.html",name:'paper-ripple')
+@BowerImport(ref:'PolymerElements/paper-ripple#v2.0.0',import:"paper-ripple/paper-ripple.html",name:'paper-ripple')
 abstract class PaperRipple extends PolymerElement implements imp0.IronA11yKeysBehavior {
   /**
    * The initial opacity set on the wave.

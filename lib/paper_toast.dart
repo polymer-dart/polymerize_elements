@@ -43,7 +43,7 @@ import 'package:polymer_elements/iron_overlay_behavior.dart' as imp0;
 
 @JS('PaperToast')
 @PolymerRegister('paper-toast',native:true)
-@BowerImport(ref:'PolymerElements/paper-toast#2.0-preview',import:"paper-toast/paper-toast.html",name:'paper-toast')
+@BowerImport(ref:'PolymerElements/paper-toast#v2.0.0',import:"paper-toast/paper-toast.html",name:'paper-toast')
 abstract class PaperToast extends PolymerElement implements imp0.IronOverlayBehavior {
   /**
    * The element to fit `this` into.

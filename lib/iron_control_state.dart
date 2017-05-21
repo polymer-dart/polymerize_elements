@@ -11,7 +11,7 @@ import 'package:polymer_element/polymer_element.dart';
  * 
  */
 
-@BowerImport(ref:'PolymerElements/iron-behaviors#2.0-preview',import:"iron-behaviors/iron-control-state.html",name:'iron-behaviors')
+@BowerImport(ref:'PolymerElements/iron-behaviors#v2.0.0',import:"iron-behaviors/iron-control-state.html",name:'iron-behaviors')
 @JS('IronControlState')
 abstract class IronControlState  {
   /**

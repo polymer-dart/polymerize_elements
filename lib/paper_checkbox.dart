@@ -44,7 +44,7 @@ import 'package:polymer_elements/paper_checked_element_behavior.dart' as imp0;
 
 @JS('PaperCheckbox')
 @PolymerRegister('paper-checkbox',native:true)
-@BowerImport(ref:'PolymerElements/paper-checkbox#2.0-preview',import:"paper-checkbox/paper-checkbox.html",name:'paper-checkbox')
+@BowerImport(ref:'PolymerElements/paper-checkbox#v2.0.0',import:"paper-checkbox/paper-checkbox.html",name:'paper-checkbox')
 abstract class PaperCheckbox extends PolymerElement implements imp0.PaperCheckedElementBehavior {
   /**
    * Fired when the checked state changes.

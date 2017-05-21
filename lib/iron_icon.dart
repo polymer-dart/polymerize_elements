@@ -57,7 +57,7 @@ import 'package:polymer_element/polymer_element.dart';
 
 @JS('IronIcon')
 @PolymerRegister('iron-icon',native:true)
-@BowerImport(ref:'PolymerElements/iron-icon#2.0-preview',import:"iron-icon/iron-icon.html",name:'iron-icon')
+@BowerImport(ref:'PolymerElements/iron-icon#v2.0.0',import:"iron-icon/iron-icon.html",name:'iron-icon')
 abstract class IronIcon extends PolymerElement  {
   /**
    * The name of the icon to use. The name should be of the form:

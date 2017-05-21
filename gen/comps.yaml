@@ -7,17 +7,17 @@ externals:
  "Polymer.OptionalMutableDataBehavior": "package:polymer_element/polymer_element.dart"
 components:
  - name: iron-image
-   ref: "PolymerElements/iron-image#2.0-preview"
+   ref: "PolymerElements/iron-image#v2.0.0"
  - name: iron-iconset-svg
-   ref: "PolymerElements/iron-iconset-svg#2.0-preview"
+   ref: "PolymerElements/iron-iconset-svg#v2.0.0"
  - name: iron-autogrow-textarea
-   ref: "PolymerElements/iron-autogrow-textarea#2.0-preview"
+   ref: "PolymerElements/iron-autogrow-textarea#v2.0.0"
  - name: paper-toast
-   ref: "PolymerElements/paper-toast#2.0-preview"
+   ref: "PolymerElements/paper-toast#v2.0.0"
  - name: iron-a11y-announcer
-   ref: "PolymerElements/iron-a11y-announcer#2.0-preview"
+   ref: "PolymerElements/iron-a11y-announcer#v2.0.0"
  - name: iron-media-query
-   ref: "PolymerElements/iron-media-query#2.0-preview"
+   ref: "PolymerElements/iron-media-query#v2.0.0"
    overrides:
     IronMediaQuery:
      query:
@@ -25,7 +25,7 @@ components:
       - "  external set JS$query(v);"
 
  - name: iron-location
-   ref: "PolymerElements/iron-location#2.0-preview"
+   ref: "PolymerElements/iron-location#v2.0.0"
    includes:
     - "*.html"
    excludes:
@@ -37,14 +37,14 @@ components:
       - "  external get JS$query;"
       - "  external set JS$queryPart(v);"
  - name: app-route
-   ref: "PolymerElements/app-route#2.0-preview"
+   ref: "PolymerElements/app-route#v2.0.0"
    includes:
     - "*.html"
    excludes:
     - index.html
     - all-imports.html
  - name: app-layout
-   ref: "PolymerElements/app-layout#2.0-preview"
+   ref: "PolymerElements/app-layout#v2.0.0"
    includes:
     - "**/app-*.html"
     - "app-scroll-effects/effects/*.html"
@@ -56,39 +56,39 @@ components:
     # - "**/app-grid-*.html"
 
  - name: iron-list
-   ref : "PolymerElements/iron-list#2.0-preview"
+   ref : "PolymerElements/iron-list#v2.0.0"
 #   ref : "PolymerElements/iron-list#14150593d8b469b51552f78c15d55655d609eb2e"
 
  - name: paper-spinner
-   ref : "PolymerElements/paper-spinner#2.0-preview"
+   ref : "PolymerElements/paper-spinner#v2.0.0"
    includes:
     - "*.html"
    excludes:
     - index.html
     - all-imports.html
  - name : "iron-scroll-target-behavior"
-   ref : "PolymerElements/iron-scroll-target-behavior#2.0-preview"
+   ref : "PolymerElements/iron-scroll-target-behavior#v2.0.0"
 
  - name : "paper-card"
-   ref : "PolymerElements/paper-card#2.0-preview"
+   ref : "PolymerElements/paper-card#v2.0.0"
 
  - name : "paper-material"
-   ref : "PolymerElements/paper-material#2.0-preview"
+   ref : "PolymerElements/paper-material#v2.0.0"
 
  - name : "paper-button"
-   ref : "PolymerElements/paper-button#2.0-preview"
+   ref : "PolymerElements/paper-button#v2.0.0"
 
  - name : "iron-range-behavior"
-   ref : "PolymerElements/iron-range-behavior#2.0-preview"
+   ref : "PolymerElements/iron-range-behavior#v2.0.0"
 
  - name : "paper-progress"
-   ref : "PolymerElements/paper-progress#2.0-preview"
+   ref : "PolymerElements/paper-progress#v2.0.0"
 
  - name :  "paper-radio-button"
-   ref : "PolymerElements/paper-radio-button#2.0-preview"
+   ref : "PolymerElements/paper-radio-button#v2.0.0"
 
  - name :    "paper-input"
-   ref : "PolymerElements/paper-input#2.0-preview"
+   ref : "PolymerElements/paper-input#v2.0.0"
    includes:
     - "*.html"
    excludes:
@@ -96,29 +96,29 @@ components:
     - all-imports.html
 
  - name :    "paper-checkbox"
-   ref : "PolymerElements/paper-checkbox#2.0-preview"
+   ref : "PolymerElements/paper-checkbox#v2.0.0"
 
  - name :    "iron-flex-layout"
-   ref : "PolymerElements/iron-flex-layout#2.0-preview"
+   ref : "PolymerElements/iron-flex-layout#v2.0.0"
 
  - name :    "iron-icon"
-   ref : "PolymerElements/iron-icon#2.0-preview"
+   ref : "PolymerElements/iron-icon#v2.0.0"
 
  - name :    "iron-icons"
-   ref : "PolymerElements/iron-icons#2.0-preview"
+   ref : "PolymerElements/iron-icons#v2.0.0"
 
  - name : "iron-form-element-behavior"
-   ref : "PolymerElements/iron-form-element-behavior#2.0-preview"
+   ref : "PolymerElements/iron-form-element-behavior#v2.0.0"
 
  - name :    "iron-behaviors"
-   ref : "PolymerElements/iron-behaviors#2.0-preview"
+   ref : "PolymerElements/iron-behaviors#v2.0.0"
    includes:
     - "*.html"
    excludes:
     - index.html
     - all-imports.html
  - name :    "iron-overlay-behavior"
-   ref : "PolymerElements/iron-overlay-behavior#2.0-preview"
+   ref : "PolymerElements/iron-overlay-behavior#v2.0.0"
    includes:
     - "*.html"
    excludes:
@@ -126,7 +126,7 @@ components:
     - all-imports.html
 
  - name :    "neon-animation"
-   ref : "PolymerElements/neon-animation#2.0-preview"
+   ref : "PolymerElements/neon-animation#v2.0.0"
    includes:
     - "*.html"
     - "animations/*.html"
@@ -135,7 +135,7 @@ components:
     - all-imports.html
 
  - name :    "iron-selector"
-   ref : "PolymerElements/iron-selector#2.0-preview"
+   ref : "PolymerElements/iron-selector#v2.0.0"
    includes:
     - "*.html"
    excludes:
@@ -143,7 +143,7 @@ components:
     - all-imports.html
 
  - name :    "paper-behaviors"
-   ref : "PolymerElements/paper-behaviors#2.0-preview"
+   ref : "PolymerElements/paper-behaviors#v2.0.0"
    paths:
     - paper-behaviors/paper-button-behavior.html
     - paper-behaviors/paper-checked-element-behavior.html
@@ -151,19 +151,19 @@ components:
     - paper-behaviors/paper-ripple-behavior.html
 
  - name: 'paper-dialog-behavior'
-   ref: 'PolymerElements/paper-dialog-behavior#2.0-preview'
+   ref: 'PolymerElements/paper-dialog-behavior#v2.0.0'
 
  - name: 'iron-resizable-behavior'
-   ref: 'PolymerElements/iron-resizable-behavior#2.0-preview'
+   ref: 'PolymerElements/iron-resizable-behavior#v2.0.0'
 
  - name: 'iron-fit-behavior'
-   ref: 'PolymerElements/iron-fit-behavior#2.0-preview'
+   ref: 'PolymerElements/iron-fit-behavior#v2.0.0'
 
  - name :    "paper-ripple"
-   ref : "PolymerElements/paper-ripple#2.0-preview"
+   ref : "PolymerElements/paper-ripple#v2.0.0"
 
  - name :    "paper-dialog"
-   ref : "PolymerElements/paper-dialog#2.0-preview"
+   ref : "PolymerElements/paper-dialog#v2.0.0"
    includes:
     - "*.html"
    excludes:
@@ -171,25 +171,25 @@ components:
     - all-imports.html
 
  - name :    "iron-meta"
-   ref : "PolymerElements/iron-meta#2.0-preview"
+   ref : "PolymerElements/iron-meta#v2.0.0"
    overrides:
     IronMeta:
      '$name': 'IronMetaElement'
 
  - name :    "paper-icon-button"
-   ref : "PolymerElements/paper-icon-button#2.0-preview"
+   ref : "PolymerElements/paper-icon-button#v2.0.0"
 
  - name :    "iron-input"
-   ref : "PolymerElements/iron-input#2.0-preview"
+   ref : "PolymerElements/iron-input#v2.0.0"
 
  - name :    "iron-a11y-keys-behavior"
-   ref : "PolymerElements/iron-a11y-keys-behavior#2.0-preview"
+   ref : "PolymerElements/iron-a11y-keys-behavior#v2.0.0"
 
  - name :    "iron-checked-element-behavior"
-   ref : "PolymerElements/iron-checked-element-behavior#2.0-preview"
+   ref : "PolymerElements/iron-checked-element-behavior#v2.0.0"
 
  - name :    "iron-validatable-behavior"
-   ref : "PolymerElements/iron-validatable-behavior#2.0-preview"
+   ref : "PolymerElements/iron-validatable-behavior#v2.0.0"
 
 resolutions:
   "polymer": "2.0.0-rc.6"

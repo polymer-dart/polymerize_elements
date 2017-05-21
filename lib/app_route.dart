@@ -68,7 +68,7 @@ import 'package:polymer_element/polymer_element.dart';
 
 @JS('AppRoute')
 @PolymerRegister('app-route',native:true)
-@BowerImport(ref:'PolymerElements/app-route#2.0-preview',import:"app-route/app-route.html",name:'app-route')
+@BowerImport(ref:'PolymerElements/app-route#v2.0.0',import:"app-route/app-route.html",name:'app-route')
 abstract class AppRoute extends PolymerElement  {
   /**
    * The URL component managed by this element.

@@ -24,7 +24,7 @@ import 'package:polymer_elements/paper_input_addon_behavior.dart' as imp0;
 
 @JS('PaperInputError')
 @PolymerRegister('paper-input-error',native:true)
-@BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input-error.html",name:'paper-input')
+@BowerImport(ref:'PolymerElements/paper-input#v2.0.0',import:"paper-input/paper-input-error.html",name:'paper-input')
 abstract class PaperInputError extends PolymerElement implements imp0.PaperInputAddonBehavior {
   /**
    * True if the error is showing.

@@ -21,7 +21,7 @@ import 'package:polymer_element/polymer_element.dart';
 
 @JS('PaperMaterial')
 @PolymerRegister('paper-material',native:true)
-@BowerImport(ref:'PolymerElements/paper-material#2.0-preview',import:"paper-material/paper-material.html",name:'paper-material')
+@BowerImport(ref:'PolymerElements/paper-material#v2.0.0',import:"paper-material/paper-material.html",name:'paper-material')
 abstract class PaperMaterial extends PolymerElement  {
   /**
    * The z-depth of this element, from 0-5. Setting to 0 will remove the

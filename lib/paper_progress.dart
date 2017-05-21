@@ -64,7 +64,7 @@ import 'package:polymer_elements/iron_range_behavior.dart' as imp0;
 
 @JS('PaperProgress')
 @PolymerRegister('paper-progress',native:true)
-@BowerImport(ref:'PolymerElements/paper-progress#2.0-preview',import:"paper-progress/paper-progress.html",name:'paper-progress')
+@BowerImport(ref:'PolymerElements/paper-progress#v2.0.0',import:"paper-progress/paper-progress.html",name:'paper-progress')
 abstract class PaperProgress extends PolymerElement implements imp0.IronRangeBehavior {
   /**
    * The number that represents the current secondary progress.

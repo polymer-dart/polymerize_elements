@@ -25,7 +25,7 @@ import 'package:polymer_element/polymer_element.dart';
  * `aria-invalid` attribute.
  */
 
-@BowerImport(ref:'PolymerElements/iron-validatable-behavior#2.0-preview',import:"iron-validatable-behavior/iron-validatable-behavior.html",name:'iron-validatable-behavior')
+@BowerImport(ref:'PolymerElements/iron-validatable-behavior#v2.0.0',import:"iron-validatable-behavior/iron-validatable-behavior.html",name:'iron-validatable-behavior')
 @JS('IronValidatableBehavior')
 abstract class IronValidatableBehavior  {
   /**

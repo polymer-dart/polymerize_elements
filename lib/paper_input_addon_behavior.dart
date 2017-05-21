@@ -13,7 +13,7 @@ import 'package:polymer_element/polymer_element.dart';
  * validity such as a character counter or an error message.
  */
 
-@BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input-addon-behavior.html",name:'paper-input')
+@BowerImport(ref:'PolymerElements/paper-input#v2.0.0',import:"paper-input/paper-input-addon-behavior.html",name:'paper-input')
 @JS('PaperInputAddonBehavior')
 abstract class PaperInputAddonBehavior  {
 

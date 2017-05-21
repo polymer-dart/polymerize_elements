@@ -89,7 +89,17 @@ import 'package:polymer_elements/app_layout_behavior.dart' as imp0;
  * ### Styling
  * Custom property                          | Description                          | Default
  * -----------------------------------------|--------------------------------------|---------
+ * `--app-drawer-width`                     | Width of the drawer                  | 256px
  * `--app-drawer-layout-content-transition` | Transition for the content container | none
+ * **NOTE:** If you use <app-drawer> with <app-drawer-layout> and specify a value for
+ * `--app-drawer-width`, that value must be accessible by both elements. This can be done by
+ * defining the value on the `:host` that contains <app-drawer-layout> (or `html` if outside
+ * a shadow root):
+ * ```css
+ * :host {
+ *   --app-drawer-width: 300px;
+ * }
+ * ```
  * @group App Elements
  * @element app-drawer-layout
  * @demo app-drawer-layout/demo/simple-drawer.html Simple Demo
@@ -98,7 +108,7 @@ import 'package:polymer_elements/app_layout_behavior.dart' as imp0;
 
 @JS('AppDrawerLayout')
 @PolymerRegister('app-drawer-layout',native:true)
-@BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-drawer-layout/app-drawer-layout.html",name:'app-layout')
+@BowerImport(ref:'PolymerElements/app-layout#v2.0.0',import:"app-layout/app-drawer-layout/app-drawer-layout.html",name:'app-layout')
 abstract class AppDrawerLayout extends PolymerElement implements imp0.AppLayoutBehavior {
   /**
    * If true, ignore `responsiveWidth` setting and force the narrow layout.

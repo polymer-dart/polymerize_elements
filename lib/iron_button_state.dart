@@ -11,7 +11,7 @@ import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp0;
  * 
  */
 
-@BowerImport(ref:'PolymerElements/iron-behaviors#2.0-preview',import:"iron-behaviors/iron-button-state.html",name:'iron-behaviors')
+@BowerImport(ref:'PolymerElements/iron-behaviors#v2.0.0',import:"iron-behaviors/iron-button-state.html",name:'iron-behaviors')
 @JS('IronButtonState')
 abstract class IronButtonState implements imp0.IronA11yKeysBehavior {
   /**

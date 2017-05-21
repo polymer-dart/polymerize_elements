@@ -71,7 +71,7 @@ import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp0;
  * point the effect should start and end. This value goes from 0 to 1 inclusive.
  */
 
-@BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-scroll-effects/app-scroll-effects-behavior.html",name:'app-layout')
+@BowerImport(ref:'PolymerElements/app-layout#v2.0.0',import:"app-layout/app-scroll-effects/app-scroll-effects-behavior.html",name:'app-layout')
 @JS('AppScrollEffectsBehavior')
 abstract class AppScrollEffectsBehavior implements imp0.IronScrollTargetBehavior {
   /**

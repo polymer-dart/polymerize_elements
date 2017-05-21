@@ -49,7 +49,7 @@ import 'package:polymer_element/polymer_element.dart';
 
 @JS('IronImage')
 @PolymerRegister('iron-image',native:true)
-@BowerImport(ref:'PolymerElements/iron-image#2.0-preview',import:"iron-image/iron-image.html",name:'iron-image')
+@BowerImport(ref:'PolymerElements/iron-image#v2.0.0',import:"iron-image/iron-image.html",name:'iron-image')
 abstract class IronImage extends PolymerElement  {
   /**
    * The URL of an image.

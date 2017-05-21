@@ -8,13 +8,10 @@ import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_selectable.dart' as imp0;
 
 /**
- * ### Notable breaking changes between 1.x and 2.x (hybrid):
- * - `selectedValues` and `selectedItems` now have empty arrays as default
- *   values. This may cause bindings or observers of these properties to
- *   trigger at start up when they previously had not.
+ * 
  */
 
-@BowerImport(ref:'PolymerElements/iron-selector#2.0-preview',import:"iron-selector/iron-multi-selectable.html",name:'iron-selector')
+@BowerImport(ref:'PolymerElements/iron-selector#v2.0.0',import:"iron-selector/iron-multi-selectable.html",name:'iron-selector')
 @JS('IronMultiSelectableBehavior')
 abstract class IronMultiSelectableBehavior implements imp0.IronSelectableBehavior {
   /**

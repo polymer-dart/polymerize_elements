@@ -31,6 +31,15 @@ import 'package:polymer_element/polymer_element.dart';
  * `--app-drawer-width`             | Width of the drawer                    | 256px
  * `--app-drawer-content-container` | Mixin for the drawer content container | {}
  * `--app-drawer-scrim-background`  | Background for the scrim               | rgba(0, 0, 0, 0.5)
+ * **NOTE:** If you use <app-drawer> with <app-drawer-layout> and specify a value for
+ * `--app-drawer-width`, that value must be accessible by both elements. This can be done by
+ * defining the value on the `:host` that contains <app-drawer-layout> (or `html` if outside
+ * a shadow root):
+ * ```css
+ * :host {
+ *   --app-drawer-width: 300px;
+ * }
+ * ```
  * @group App Elements
  * @element app-drawer
  * @demo app-drawer/demo/left-drawer.html Simple Left Drawer
@@ -39,7 +48,7 @@ import 'package:polymer_element/polymer_element.dart';
 
 @JS('AppDrawer')
 @PolymerRegister('app-drawer',native:true)
-@BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-drawer/app-drawer.html",name:'app-layout')
+@BowerImport(ref:'PolymerElements/app-layout#v2.0.0',import:"app-layout/app-drawer/app-drawer.html",name:'app-layout')
 abstract class AppDrawer extends PolymerElement  {
   /**
    * The opened state of the drawer.

@@ -54,7 +54,7 @@ import 'package:polymer_elements/iron_multi_selectable.dart' as imp0;
 
 @JS('IronSelector')
 @PolymerRegister('iron-selector',native:true)
-@BowerImport(ref:'PolymerElements/iron-selector#2.0-preview',import:"iron-selector/iron-selector.html",name:'iron-selector')
+@BowerImport(ref:'PolymerElements/iron-selector#v2.0.0',import:"iron-selector/iron-selector.html",name:'iron-selector')
 abstract class IronSelector extends PolymerElement implements imp0.IronMultiSelectableBehavior {
 
 

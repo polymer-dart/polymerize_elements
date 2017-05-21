@@ -89,7 +89,7 @@ import 'package:polymer_element/polymer_element.dart';
 
 @JS('PaperInputContainer')
 @PolymerRegister('paper-input-container',native:true)
-@BowerImport(ref:'PolymerElements/paper-input#2.0-preview',import:"paper-input/paper-input-container.html",name:'paper-input')
+@BowerImport(ref:'PolymerElements/paper-input#v2.0.0',import:"paper-input/paper-input-container.html",name:'paper-input')
 abstract class PaperInputContainer extends PolymerElement  {
   /**
    * Set to true to disable the floating label. The label disappears when the input value is

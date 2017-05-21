@@ -13,7 +13,7 @@ import 'package:polymer_elements/paper_ripple_behavior.dart' as imp2;
  * 
  */
 
-@BowerImport(ref:'PolymerElements/paper-behaviors#2.0-preview',import:"paper-behaviors/paper-button-behavior.html",name:'paper-behaviors')
+@BowerImport(ref:'PolymerElements/paper-behaviors#v2.0.0',import:"paper-behaviors/paper-button-behavior.html",name:'paper-behaviors')
 @JS('PaperButtonBehavior')
 abstract class PaperButtonBehavior implements imp0.IronButtonState,imp1.IronControlState,imp2.PaperRippleBehavior {
   /**

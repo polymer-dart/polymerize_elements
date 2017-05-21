@@ -14,7 +14,7 @@ import 'package:polymer_element/polymer_element.dart';
  *   
  */
 
-@BowerImport(ref:'PolymerElements/iron-form-element-behavior#2.0-preview',import:"iron-form-element-behavior/iron-form-element-behavior.html",name:'iron-form-element-behavior')
+@BowerImport(ref:'PolymerElements/iron-form-element-behavior#v2.0.0',import:"iron-form-element-behavior/iron-form-element-behavior.html",name:'iron-form-element-behavior')
 @JS('IronFormElementBehavior')
 abstract class IronFormElementBehavior  {
   /**

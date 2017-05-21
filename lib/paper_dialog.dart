@@ -53,7 +53,7 @@ import 'package:polymer_elements/neon_animation_runner_behavior.dart' as imp1;
 
 @JS('PaperDialog')
 @PolymerRegister('paper-dialog',native:true)
-@BowerImport(ref:'PolymerElements/paper-dialog#2.0-preview',import:"paper-dialog/paper-dialog.html",name:'paper-dialog')
+@BowerImport(ref:'PolymerElements/paper-dialog#v2.0.0',import:"paper-dialog/paper-dialog.html",name:'paper-dialog')
 abstract class PaperDialog extends PolymerElement implements imp0.PaperDialogBehavior,imp1.NeonAnimationRunnerBehavior {
 
 

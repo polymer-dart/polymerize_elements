@@ -11,7 +11,7 @@ import 'package:polymer_element/polymer_element.dart';
  * Use `Polymer.NeonAnimationBehavior` to implement an animation.
  */
 
-@BowerImport(ref:'PolymerElements/neon-animation#2.0-preview',import:"neon-animation/neon-animation-behavior.html",name:'neon-animation')
+@BowerImport(ref:'PolymerElements/neon-animation#v2.0.0',import:"neon-animation/neon-animation-behavior.html",name:'neon-animation')
 @JS('NeonAnimationBehavior')
 abstract class NeonAnimationBehavior  {
   /**

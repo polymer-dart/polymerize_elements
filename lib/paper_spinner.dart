@@ -37,7 +37,7 @@ import 'package:polymer_elements/paper_spinner_behavior.dart' as imp0;
 
 @JS('PaperSpinner')
 @PolymerRegister('paper-spinner',native:true)
-@BowerImport(ref:'PolymerElements/paper-spinner#2.0-preview',import:"paper-spinner/paper-spinner.html",name:'paper-spinner')
+@BowerImport(ref:'PolymerElements/paper-spinner#v2.0.0',import:"paper-spinner/paper-spinner.html",name:'paper-spinner')
 abstract class PaperSpinner extends PolymerElement implements imp0.PaperSpinnerBehavior {
 
 

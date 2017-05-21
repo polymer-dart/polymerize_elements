@@ -179,7 +179,7 @@ import 'package:polymer_elements/app_layout_behavior.dart' as imp1;
 
 @JS('AppHeader')
 @PolymerRegister('app-header',native:true)
-@BowerImport(ref:'PolymerElements/app-layout#2.0-preview',import:"app-layout/app-header/app-header.html",name:'app-layout')
+@BowerImport(ref:'PolymerElements/app-layout#v2.0.0',import:"app-layout/app-header/app-header.html",name:'app-layout')
 abstract class AppHeader extends PolymerElement implements imp0.AppScrollEffectsBehavior,imp1.AppLayoutBehavior {
   /**
    * If true, the header will automatically collapse when scrolling down.
