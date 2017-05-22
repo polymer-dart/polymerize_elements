@@ -11,4 +11,4 @@ dependencies:
 #  polymer_element:
 #   path: ../polymer_element
 dev_dependencies:
-  polymerize: ^0.8.0
+  polymerize: ^0.8.1

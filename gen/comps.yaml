@@ -6,6 +6,10 @@ externals:
  "Templatizer": "package:polymer_element/polymer_element.dart" 
  "Polymer.OptionalMutableDataBehavior": "package:polymer_element/polymer_element.dart"
 components:
+ - name: web-animation
+   ref: "web-animations-js#2.2.5"
+   includes:
+     - "web-animations-next-lite.min.html"
  - name: iron-image
    ref: "PolymerElements/iron-image#v2.0.0"
  - name: iron-iconset-svg
