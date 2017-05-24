@@ -66,15 +66,5 @@ abstract class AppPouchDBDatabaseBehavior  {
   external Function get resolveConflict;
   external set resolveConflict(Function value);
 
-  /**
-   * If desired, assign a function that implements a conflict resolution
-   * strategy. This conflict resolution strategy will take precedence when
-   * a conflict occurs, and will prevent conflict notification events from
-   * being fired.
-   * Consider using an `app-pouchdb-conflict-resolver` element instead for
-   * a more declarative experience!
-   */
-  external void resolveConflict();
-
 }
 

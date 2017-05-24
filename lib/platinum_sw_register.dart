@@ -118,7 +118,7 @@ abstract class PlatinumSwRegister extends PolymerElement  {
    * to cover `/root/index.html`, `/root/subdir1/index.html`, and `/root/subdir2/index.html`.
    * If, for some reason, you need to register `/root/service-worker.js` from within
    * `/root/subdir1/index.html`, *and* you want that registration to only cover
-   * `/root/subdir1/**`, you can override this `scope` property and set it to `'./'`.
+   * `/root/subdir1/ **`, you can override this `scope` property and set it to `'./'`.
    * There is more context about default scopes and how scope overrides work in
    * [this Stack Overflow](http://stackoverflow.com/a/33881341/385997) response.
    * @see {@link https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#navigator-service-worker-register}
