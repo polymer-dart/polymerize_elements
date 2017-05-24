@@ -31,6 +31,8 @@ import 'package:polymer_element/polymer_element.dart';
 @PolymerRegister('platinum-sw-register',native:true)
 @BowerImport(ref:'PolymerElements/platinum-sw#2.0-preview',import:"platinum-sw/platinum-sw-register.html",name:'platinum-sw')
 abstract class PlatinumSwRegister extends PolymerElement  {
+  external register();
+
   /**
    * Whether this element should automatically register the corresponding service worker as
    * soon as its added to a page.
