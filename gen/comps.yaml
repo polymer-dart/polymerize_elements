@@ -10,6 +10,27 @@ components:
 #   ref: "web-animations-js#2.2.5"
 #   includes:
 #     - "web-animations-next-lite.min.html"
+ - name : "platinum-sw"
+   ref : "PolymerElements/platinum-sw#2.0-preview"
+   includes:
+    - 'platinum-sw*.html'
+    - '**/platinum-sw*.html'
+   excludes:
+    - 'test/**'
+ - name :    "app-pouchdb"
+   ref : "PolymerElements/app-pouchdb#v2.0.0"
+   includes:
+    - "app-*.html"
+    - "**/app-*.html"
+   excludes:
+    - 'test/**'
+ - name :    "app-storage"
+   ref : "PolymerElements/app-storage#v2.0.0"
+   includes:
+    - "app-*.html"
+    - "**/app-*.html"
+   excludes:
+    - 'test/**'
  - name: iron-image
    ref: "PolymerElements/iron-image#v2.0.0"
  - name: iron-iconset-svg
@@ -194,6 +215,7 @@ components:
 
  - name :    "iron-validatable-behavior"
    ref : "PolymerElements/iron-validatable-behavior#v2.0.0"
+
 
 resolutions:
   "polymer": "2.0.0-rc.6"
