@@ -66,5 +66,6 @@ abstract class AppPouchDBDatabaseBehavior  {
   external Function get resolveConflict;
   external set resolveConflict(Function value);
 
+
 }
 
