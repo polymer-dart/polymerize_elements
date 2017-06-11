@@ -10,6 +10,26 @@ components:
 #   ref: "web-animations-js#2.2.5"
 #   includes:
 #     - "web-animations-next-lite.min.html"
+ - name : 'iron-menu-behavior'
+   ref: 'PolymerElements/iron-menu-behavior#v2.0.0'
+ - name : 'paper-item'
+   ref: 'PolymerElements/paper-item#v2.0.0'
+   includes:
+    - "paper-*.html"
+ - name : 'paper-listbox'
+   ref: 'PolymerElements/paper-listbox#v2.0.0'
+ - name : 'paper-dropdown-menu'
+   ref: 'PolymerElements/paper-dropdown-menu#v2.0.0'
+ - name : 'paper-dropdown-menu'
+   ref: 'PolymerElements/paper-dropdown-menu#v2.0.0'
+ - name : 'marked-element'
+   ref: 'PolymerElements/marked-element#v2.1.1'
+ - name : 'paper-fab'
+   ref : 'PolymerElements/paper-fab#v2.0.0'
+ - name : 'polymerfire'
+   ref : 'polymerfire#v2.1.0'
+   includes:
+     - 'firebase-*.html'
  - name : "platinum-sw"
    ref : "PolymerElements/platinum-sw#2.0-preview"
    includes:
@@ -144,7 +164,9 @@ components:
    ref : "PolymerElements/iron-icon#v2.0.0"
 
  - name :    "iron-icons"
-   ref : "PolymerElements/iron-icons#v2.0.0"
+   ref : "PolymerElements/iron-icons#v2.0.1"
+   includes:
+     - "*-icons.html"
 
  - name : "iron-form-element-behavior"
    ref : "PolymerElements/iron-form-element-behavior#v2.0.0"
@@ -232,4 +254,4 @@ components:
 
 
 resolutions:
-  "polymer": "2.0.0-rc.6"
+  "polymer": "v2.0.0"

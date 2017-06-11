@@ -25,7 +25,7 @@ import 'package:polymer_element/polymer_element.dart';
 
 @JS('IronIcons')
 @PolymerRegister('iron-icons',native:true)
-@BowerImport(ref:'PolymerElements/iron-icons#v2.0.0',import:"iron-icons/iron-icons.html",name:'iron-icons')
+@BowerImport(ref:'PolymerElements/iron-icons#v2.0.1',import:"iron-icons/iron-icons.html",name:'iron-icons')
 abstract class IronIcons extends PolymerElement  {
 
 
