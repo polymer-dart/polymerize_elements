@@ -152,4 +152,5 @@ abstract class PlatinumSwRegister extends PolymerElement  {
   external set state(String value);
 
 
+  external void register();
 }
