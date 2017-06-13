@@ -85,7 +85,7 @@ abstract class AppStorageBehavior  {
    * @param {*} args
    * @return {Promise} a Promise that settles only once the write has.
    */
-  external void saveValue();
+  external Promise saveValue(String savePath,String key);
 
   /**
    * Optional. Override this method to clear out the mapping of this
