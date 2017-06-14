@@ -10,6 +10,10 @@ components:
 #   ref: "web-animations-js#2.2.5"
 #   includes:
 #     - "web-animations-next-lite.min.html"
+ - name : 'iron-dropdown'
+   ref: 'PolymerElements/iron-dropdown#v2.0.0'
+   includes:
+    - iron-dropdown*.html
  - name : 'iron-menu-behavior'
    ref: 'PolymerElements/iron-menu-behavior#v2.0.0'
  - name : 'paper-item'
