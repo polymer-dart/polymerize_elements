@@ -10,6 +10,21 @@ components:
 #   ref: "web-animations-js#2.2.5"
 #   includes:
 #     - "web-animations-next-lite.min.html"
+ - name : 'font-roboto'
+   ref: 'PolymerElements/font-roboto#v2.0.0'
+   includes:
+    - roboto.html
+ - name : 'paper-styles'
+   ref: 'PolymerElements/paper-styles#v2.0.0'
+   includes:
+    - color.html
+    - default-theme.html
+    - paper-styles-classes.html
+    - paper-styles.html
+    - shadow.html
+    - typography.htm
+    - classes/*
+    - element_styles/*
  - name : 'iron-dropdown'
    ref: 'PolymerElements/iron-dropdown#v2.0.0'
    includes:
