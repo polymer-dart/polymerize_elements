@@ -23,7 +23,7 @@ components:
     - paper-styles.html
     - shadow.html
     - typography.htm
-    - classes/*
+#    - classes/*
     - element_styles/*
  - name : 'iron-dropdown'
    ref: 'PolymerElements/iron-dropdown#v2.0.0'
@@ -241,6 +241,9 @@ components:
 
  - name :    "paper-ripple"
    ref : "PolymerElements/paper-ripple#v2.0.0"
+
+ - name :    "paper-dialog-scrollable"
+   ref : "PolymerElements/paper-dialog-scrollable#v2.1.0"
 
  - name :    "paper-dialog"
    ref : "PolymerElements/paper-dialog#v2.0.0"
