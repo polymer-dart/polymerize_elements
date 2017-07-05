@@ -14,6 +14,9 @@ components:
    ref: 'PolymerElements/font-roboto#v2.0.0'
    includes:
     - roboto.html
+ - name : 'paper-tooltip'
+   ref: 'PolymerElements/paper-tooltip#v2.0.0'
+
  - name : 'paper-styles'
    ref: 'PolymerElements/paper-styles#v2.0.0'
    includes:
