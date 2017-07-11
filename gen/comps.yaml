@@ -16,6 +16,8 @@ components:
     - roboto.html
  - name : 'paper-tooltip'
    ref: 'PolymerElements/paper-tooltip#v2.0.0'
+ - name : 'paper-badge'
+   ref: 'PolymerElements/paper-badge#v2.0.0'
 
  - name : 'paper-styles'
    ref: 'PolymerElements/paper-styles#v2.0.0'
