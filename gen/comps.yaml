@@ -139,7 +139,7 @@ components:
     # - "**/app-grid-*.html"
 
  - name: iron-list
-   ref : "PolymerElements/iron-list#v2.0.0"
+   ref : "PolymerElements/iron-list#v2.0.5"
 #   ref : "PolymerElements/iron-list#14150593d8b469b51552f78c15d55655d609eb2e"
 
  - name: paper-spinner

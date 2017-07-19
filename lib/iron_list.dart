@@ -193,7 +193,7 @@ import 'package:polymer_element/polymer_element.dart' as imp3;
 
 @JS('IronList')
 @PolymerRegister('iron-list',native:true)
-@BowerImport(ref:'PolymerElements/iron-list#v2.0.0',import:"iron-list/iron-list.html",name:'iron-list')
+@BowerImport(ref:'PolymerElements/iron-list#v2.0.5',import:"iron-list/iron-list.html",name:'iron-list')
 abstract class IronList extends PolymerElement implements imp0.Templatizer,imp1.IronResizableBehavior,imp2.IronScrollTargetBehavior,imp3.OptionalMutableDataBehavior {
   /**
    * An array containing items determining how many instances of the template
