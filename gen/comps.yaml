@@ -30,6 +30,8 @@ components:
     - typography.htm
 #    - classes/*
     - element_styles/*
+ - name: 'iron-a11y-keys'
+   ref: 'PolymerElements/iron-a11y-keys#v2.0.0'
  - name : 'iron-dropdown'
    ref: 'PolymerElements/iron-dropdown#v2.0.0'
    includes:

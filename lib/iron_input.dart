@@ -110,6 +110,6 @@ abstract class IronInput extends PolymerElement implements imp0.IronValidatableB
   /**
    * Returns the distributed <input> element.
    */
-  external void inputElement();
+  external get inputElement;
 
 }

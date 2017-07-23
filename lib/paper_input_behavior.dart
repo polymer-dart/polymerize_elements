@@ -281,7 +281,7 @@ abstract class PaperInputBehavior implements imp0.IronControlState,imp1.IronA11y
   /**
    * Returns a reference to the input element.
    */
-  external void inputElement();
+  external get inputElement;
 
   /**
    * 
