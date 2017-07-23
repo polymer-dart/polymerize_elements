@@ -42,6 +42,8 @@ components:
     - "paper-*.html"
  - name : 'paper-listbox'
    ref: 'PolymerElements/paper-listbox#v2.0.0'
+ - name : 'paper-menu-button'
+   ref: 'PolymerElements/paper-menu-button#v2.0.0'
  - name : 'paper-dropdown-menu'
    ref: 'PolymerElements/paper-dropdown-menu#v2.0.0'
  - name : 'paper-dropdown-menu'
