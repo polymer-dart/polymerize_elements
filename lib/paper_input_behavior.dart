@@ -7,7 +7,7 @@ import 'package:js/js_util.dart';
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_control_state.dart' as imp0;
 import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp1;
-
+part 'paper_input_behavior.polymerize.dart';
 /**
  * Use `Polymer.PaperInputBehavior` to implement inputs with `<paper-input-container>`. This
  * behavior is implemented by `<paper-input>`. It exposes a number of properties from

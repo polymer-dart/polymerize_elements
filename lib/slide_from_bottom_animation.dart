@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/neon_animation_behavior.dart' as imp0;
-
+part 'slide_from_bottom_animation.polymerize.dart';
 /**
  * `<slide-from-bottom-animation>` animates the transform of an element from `none` to `translateY(100%)`.
  * The `transformOrigin` defaults to `50% 0`.

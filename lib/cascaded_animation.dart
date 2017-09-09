@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/neon_animation_behavior.dart' as imp0;
-
+part 'cascaded_animation.polymerize.dart';
 /**
  * `<cascaded-animation>` applies an animation on an array of elements with a delay between each.
  * the delay defaults to 50ms.

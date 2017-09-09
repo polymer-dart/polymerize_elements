@@ -7,7 +7,7 @@ import 'package:js/js_util.dart';
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp0;
 import 'package:polymer_elements/iron_control_state.dart' as imp1;
-
+part 'paper_menu_button.polymerize.dart';
 /**
  * Material design: [Dropdown buttons](https://www.google.com/design/spec/components/buttons.html#buttons-dropdown-buttons)
  * `paper-menu-button` allows one to compose a designated "trigger" element with

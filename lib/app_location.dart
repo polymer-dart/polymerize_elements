@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/app_route_converter_behavior.dart' as imp0;
-
+part 'app_location.polymerize.dart';
 /**
  * `app-location` is an element that provides synchronization between the
  * browser location bar and the state of an app. When created, `app-location`

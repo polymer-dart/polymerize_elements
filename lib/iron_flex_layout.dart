@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'iron_flex_layout.polymerize.dart';
 
 /**
  * The `<iron-flex-layout>` component provides simple ways to use

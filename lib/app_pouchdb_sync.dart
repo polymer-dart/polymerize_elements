@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'app_pouchdb_sync.polymerize.dart';
 
 /**
  * `app-pouchdb-sync` arranges for one-directional or bi-directional

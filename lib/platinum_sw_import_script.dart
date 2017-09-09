@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/platinum_sw_registerable_behavior.dart' as imp0;
-
+part 'platinum_sw_import_script.polymerize.dart';
 /**
  * The `<platinum-sw-import-script>` element is used to import a JavaScript file that is executed
  * each time the service worker starts up.

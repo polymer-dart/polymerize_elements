@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/neon_animation_behavior.dart' as imp0;
-
+part 'fade_out_animation.polymerize.dart';
 /**
  * `<fade-out-animation>` animates the opacity of an element from 1 to 0.
  * Configuration:

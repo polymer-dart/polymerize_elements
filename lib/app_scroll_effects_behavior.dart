@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp0;
-
+part 'app_scroll_effects_behavior.polymerize.dart';
 /**
  * `Polymer.AppScrollEffectsBehavior` provides an interface that allows an element to use scrolls effects.
  * ### Importing the app-layout effects

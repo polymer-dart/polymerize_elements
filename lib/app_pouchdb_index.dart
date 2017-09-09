@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/app_pouchdb_database_behavior.dart' as imp0;
-
+part 'app_pouchdb_index.polymerize.dart';
 /**
  * `app-pouchdb-index` enables declarative, idempotent configuration of database
  * indexes. The semantics map to those of the pouchdb-find plugin. For more

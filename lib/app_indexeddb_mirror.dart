@@ -7,7 +7,7 @@ import 'package:js/js_util.dart';
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/app_storage_behavior.dart' as imp0;
 import 'package:polymer_elements/app_network_status_behavior.dart' as imp1;
-
+part 'app_indexeddb_mirror.polymerize.dart';
 /**
  * `app-indexeddb-mirror` is a purpose-built element to easily add read-only
  * offline access of application data that is typically only available when the

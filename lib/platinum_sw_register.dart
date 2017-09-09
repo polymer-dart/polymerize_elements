@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'platinum_sw_register.polymerize.dart';
 
 /**
  * The `<platinum-sw-register>` element handles

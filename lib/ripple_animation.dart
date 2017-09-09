@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/neon_shared_element_animation_behavior.dart' as imp0;
-
+part 'ripple_animation.polymerize.dart';
 /**
  * `<ripple-animation>` scales and transform an element such that it appears to ripple from either
  * a shared element, or from a screen position, to full screen.

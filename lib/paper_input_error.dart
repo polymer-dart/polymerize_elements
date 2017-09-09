@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/paper_input_addon_behavior.dart' as imp0;
-
+part 'paper_input_error.polymerize.dart';
 /**
  * `<paper-input-error>` is an error message for use with `<paper-input-container>`. The error is
  * displayed when the `<paper-input-container>` is `invalid`.

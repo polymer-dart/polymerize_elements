@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'iron_form_element_behavior.polymerize.dart';
 
 /**
  *   Polymer.IronFormElementBehavior enables a custom element to be included

@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_range_behavior.dart' as imp0;
-
+part 'paper_progress.polymerize.dart';
 /**
  * Material design: [Progress & activity](https://www.google.com/design/spec/components/progress-activity.html)
  * The progress bars are for situations where the percentage completed can be

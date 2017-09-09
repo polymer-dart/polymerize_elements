@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'iron_a11y_keys_behavior.polymerize.dart';
 
 /**
  * `Polymer.IronA11yKeysBehavior` provides a normalized interface for processing

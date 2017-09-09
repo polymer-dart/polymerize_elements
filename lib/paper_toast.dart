@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_overlay_behavior.dart' as imp0;
-
+part 'paper_toast.polymerize.dart';
 /**
  * Material design: [Snackbars & toasts](https://www.google.com/design/spec/components/snackbars-toasts.html)
  * `paper-toast` provides a subtle notification toast. Only one `paper-toast` will

@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/neon_animation_behavior.dart' as imp0;
-
+part 'scale_down_animation.polymerize.dart';
 /**
  * `<scale-down-animation>` animates the scale transform of an element from 1 to 0. By default it
  * scales in both the x and y axes.

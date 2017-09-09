@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'paper_item_body.polymerize.dart';
 
 /**
  * Use `<paper-item-body>` in a `<paper-item>` or `<paper-icon-item>` to make two- or

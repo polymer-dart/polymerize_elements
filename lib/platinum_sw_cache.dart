@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/platinum_sw_registerable_behavior.dart' as imp0;
-
+part 'platinum_sw_cache.polymerize.dart';
 /**
  * The `<platinum-sw-cache>` element makes it easy to precache specific resources, perform runtime
  * caching, and serve your cached resources when a network is unavailable.

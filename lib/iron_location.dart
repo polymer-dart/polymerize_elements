@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'iron_location.polymerize.dart';
 
 /**
  * The `iron-location` element manages binding to and from the current URL.

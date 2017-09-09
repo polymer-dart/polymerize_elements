@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'iron_image.polymerize.dart';
 
 /**
  * `iron-image` is an element for displaying an image that provides useful sizing and

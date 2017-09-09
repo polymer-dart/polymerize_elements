@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'app_route_converter_behavior.polymerize.dart';
 
 /**
  * Provides bidirectional mapping between `path` and `queryParams` and a

@@ -7,7 +7,7 @@ import 'package:js/js_util.dart';
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_button_state.dart' as imp0;
 import 'package:polymer_elements/iron_control_state.dart' as imp1;
-
+part 'paper_item_behavior.polymerize.dart';
 /**
  * `PaperItemBehavior` is a convenience behavior shared by <paper-item> and
  * <paper-icon-item> that manages the shared control states and attributes of

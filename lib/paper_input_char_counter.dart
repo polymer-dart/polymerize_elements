@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/paper_input_addon_behavior.dart' as imp0;
-
+part 'paper_input_char_counter.polymerize.dart';
 /**
  * `<paper-input-char-counter>` is a character counter for use with `<paper-input-container>`. It
  * shows the number of characters entered in the input and the max length if it is specified.

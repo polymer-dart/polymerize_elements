@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/firebase_common_behavior.dart' as imp0;
-
+part 'firebase_messaging.polymerize.dart';
 /**
  * `firebase-messaging` is a wrapper around the Firebase Cloud Messaging API. It
  * allows you to receive Web Push messages in your application, including when

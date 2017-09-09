@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp0;
-
+part 'iron_a11y_keys.polymerize.dart';
 /**
  * `iron-a11y-keys` provides a cross-browser interface for processing
  * keyboard commands. The interface adheres to [WAI-ARIA best

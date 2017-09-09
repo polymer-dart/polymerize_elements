@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp0;
-
+part 'paper_ripple.polymerize.dart';
 /**
  * Material design: [Surface reaction](https://www.google.com/design/spec/animation/responsive-interaction.html#responsive-interaction-surface-reaction)
  * `paper-ripple` provides a visual effect that other paper elements can

@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/firebase_database_behavior.dart' as imp0;
-
+part 'firebase_query.polymerize.dart';
 /**
  * `firebase-query` combines the given properties into query options that generate
  * a query, a request for a filtered, ordered, immutable set of Firebase data. The

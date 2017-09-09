@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'app_storage_behavior.polymerize.dart';
 
 /**
  * AppStorageBehavior is an abstract behavior that makes it easy to

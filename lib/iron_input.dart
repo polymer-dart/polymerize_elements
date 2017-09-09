@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_validatable_behavior.dart' as imp0;
-
+part 'iron_input.polymerize.dart';
 /**
  * `<iron-input>` is a wrapper to a native `<input>` element, that adds two-way binding
  * and prevention of invalid input. To use it, you must distribute a native `<input>`

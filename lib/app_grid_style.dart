@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'app_grid_style.polymerize.dart';
 
 /**
  * app-grid is a helper class useful for creating responsive, fluid grid layouts using custom properties.

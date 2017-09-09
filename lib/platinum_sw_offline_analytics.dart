@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/platinum_sw_registerable_behavior.dart' as imp0;
-
+part 'platinum_sw_offline_analytics.polymerize.dart';
 /**
  * The `<platinum-sw-offline-analytics>` element registers a service worker handler to
  * intercept requests for Google Analytics pings.

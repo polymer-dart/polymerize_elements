@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/paper_item_behavior.dart' as imp0;
-
+part 'paper_item.polymerize.dart';
 /**
  * Material design: [Lists](https://www.google.com/design/spec/components/lists.html)
  * `<paper-item>` is an interactive list item. By default, it is a horizontal flexbox.

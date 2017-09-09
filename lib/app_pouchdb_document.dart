@@ -7,7 +7,7 @@ import 'package:js/js_util.dart';
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/app_storage_behavior.dart' as imp0;
 import 'package:polymer_elements/app_pouchdb_database_behavior.dart' as imp1;
-
+part 'app_pouchdb_document.polymerize.dart';
 /**
  * `app-pouchdb-document` is an implementation of `Polymer.AppStorageBehavior`
  * for reading and writing to individual PouchDB documents.

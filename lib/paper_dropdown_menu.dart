@@ -9,7 +9,7 @@ import 'package:polymer_elements/iron_button_state.dart' as imp0;
 import 'package:polymer_elements/iron_control_state.dart' as imp1;
 import 'package:polymer_elements/iron_form_element_behavior.dart' as imp2;
 import 'package:polymer_elements/iron_validatable_behavior.dart' as imp3;
-
+part 'paper_dropdown_menu.polymerize.dart';
 /**
  * Material design: [Dropdown menus](https://www.google.com/design/spec/components/buttons.html#buttons-dropdown-buttons)
  * `paper-dropdown-menu` is similar to a native browser select element.

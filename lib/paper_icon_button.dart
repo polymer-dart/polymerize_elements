@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/paper_inky_focus_behavior.dart' as imp0;
-
+part 'paper_icon_button.polymerize.dart';
 /**
  * Material design: [Icon toggles](https://www.google.com/design/spec/components/buttons.html#buttons-toggle-buttons)
  * `paper-icon-button` is a button with an image placed at the center. When the user touches

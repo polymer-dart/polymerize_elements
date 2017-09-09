@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_multi_selectable.dart' as imp0;
-
+part 'iron_selector.polymerize.dart';
 /**
  * `iron-selector` is an element which can be used to manage a list of elements
  *   that can be selected.  Tapping on the item will make the item selected.  The `selected` indicates

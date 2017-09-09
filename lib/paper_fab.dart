@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/paper_button_behavior.dart' as imp0;
-
+part 'paper_fab.polymerize.dart';
 /**
  * Material design: [Floating Action Button](https://www.google.com/design/spec/components/buttons-floating-action-button.html)
  * `paper-fab` is a floating action button. It contains an image placed in the center and

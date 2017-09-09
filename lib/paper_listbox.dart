@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_menu_behavior.dart' as imp0;
-
+part 'paper_listbox.polymerize.dart';
 /**
  * Material design: [Menus](https://www.google.com/design/spec/components/menus.html)
  * `<paper-listbox>` implements an accessible listbox control with Material Design styling. The focused item

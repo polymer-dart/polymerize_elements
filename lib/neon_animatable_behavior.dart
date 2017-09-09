@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'neon_animatable_behavior.polymerize.dart';
 
 /**
  * `Polymer.NeonAnimatableBehavior` is implemented by elements containing animations for use with

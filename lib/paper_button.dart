@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/paper_button_behavior.dart' as imp0;
-
+part 'paper_button.polymerize.dart';
 /**
  * Material design: [Buttons](https://www.google.com/design/spec/components/buttons.html)
  * `paper-button` is a button. When the user touches the button, a ripple effect emanates

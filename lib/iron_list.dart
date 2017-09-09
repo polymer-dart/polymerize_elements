@@ -9,7 +9,7 @@ import 'package:polymer_element/polymer_element.dart' as imp0;
 import 'package:polymer_elements/iron_resizable_behavior.dart' as imp1;
 import 'package:polymer_elements/iron_scroll_target_behavior.dart' as imp2;
 import 'package:polymer_element/polymer_element.dart' as imp3;
-
+part 'iron_list.polymerize.dart';
 /**
  * `iron-list` displays a virtual, 'infinite' list. The template inside
  * the iron-list element represents the DOM to create for each list item.

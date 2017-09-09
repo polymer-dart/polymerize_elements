@@ -7,7 +7,7 @@ import 'package:js/js_util.dart';
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/app_scroll_effects_behavior.dart' as imp0;
 import 'package:polymer_elements/app_layout_behavior.dart' as imp1;
-
+part 'app_header.polymerize.dart';
 /**
  * app-header is container element for app-toolbars at the top of the screen that can have scroll
  * effects. By default, an app-header moves away from the viewport when scrolling down and

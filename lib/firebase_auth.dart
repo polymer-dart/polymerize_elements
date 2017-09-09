@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/firebase_common_behavior.dart' as imp0;
-
+part 'firebase_auth.polymerize.dart';
 /**
  * `firebase-auth` is a wrapper around the Firebase authentication API. It notifies
  * successful authentication, provides user information, and handles different

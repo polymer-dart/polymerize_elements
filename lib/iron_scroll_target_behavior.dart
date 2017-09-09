@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'iron_scroll_target_behavior.polymerize.dart';
 
 /**
  * `Polymer.IronScrollTargetBehavior` allows an element to respond to scroll events from a

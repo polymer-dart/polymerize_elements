@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/app_layout_behavior.dart' as imp0;
-
+part 'app_drawer_layout.polymerize.dart';
 /**
  * app-drawer-layout is a wrapper element that positions an app-drawer and other content. When
  * the viewport width is smaller than `responsiveWidth`, this element changes to narrow layout.

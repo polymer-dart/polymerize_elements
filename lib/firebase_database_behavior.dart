@@ -7,7 +7,7 @@ import 'package:js/js_util.dart';
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/app_storage_behavior.dart' as imp0;
 import 'package:polymer_elements/firebase_common_behavior.dart' as imp1;
-
+part 'firebase_database_behavior.polymerize.dart';
 /**
  * 
  */

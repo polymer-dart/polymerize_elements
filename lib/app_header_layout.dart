@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/app_layout_behavior.dart' as imp0;
-
+part 'app_header_layout.polymerize.dart';
 /**
  * app-header-layout is a wrapper element that positions an app-header and other content. This
  * element uses the document scroll by default, but it can also define its own scrolling region.

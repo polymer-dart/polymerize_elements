@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'paper_dialog_scrollable.polymerize.dart';
 
 /**
  * Material design: [Dialogs](https://www.google.com/design/spec/components/dialogs.html)

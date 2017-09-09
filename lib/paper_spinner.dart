@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/paper_spinner_behavior.dart' as imp0;
-
+part 'paper_spinner.polymerize.dart';
 /**
  * Material design: [Progress & activity](https://www.google.com/design/spec/components/progress-activity.html)
  * Element providing a multiple color material design circular spinner.

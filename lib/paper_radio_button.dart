@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/paper_checked_element_behavior.dart' as imp0;
-
+part 'paper_radio_button.polymerize.dart';
 /**
  * Material design: [Radio button](https://www.google.com/design/spec/components/selection-controls.html#selection-controls-radio-button)
  * `paper-radio-button` is a button that can be either checked or unchecked.

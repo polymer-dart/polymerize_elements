@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/app_pouchdb_database_behavior.dart' as imp0;
-
+part 'app_pouchdb_query.polymerize.dart';
 /**
  * `app-pouchdb-query` allows for declarative, read-only querying into a PouchDB
  * database. The semantics for querying match those of the

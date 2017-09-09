@@ -7,7 +7,7 @@ import 'package:js/js_util.dart';
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/app_scroll_effects_behavior.dart' as imp0;
 import 'package:polymer_elements/iron_resizable_behavior.dart' as imp1;
-
+part 'app_box.polymerize.dart';
 /**
  * app-box is a container element that can have scroll effects - visual effects based on
  * scroll position. For example, the parallax effect can be used to move an image at a slower

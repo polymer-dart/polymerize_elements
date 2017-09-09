@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'paper_input_container.polymerize.dart';
 
 /**
  * `<paper-input-container>` is a container for a `<label>`, an `<iron-input>` or

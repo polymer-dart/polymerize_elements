@@ -2,3 +2,4 @@
 library polymer_elements.web_animations_js;
 
 import 'package:polymer_element/polymer_element.dart';
+part 'web_animations_js.polymerize.dart';

@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_resizable_behavior.dart' as imp0;
-
+part 'paper_badge.polymerize.dart';
 /**
  * `<paper-badge>` is a circular text badge that is displayed on the top right
  * corner of an element, representing a status or a notification. It will badge

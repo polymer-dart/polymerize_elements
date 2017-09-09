@@ -8,7 +8,7 @@ import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_resizable_behavior.dart' as imp0;
 import 'package:polymer_elements/iron_selectable.dart' as imp1;
 import 'package:polymer_elements/neon_animation_runner_behavior.dart' as imp2;
-
+part 'neon_animated_pages.polymerize.dart';
 /**
  * Material design: [Meaningful transitions](https://www.google.com/design/spec/animation/meaningful-transitions.html)
  * `neon-animated-pages` manages a set of pages and runs an animation when switching between them. Its

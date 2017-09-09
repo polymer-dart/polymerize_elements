@@ -7,7 +7,7 @@ import 'package:js/js_util.dart';
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/neon_animatable_behavior.dart' as imp0;
 import 'package:polymer_elements/iron_resizable_behavior.dart' as imp1;
-
+part 'neon_animatable.polymerize.dart';
 /**
  * `<neon-animatable>` is a simple container element implementing `Polymer.NeonAnimatableBehavior`. This is a convenience element for use with `<neon-animated-pages>`.
  * ```

@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/platinum_sw_registerable_behavior.dart' as imp0;
-
+part 'platinum_sw_fetch.polymerize.dart';
 /**
  * The `<platinum-sw-fetch>` element creates custom [`fetch` event](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#fetch-event-section)
  * handlers for given URL patterns. Possible use cases include:

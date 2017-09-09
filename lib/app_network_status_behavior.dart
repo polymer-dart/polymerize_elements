@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'app_network_status_behavior.polymerize.dart';
 
 /**
  * `Polymer.AppNetworkStatusBehavior` tracks the status of whether the browser

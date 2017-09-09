@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'app_route.polymerize.dart';
 
 /**
  * `app-route` is an element that enables declarative, self-describing routing

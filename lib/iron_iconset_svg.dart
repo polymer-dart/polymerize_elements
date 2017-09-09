@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'iron_iconset_svg.polymerize.dart';
 
 /**
  * The `iron-iconset-svg` element allows users to define their own icon sets

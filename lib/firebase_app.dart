@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'firebase_app.polymerize.dart';
 
 /**
  * The firebase-app element is used for initializing and configuring your

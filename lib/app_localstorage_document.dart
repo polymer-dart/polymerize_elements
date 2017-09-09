@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/app_storage_behavior.dart' as imp0;
-
+part 'app_localstorage_document.polymerize.dart';
 /**
  * app-localstorage-document synchronizes storage between an in-memory
  * value and a location in the browser's localStorage system.

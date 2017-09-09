@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/app_network_status_behavior.dart' as imp0;
-
+part 'firebase_common_behavior.polymerize.dart';
 /**
  * 
  */

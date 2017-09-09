@@ -7,7 +7,7 @@ import 'package:js/js_util.dart';
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/paper_input_behavior.dart' as imp0;
 import 'package:polymer_elements/iron_form_element_behavior.dart' as imp1;
-
+part 'paper_input.polymerize.dart';
 /**
  * This is a fresh new hell to make this element hybrid. Basically, in 2.0
  *     we lost is=, so the example same template can't be used with iron-input 1.0 and 2.0.

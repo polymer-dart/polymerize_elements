@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/app_route_converter_behavior.dart' as imp0;
-
+part 'app_route_converter.polymerize.dart';
 /**
  * `app-route-converter` provides a means to convert a path and query
  * parameters into a route object and vice versa. This produced route object

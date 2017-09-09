@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_overlay_behavior.dart' as imp0;
-
+part 'paper_dialog_behavior.polymerize.dart';
 /**
  * Use `Polymer.PaperDialogBehavior` and `paper-dialog-shared-styles.html` to implement a Material Design
  * dialog.

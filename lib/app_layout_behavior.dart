@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_resizable_behavior.dart' as imp0;
-
+part 'app_layout_behavior.polymerize.dart';
 /**
  * 
  */

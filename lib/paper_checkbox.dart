@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/paper_checked_element_behavior.dart' as imp0;
-
+part 'paper_checkbox.polymerize.dart';
 /**
  * Material design: [Checkbox](https://www.google.com/design/spec/components/selection-controls.html#selection-controls-checkbox)
  * `paper-checkbox` is a button that can be either checked or unchecked.  User

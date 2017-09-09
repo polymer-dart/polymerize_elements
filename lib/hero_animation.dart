@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/neon_shared_element_animation_behavior.dart' as imp0;
-
+part 'hero_animation.polymerize.dart';
 /**
  * `<hero-animation>` is a shared element animation that scales and transform an element such that it
  * appears to be shared between two pages. Use this in `<neon-animated-pages>`. The source page

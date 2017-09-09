@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'marked_element.polymerize.dart';
 
 /**
  * Element wrapper for the [marked](https://github.com/chjj/marked) library.

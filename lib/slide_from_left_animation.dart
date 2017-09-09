@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/neon_animation_behavior.dart' as imp0;
-
+part 'slide_from_left_animation.polymerize.dart';
 /**
  * `<slide-from-left-animation>` animates the transform of an element from
  * `translateX(-100%)` to `none`.

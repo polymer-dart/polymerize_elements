@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'iron_fit_behavior.polymerize.dart';
 
 /**
  * `Polymer.IronFitBehavior` fits an element in another element using `max-height` and `max-width`, and

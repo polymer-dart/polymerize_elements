@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'iron_resizable_behavior.polymerize.dart';
 
 /**
  * `IronResizableBehavior` is a behavior that can be used in Polymer elements to

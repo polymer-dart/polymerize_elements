@@ -7,7 +7,7 @@ import 'package:js/js_util.dart';
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/iron_validatable_behavior.dart' as imp0;
 import 'package:polymer_elements/iron_control_state.dart' as imp1;
-
+part 'iron_autogrow_textarea.polymerize.dart';
 /**
  * `iron-autogrow-textarea` is an element containing a textarea that grows in height as more
  * lines of input are entered. Unless an explicit height or the `maxRows` property is set, it will

@@ -7,7 +7,7 @@ import 'package:js/js_util.dart';
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/paper_dialog_behavior.dart' as imp0;
 import 'package:polymer_elements/neon_animation_runner_behavior.dart' as imp1;
-
+part 'paper_dialog.polymerize.dart';
 /**
  * Material design: [Dialogs](https://www.google.com/design/spec/components/dialogs.html)
  * `<paper-dialog>` is a dialog with Material Design styling and optional animations when it is

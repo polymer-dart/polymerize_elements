@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'paper_styles.polymerize.dart';
 
 /**
  * The `<paper-styles>` component provides simple ways to use Material Design CSS styles

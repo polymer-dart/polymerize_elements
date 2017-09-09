@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'app_toolbar.polymerize.dart';
 
 /**
  * app-toolbar is a horizontal toolbar containing items that can be used for

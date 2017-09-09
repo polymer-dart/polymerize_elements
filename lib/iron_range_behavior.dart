@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'iron_range_behavior.polymerize.dart';
 
 /**
  * `iron-range-behavior` provides the behavior for something with a minimum to maximum range.

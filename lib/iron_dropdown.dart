@@ -9,7 +9,7 @@ import 'package:polymer_elements/iron_control_state.dart' as imp0;
 import 'package:polymer_elements/iron_a11y_keys_behavior.dart' as imp1;
 import 'package:polymer_elements/iron_overlay_behavior.dart' as imp2;
 import 'package:polymer_elements/neon_animation_runner_behavior.dart' as imp3;
-
+part 'iron_dropdown.polymerize.dart';
 /**
  * `<iron-dropdown>` is a generalized element that is useful when you have
  * hidden content (`dropdown-content`) that is revealed due to some change in

@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'app_pouchdb_conflict_resolution.polymerize.dart';
 
 /**
  * `app-pouchdb-conflict-resolution` enables declarative configuration of conflict

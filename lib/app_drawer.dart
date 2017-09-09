@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'app_drawer.polymerize.dart';
 
 /**
  * app-drawer is a navigation drawer that can slide in from the left or right.

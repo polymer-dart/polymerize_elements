@@ -6,7 +6,7 @@ import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
 import 'package:polymer_elements/firebase_database_behavior.dart' as imp0;
-
+part 'firebase_document.polymerize.dart';
 /**
  * The firebase-document element is an easy way to interact with a firebase
  * location as an object and expose it to the Polymer databinding system.

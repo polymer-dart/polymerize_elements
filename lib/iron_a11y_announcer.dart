@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 
 import 'package:polymer_element/polymer_element.dart';
-
+part 'iron_a11y_announcer.polymerize.dart';
 
 /**
  * `iron-a11y-announcer` is a singleton element that is intended to add a11y
