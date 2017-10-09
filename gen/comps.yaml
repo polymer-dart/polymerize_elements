@@ -189,7 +189,9 @@ components:
    ref : "PolymerElements/iron-flex-layout#v2.0.0"
 
  - name :    "iron-icon"
-   ref : "PolymerElements/iron-icon#v2.0.0"
+   ref : "PolymerElements/iron-icon#v2.0.1"
+ - name :    "iron-collapse"
+   ref : "PolymerElements/iron-collapse#v2.0.0"
 
  - name :    "iron-icons"
    ref : "PolymerElements/iron-icons#v2.0.1"
