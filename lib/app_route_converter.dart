@@ -56,7 +56,7 @@ part 'app_route_converter.polymerize.dart';
 
 @JS('AppRouteConverter')
 @PolymerRegister('app-route-converter',native:true)
-@BowerImport(ref:'PolymerElements/app-route#v2.0.0',import:"app-route/app-route-converter.html",name:'app-route')
+@BowerImport(ref:'PolymerElements/app-route#v2.0.2',import:"app-route/app-route-converter.html",name:'app-route')
 abstract class AppRouteConverter extends PolymerElement implements imp0.AppRouteConverterBehavior {
 
 

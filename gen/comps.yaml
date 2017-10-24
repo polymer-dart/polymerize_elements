@@ -200,6 +200,8 @@ components:
 
  - name : "iron-form-element-behavior"
    ref : "PolymerElements/iron-form-element-behavior#v2.0.0"
+ - name : "iron-form"
+   ref : "PolymerElements/iron-form#v2.0.1"
 
  - name :    "iron-behaviors"
    ref : "PolymerElements/iron-behaviors#v2.0.0"

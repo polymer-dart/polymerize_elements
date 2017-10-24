@@ -49,7 +49,7 @@ part 'app_location.polymerize.dart';
 
 @JS('AppLocation')
 @PolymerRegister('app-location',native:true)
-@BowerImport(ref:'PolymerElements/app-route#v2.0.0',import:"app-route/app-location.html",name:'app-route')
+@BowerImport(ref:'PolymerElements/app-route#v2.0.2',import:"app-route/app-location.html",name:'app-route')
 abstract class AppLocation extends PolymerElement implements imp0.AppRouteConverterBehavior {
   /**
    * A model representing the deserialized path through the route tree, as
