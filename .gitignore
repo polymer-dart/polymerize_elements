@@ -4,3 +4,4 @@ pubspec.lock
 WORKSPACE
 out
 .pub
+.dart_tool
