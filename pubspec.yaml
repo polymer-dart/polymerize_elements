@@ -6,14 +6,15 @@ description: Polymer-2 support for Dart
 version: 2.0.1
 dependencies:
   js: any
-#  polymer_element: ^2.0.0
-  polymer_element: 
-    path: ../polymer_element
-  html5:
-    path: ../html_lib
-#  polymerize:  ^0.9.0
-  polymerize: 
-    path: ../polymerize
+  polymer_element: ^2.0.7
+#  polymer_element: 
+#    path: ../polymer_element
+  html5: ^0.1.8
+#  html5:
+#    path: ../html_lib
+  polymerize:  ^0.9.7
+#  polymerize: 
+#    path: ../polymerize
 transformers:
  - polymerize:
     skip-generate: true
