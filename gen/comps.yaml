@@ -30,6 +30,8 @@ components:
     - typography.htm
 #    - classes/*
     - element_styles/*
+ - name: 'app-localize-behavior'
+   ref: 'PolymerElements/app-localize-behavior#v2.0.0'
  - name: 'iron-a11y-keys'
    ref: 'PolymerElements/iron-a11y-keys#v2.0.0'
  - name : 'iron-dropdown'
