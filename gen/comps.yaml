@@ -40,6 +40,8 @@ components:
     - iron-dropdown*.html
  - name : 'iron-menu-behavior'
    ref: 'PolymerElements/iron-menu-behavior#v2.0.0'
+ - name : 'iron-pages'
+   ref: 'PolymerElements/iron-pages#v2.0.0'
  - name : 'paper-item'
    ref: 'PolymerElements/paper-item#v2.0.0'
    includes:
